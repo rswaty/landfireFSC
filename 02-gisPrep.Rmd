@@ -1,8 +1,8 @@
 # GIS prep {#gisPrep}
 
-Methods:
+## Combine data
 
-1. Once spatial data is clipped to area of interest, perform a "combine" in ArcMap (Toolbox > Spatial Analyst > Local > Combine) of the BpS, SCL and EVT datasets.  Alternatively, you can combine a raster of the area of interest with those 3 datasets which are stored as larger extents (like shown below).
+Once spatial data is properly projected and clipped to area of interest, perform a "combine" in ArcMap (Toolbox > Spatial Analyst > Local > Combine) of the BpS, SCL and EVT datasets.  Alternatively, you can combine a raster of the area of interest with those 3 datasets which are stored as larger extents (like shown below).
 
 
 ```{r, echo=FALSE, out.width='100%'} 
@@ -13,7 +13,9 @@ knitr::include_graphics("combine.JPG")
 <br>
 <br>
 
-2. Join in attributes.  There are multiple ways-we recommend using the Join Field tool (Toolbox > data management tools > joins > add join).  One reason to do this is to be able to select which fields to join in.  A potential resulting table looks like this for a landscape in Michigan (with minimal cleaning/formatting):
+## Join in attributes
+
+There are multiple ways-we recommend using the Join Field tool (Toolbox > data management tools > joins > add join).  One reason to do this is to be able to select which fields to join in.  A potential resulting table looks like this for a landscape in Michigan (with minimal cleaning/formatting):
 
 <br>
 <br>
@@ -24,7 +26,9 @@ library(readr)
 combine <- read_csv("combine.csv")
 
 
-datatable(head(combine), class = 'cell-border stripe')
+datatable(head(combine), 
+          class = 'cell-border stripe',
+          options = list(scrollX  = TRUE, pageLength = 3))
 ```
 
 <br>
@@ -32,7 +36,9 @@ datatable(head(combine), class = 'cell-border stripe')
 
 As is this table does not mean too much-we will need to do some cleaning, formatting and calculating.
 
-3. Clean data table (combined ".csv" file).  You will first need to save this file as an ".xlsx" file so that you can have multiple worksheets.  We recommend keeping the original output as a "raw" spreadsheet in Excel, pasting that data into a new sheet and working with that new sheet moving forward.
+## Clean data table
+
+You will first need to save the combined ".csv" file file as an ".xlsx" file so that you can have multiple worksheets.  We recommend keeping the original output as a "raw" spreadsheet in Excel, pasting that data into a new sheet and working with that new sheet moving forward.
     * It is OK to remove the "US_200BPS", "US_200EVT", and "US_200SCLASS" columns
     * Rename some columns: "GROUPVEG" to "BPSGROUPVEG"; "EVT_PHYS" to "EVTGROUPVEG"; "LABEL" to "SUCCESSIONCLASS", or similar as needed for clarity
     * COUNT = number of 30m x 30m pixels for that combination of BpS-EVT-SCLS.  Insert a column named "ACRES", then calculate acres by multiplying COUNT by "0.222".  Copy-Paste Values for that new column. Below is an example of what our new data table looks like.
@@ -46,8 +52,12 @@ library(readr)
 combineClean <- read_csv("combineClean.csv")
 
 
-datatable(head(combine), class = 'cell-border stripe')
+datatable(head(combine), 
+          class = 'cell-border stripe',
+          options = list(scrollX  = TRUE, pageLength = 3))
 ```
 
 <br>
 <br>
+
+Now we are ready for some Pivot Table excitement!

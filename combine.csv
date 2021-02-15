@@ -1,0 +1,1254 @@
+VALUE,COUNT,BPS_NAME,BPS_MODEL,GROUPVEG,EVT_NAME,EVT_PHYS,LABEL
+1,155604,Open Water,na,Open Water,Open Water,Open Water,Water
+2,4217,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+3,6051,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,UN
+4,2285,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,E
+5,2971,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,UN
+6,5351,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,UN
+7,8693,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,E
+8,9250,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,E
+9,43826,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,E
+10,4839,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,UN
+11,27262,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,D
+12,273110,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,E
+13,759,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,UN
+14,312,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,E
+15,3016,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,E
+16,39054,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,D
+17,255738,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+18,18312,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,E
+19,16981,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+20,4546,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,UN
+21,39534,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,D
+22,13099,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,D
+23,16638,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,D
+24,37924,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,D
+25,49320,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,D
+26,226,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,B
+27,1146,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,UN
+28,128,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Freshwater Marsh,Riparian,UN
+29,163934,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,D
+30,19831,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Developed-Roads,Developed-Roads,Urban
+31,10468,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+32,20238,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,UN
+33,13053,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,D
+34,2877,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+35,18812,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,D
+36,17808,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,D
+37,93955,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,D
+38,15214,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,D
+39,29485,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,D
+40,5700,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,C
+41,7316,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,E
+42,2288,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,D
+43,19556,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,C
+44,78422,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,D
+45,10354,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,D
+46,9169,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,D
+47,2777,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,D
+48,84619,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,D
+49,496,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+50,1477,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+51,5045,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,D
+52,1521,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,E
+53,435,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,C
+54,7107,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,D
+55,1223,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Oak Forest,Hardwood,E
+56,630,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+57,810,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+58,6666,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Developed-Roads,Developed-Roads,Urban
+59,5560,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Developed-Roads,Developed-Roads,Urban
+60,7820,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,D
+61,80,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,C
+62,2336,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+63,42713,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,D
+64,672,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Floodplain Forest,Riparian,E
+65,50873,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,C
+66,564,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,C
+67,5099,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,D
+68,1139,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,B
+69,1187,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine Forest,Conifer,E
+70,223,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,C
+71,22,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northern Great Lakes Coastal Marsh,Riparian,UN
+72,260,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,C
+73,3412,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,D
+74,79723,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,D
+75,711,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,C
+76,185,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,C
+77,5,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Floodplain Shrubland,Riparian,UN
+78,936,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,UN
+79,1012,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,B
+80,62,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,C
+81,460,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,C
+82,309,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,UN
+83,216,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Jack Pine-Red Pine Forest,Conifer,C
+84,5164,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Jack Pine-Red Pine Forest,Conifer,D
+85,578,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,D
+86,2242,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,D
+87,4452,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,D
+88,55,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Floodplain Forest,Riparian,D
+89,16988,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,D
+90,6435,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,D
+91,3146,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,D
+92,14657,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,D
+93,92,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,B
+94,2039,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,UN
+95,2121,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,D
+96,279,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+97,1766,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+98,32,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Freshwater Marsh,Riparian,UN
+99,3657,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Boreal-Laurentian Bog,Riparian,A
+100,2431,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Northern Pine Forest,Conifer,D
+101,23789,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,C
+102,220,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+103,189,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine Forest,Conifer,B
+104,1623,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine Forest,Conifer,UN
+105,1300,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,C
+106,2287,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,UN
+107,3833,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,D
+108,2550,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,D
+109,440,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Northern Pine Forest,Conifer,C
+110,236,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,C
+111,1494,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Floodplain Forest,Riparian,D
+112,778,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,UN
+113,1019,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+114,902,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Floodplain Forest,Riparian,D
+115,2422,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Wet Meadow,Riparian,A
+116,3448,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+117,1054,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,D
+118,2209,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Developed-High Intensity,Developed-High Intensity,Urban
+119,773,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Floodplain Forest,Riparian,C
+120,1552,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Freshwater Marsh,Riparian,A
+121,254,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Developed-Low Intensity,Developed-Low Intensity,Urban
+122,414,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,B
+123,875,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,D
+124,707,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Developed-Roads,Developed-Roads,Urban
+125,2428,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,D
+126,4368,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Developed-Roads,Developed-Roads,Urban
+127,952,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,D
+128,3044,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,C
+129,76,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Northern Great Lakes Coastal Marsh,Riparian,A
+130,1870,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+131,34,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Northern Great Lakes Interdunal Wetland,Riparian,A
+132,86,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Pine Barrens,Conifer,D
+133,8,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Northern Great Lakes Interdunal Wetland,Riparian,A
+134,54,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Freshwater Marsh,Riparian,A
+135,369,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+136,175,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,A
+137,975,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Boreal-Laurentian Bog,Riparian,A
+138,18,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,D
+139,2095,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+140,2701,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Shrub Swamp,Riparian,A
+141,261,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,C
+142,1,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Northern Great Lakes Interdunal Wetland,Riparian,B
+143,819,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Great Lakes Wooded Dune and Swale,Riparian,D
+144,844,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,D
+145,6831,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Wet Meadow,Riparian,B
+146,563,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,C
+147,4863,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,C
+148,401,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,C
+149,189,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+150,3839,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Jack Pine-Red Pine Forest,Conifer,C
+151,856,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+152,331,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,C
+153,15,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Great Lakes Wooded Dune and Swale,Riparian,C
+154,4630,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Shrub Swamp,Riparian,A
+155,1449,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Shrub Swamp,Riparian,UN
+156,5087,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,C
+157,5615,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Jack Pine-Red Pine Forest,Conifer,D
+158,859,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Pine Barrens,Conifer,C
+159,62,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Great Lakes Wooded Dune and Swale,Riparian,D
+160,25,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Shrub Swamp,Riparian,UN
+161,10,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Northern Great Lakes Coastal Marsh,Riparian,A
+162,236,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+163,588,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,C
+164,6214,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Freshwater Marsh,Riparian,B
+165,1968,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,D
+166,249,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+167,297,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Great Lakes Wooded Dune and Swale,Riparian,D
+168,279,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,D
+169,1,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Great Lakes Wooded Dune and Swale,Riparian,A
+170,9,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Great Lakes Wooded Dune and Swale,Riparian,B
+171,34,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,C
+172,254,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+173,2803,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Recently Logged-Tree Cover,Conifer,D
+174,36,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Pine-Oak Barrens,Conifer-Hardwood,D
+175,654,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+176,77,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Developed Ruderal Mixed Forested Wetland,Developed,UE
+177,384,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+178,10,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,UN
+179,28,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Great Lakes Wooded Dune and Swale,Riparian,D
+180,26,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Oak Barrens,Hardwood,D
+181,185,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Pine Barrens,Conifer,D
+182,1062,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Developed Ruderal Mixed Forested Wetland,Developed,UE
+183,36,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+184,824,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,D
+185,555,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Acidic Rocky Outcrop Shrubland,Shrubland,A
+186,4426,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,D
+187,44,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Pine-Oak Barrens,Conifer-Hardwood,UN
+188,12,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,A
+189,1088,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+190,114,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Developed Ruderal Herbaceous Wetland,Developed,UE
+191,39,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Developed Ruderal Shrub Wetland,Developed,UE
+192,988,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Developed-Roads,Developed-Roads,Urban
+193,80,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Great Lakes Wooded Dune and Swale,Riparian,C
+194,292,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Freshwater Marsh,Riparian,A
+195,439,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,UN
+196,223,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,C
+197,264,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Jack Pine-Red Pine Forest,Conifer,B
+198,278,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+199,1605,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Developed Ruderal Mixed Forested Wetland,Developed,UE
+200,97,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,B
+201,3,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,C
+202,22,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,D
+203,515,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,C
+204,22,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Developed Ruderal Herbaceous Wetland,Developed,UE
+205,20,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Developed Ruderal Mixed Forested Wetland,Developed,UE
+206,77,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Great Lakes Wooded Dune and Swale,Riparian,UN
+207,3,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northern Great Lakes Interdunal Wetland,Riparian,UN
+208,22,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,E
+209,668,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+210,4229,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Logged-Tree Cover,Conifer,E
+211,56,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,C
+212,25,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,C
+213,903,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Northern Pine Forest,Conifer,C
+214,14,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Pine Barrens,Conifer,D
+215,1799,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Northern Pine Forest,Conifer,D
+216,5109,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,D
+217,399,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,D
+218,64,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,C
+219,65,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,C
+220,26,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Great Lakes Wooded Dune and Swale,Riparian,E
+221,200,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+222,3198,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,D
+223,335,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,UN
+224,2124,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,UN
+225,523,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,C
+226,69,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,C
+227,545,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+228,1686,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+229,942,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Developed-Roads,Developed-Roads,Urban
+230,99,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Great Lakes Wooded Dune and Swale,Riparian,D
+231,1,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,B
+232,393,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+233,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,C
+234,30,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,C
+235,1412,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+236,637,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Recently Logged-Shrub Cover,Shrubland,A
+237,472,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+238,5618,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Northeastern North American Temperate Forest Plantation,Conifer,UE
+239,3421,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northeastern North American Temperate Forest Plantation,Conifer,UE
+240,174,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,C
+241,111,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,C
+242,2587,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Recently Logged-Herb and Grass Cover,Grassland,A
+243,693,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,C
+244,174,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Acidic Rocky Outcrop Woodland,Conifer,D
+245,68,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Alkaline Fen,Riparian,A
+246,581,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,C
+247,11584,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+248,537,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+249,498,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Floodplain Forest,Riparian,C
+250,515,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+251,5,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Jack Pine-Red Pine Forest,Conifer,A
+252,20,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+253,4509,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+254,2298,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Logged-Herb and Grass Cover,Grassland,B
+255,7,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,A
+256,352,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Recently Logged-Shrub Cover,Shrubland,UN
+257,673,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Logged-Shrub Cover,Shrubland,A
+258,7375,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+259,246,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+260,1090,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Northeastern North American Temperate Forest Plantation,Conifer,UE
+261,77,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+262,73,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+263,1667,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Recently Logged-Herb and Grass Cover,Grassland,A
+264,1863,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,C
+265,988,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+266,240,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+267,135,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,C
+268,50,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Freshwater Marsh,Riparian,A
+269,163,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Floodplain Forest,Riparian,D
+270,448,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,C
+271,3,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,A
+272,1310,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Acidic Rocky Outcrop Woodland,Conifer,UN
+273,846,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Acidic Rocky Outcrop Woodland,Conifer,E
+274,613,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Northeastern North American Temperate Forest Plantation,Conifer,UE
+275,15,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,B
+276,13,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,A
+277,20,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Shrub Swamp,Riparian,C
+278,171,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Acidic Rocky Outcrop Woodland,Conifer,D
+279,101,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Shrub Swamp,Riparian,UN
+280,89,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Wet Meadow,Riparian,UN
+281,217,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Wet Meadow,Riparian,B
+282,21,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Boreal-Laurentian Bog,Riparian,C
+283,197,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,UN
+284,417,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Freshwater Marsh,Riparian,B
+285,284,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Acidic Rocky Outcrop Shrubland,Shrubland,UN
+286,184,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Oak Forest,Hardwood,C
+287,6,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Alkaline Fen,Riparian,C
+288,939,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Oak Forest,Hardwood,UN
+289,265,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agriculture
+290,105,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,UN
+291,1410,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+292,18,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+293,2287,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+294,2613,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+295,1116,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Boreal-Laurentian Bog,Riparian,UN
+296,141,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Hardwood Forest,Hardwood,D
+297,250,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+298,53,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,D
+299,332,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+300,547,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+301,96,Barren-Rock/Sand/Clay,na,Barren-Rock/Sand/Clay,Laurentian-Acadian Acidic Cliff and Talus,Sparsely Vegetated,Barren or Sparse
+302,4,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+303,35,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Northern Pine Forest,Conifer,B
+304,97,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,B
+305,19,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,D
+306,213,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,C
+307,11,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Floodplain Shrubland,Riparian,UN
+308,796,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+309,8,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Northern Great Lakes Coastal Marsh,Riparian,A
+310,118,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Great Lakes Wooded Dune and Swale,Riparian,C
+311,28,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Wet Meadow,Riparian,A
+312,507,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Pine Barrens,Conifer,UN
+313,2,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Alkaline Fen,Riparian,UN
+314,618,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,UN
+315,1309,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Northeastern North American Temperate Forest Plantation,Conifer,UE
+316,41,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Floodplain Shrubland,Riparian,A
+317,513,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,UN
+318,21,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Northern Pine Forest,Conifer,C
+319,2159,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Logged-Shrub Cover,Shrubland,UN
+320,22,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,UN
+321,62,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,D
+322,132,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Oak Barrens,Hardwood,UN
+323,9,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+324,1111,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+325,119,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Floodplain Forest,Riparian,UN
+326,173,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Hardwood Forest,Hardwood,D
+327,110,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Shrub Swamp,Riparian,A
+328,42,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,UN
+329,2,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Boreal-Laurentian Bog,Riparian,UN
+330,16,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Shrub Swamp,Riparian,UN
+331,27,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Wet Meadow,Riparian,UN
+332,158,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,C
+333,55,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Hardwood Forest,Hardwood,C
+334,5,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,B
+335,1235,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,D
+336,51,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,UN
+337,8,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Acidic Rocky Outcrop Woodland,Conifer,C
+338,90,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Hardwood Forest,Hardwood,C
+339,2,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Pine-Oak Barrens,Conifer-Hardwood,D
+340,62,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Northern & Central Native Ruderal Forest,Conifer-Hardwood,UE
+341,28,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,C
+342,30,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Shrub Swamp,Riparian,UN
+343,21,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,C
+344,26,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Wet Meadow,Riparian,UN
+345,402,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Developed-Low Intensity,Developed-Low Intensity,Urban
+346,26,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,B
+347,14,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,UN
+348,5,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Acidic Rocky Outcrop Shrubland,Shrubland,A
+349,203,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Alkaline Fen,Riparian,A
+350,252,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+351,6,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Alkaline Fen,Riparian,A
+352,162,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+353,4,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,UN
+354,10,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Northern Pine Forest,Conifer,UN
+355,632,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+356,8,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,B
+357,186,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+358,3303,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Recently Logged-Herb and Grass Cover,Grassland,A
+359,10535,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Logged-Herb and Grass Cover,Grassland,UN
+360,824,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Recently Logged-Shrub Cover,Shrubland,A
+361,13,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,UN
+362,35,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agriculture
+363,13,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Shrub Swamp,Riparian,A
+364,103,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northern & Central Native Ruderal Forest,Conifer-Hardwood,UE
+365,31,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+366,5214,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Developed-Low Intensity,Developed-Low Intensity,Urban
+367,331,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Logged-Herb and Grass Cover,Grassland,E
+368,3,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+369,2,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Floodplain Forest,Riparian,C
+370,1117,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,UN
+371,2,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Pine-Oak Barrens,Conifer-Hardwood,B
+372,1,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,UE
+373,3,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Wheat,Agricultural,Agriculture
+374,2,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Floodplain Forest,Riparian,UN
+375,8,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,UE
+376,532,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+377,16,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Northern & Central Native Ruderal Forest,Conifer-Hardwood,UE
+378,305,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+379,7,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,UN
+380,119,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+381,3394,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+382,159,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+383,897,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+384,24,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,D
+385,50,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,UN
+386,13,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Jack Pine-Red Pine Forest,Conifer,UN
+387,5,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Northern Oak Forest,Hardwood,C
+388,110,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+389,30,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Acidic Rocky Outcrop Woodland,Conifer,C
+390,82,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+391,10,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Alkaline Fen,Riparian,UN
+392,7,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Great Lakes Wooded Dune and Swale,Riparian,B
+393,40,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian Bog,Riparian,UN
+394,21,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Shrub Swamp,Riparian,UN
+395,34,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Wet Meadow,Riparian,UN
+396,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,B
+397,20,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,UN
+398,275,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,UN
+399,19,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Alkaline Fen,Riparian,UN
+400,178,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+401,17,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Northern Great Lakes Coastal Marsh,Riparian,B
+402,2,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Northern Great Lakes Interdunal Wetland,Riparian,A
+403,443,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,UN
+404,20,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,C
+405,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian Pine Barrens,Conifer,UN
+406,232,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Developed-Low Intensity,Developed-Low Intensity,Urban
+407,21,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Floodplain Shrubland,Riparian,A
+408,11,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Great Lakes Wooded Dune and Swale,Riparian,UN
+409,111,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,UN
+410,1,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Great Lakes Wooded Dune and Swale,Riparian,B
+411,23,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Floodplain Forest,Riparian,UN
+412,184,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+413,5,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Alkaline Fen,Riparian,A
+414,79,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+415,6,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Northern Great Lakes Coastal Marsh,Riparian,A
+416,5,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Great Lakes Wooded Dune and Swale,Riparian,UN
+417,511,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+418,259,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,B
+419,2,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Northern Great Lakes Coastal Marsh,Riparian,UN
+420,62,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Developed-High Intensity,Developed-High Intensity,Urban
+421,15,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Boreal-Laurentian Bog,Riparian,UN
+422,779,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Logged-Tree Cover,Conifer,D
+423,621,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+424,6888,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+425,640,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+426,954,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+427,77,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Floodplain Forest,Riparian,C
+428,198,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+429,339,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+430,207,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+431,53,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Mixed Forested Wetland,Developed,UE
+432,789,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Developed-Low Intensity,Developed-Low Intensity,Urban
+433,124448,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+434,362,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+435,638,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,D
+436,734,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+437,434746,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,E
+438,29708,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,E
+439,227,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+440,11,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,UN
+441,1468,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+442,634,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+443,48,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,UN
+444,137,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+445,106,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+446,2,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Orchard,Agricultural,Agriculture
+447,19,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+448,109,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+449,249,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+450,116,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+451,2,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+452,340,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+453,125,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+454,2,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,A
+455,66,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+456,51,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Developed-High Intensity,Developed-High Intensity,Urban
+457,209,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,UN
+458,443,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+459,383,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Developed-Low Intensity,Developed-Low Intensity,Urban
+460,3960,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Recently Logged-Herb and Grass Cover,Grassland,A
+461,1,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Developed Ruderal Herbaceous Wetland,Developed,UE
+462,3,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Alkaline Fen,Riparian,UN
+463,40,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Freshwater Marsh,Riparian,UN
+464,51,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+465,80,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Pine Barrens,Conifer,B
+466,56,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Northern Oak Forest,Hardwood,D
+467,11,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+468,355,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,UN
+469,598,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,UN
+470,87,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,C
+471,19,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Oak Barrens,Hardwood,E
+472,2,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,D
+473,49,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,B
+474,84,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Pine Barrens,Conifer,C
+475,321,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Developed-High Intensity,Developed-High Intensity,Urban
+476,405,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+477,13,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Wheat,Agricultural,Agriculture
+478,422,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+479,21,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,C
+480,47,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,B
+481,1115,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,A
+482,46,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Boreal-Laurentian Bog,Riparian,A
+483,12,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Floodplain Forest,Riparian,UN
+484,5,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Northern Great Lakes Coastal Marsh,Riparian,UN
+485,6,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Orchard,Agricultural,Agriculture
+486,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Developed-Low Intensity,Developed-Low Intensity,Urban
+487,31,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,C
+488,15,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,UN
+489,208,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,B
+490,278,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,C
+491,229,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,B
+492,781,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Recently Logged-Shrub Cover,Shrubland,A
+493,2,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,C
+494,15,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Northern Pine Forest,Conifer,C
+495,13,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,E
+496,295,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Wet Meadow,Riparian,UN
+497,132,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Boreal-Laurentian Bog,Riparian,A
+498,59,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,B
+499,560,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Developed-Roads,Developed-Roads,Urban
+500,271,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,B
+501,2374,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Northeastern North American Temperate Forest Plantation,Conifer,UE
+502,33,Barren-Rock/Sand/Clay,na,Barren-Rock/Sand/Clay,Great Lakes Acidic Rocky Shore and Cliff,Sparsely Vegetated,Barren or Sparse
+503,143,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Wet Meadow,Riparian,A
+504,6,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,UN
+505,7,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Recently Disturbed Other-Herb and Grass Cover,Grassland,A
+506,439,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Recently Logged-Herb and Grass Cover,Grassland,UN
+507,601,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,B
+508,36,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,B
+509,629,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,B
+510,38,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Northeastern North American Temperate Forest Plantation,Conifer,UE
+511,3284,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Logged-Tree Cover,Conifer,UN
+512,20,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Wet Meadow,Riparian,E
+513,808,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian Jack Pine-Red Pine Forest,Conifer,UN
+514,524,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,UN
+515,415,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,UN
+516,150,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian Pine Barrens,Conifer,D
+517,9,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,B
+518,3428,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,E
+519,71,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,E
+520,4153,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+521,26,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Floodplain Forest,Riparian,C
+522,338,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,D
+523,431,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,E
+524,66,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,UN
+525,37,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,UN
+526,34,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Mixed Forest,Developed,UE
+527,251,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+528,66,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+529,42,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,UN
+530,99,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+531,94,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,E
+532,32,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,E
+533,368,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Developed-Roads,Developed-Roads,Urban
+534,44,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Oak Forest,Hardwood,B
+535,7,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,C
+536,114,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,E
+537,31,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,UN
+538,5,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,B
+539,255,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,UN
+540,449,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,B
+541,57,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+542,3540,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,B
+543,406,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,B
+544,38,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,UN
+545,16,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Disturbed Other-Herb and Grass Cover,Grassland,UN
+546,38,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+547,6235,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,UN
+548,92,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+549,1866,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,B
+550,166,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,B
+551,28,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,E
+552,5,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,A
+553,283,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+554,4,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,C
+555,6324,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+556,2607,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+557,54,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+558,7,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Floodplain Forest,Riparian,UN
+559,3,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Floodplain Forest,Riparian,E
+560,17,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,C
+561,2,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Disturbed Other-Shrub Cover,Shrubland,UN
+562,7,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+563,9,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian Pine Barrens,Conifer,B
+564,202,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+565,96,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,B
+566,34,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,E
+567,12,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,UN
+568,18,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,UN
+569,50050,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,UN
+570,10738,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,UN
+571,22,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+572,1,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,B
+573,544,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Pine Barrens,Conifer,UN
+574,4644,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,E
+575,10025,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,E
+576,2472,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,UN
+577,4,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,E
+578,1,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,B
+579,3,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,D
+580,5,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Northeastern North American Temperate Forest Plantation,Conifer,UE
+581,4,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Northern Oak Forest,Hardwood,E
+582,6,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,E
+583,36,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+584,18,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Developed-Low Intensity,Developed-Low Intensity,Urban
+585,2469,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Recently Logged-Tree Cover,Conifer,D
+586,3,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,D
+587,3082,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Logged-Tree Cover,Conifer,C
+588,38,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,B
+589,431,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Northeastern North American Temperate Forest Plantation,Conifer,UE
+590,5936,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,UN
+591,3648,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Logged-Shrub Cover,Shrubland,UN
+592,15207,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Logged-Herb and Grass Cover,Grassland,UN
+593,4582,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Recently Logged-Tree Cover,Conifer,D
+594,1,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Pine-Oak Barrens,Conifer-Hardwood,D
+595,19,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Pine-Oak Barrens,Conifer-Hardwood,C
+596,164,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+597,79,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,UN
+598,146,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,D
+599,45,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Pine-Oak Barrens,Conifer-Hardwood,D
+600,174,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,D
+601,8,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Pine Barrens,Conifer,C
+602,13794,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,D
+603,1,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian Oak Barrens,Hardwood,B
+604,201,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian Pine Barrens,Conifer,UN
+605,1288,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Pine Barrens,Conifer,D
+606,34,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,B
+607,6,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,B
+608,23,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian Oak Barrens,Hardwood,UN
+609,15,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian Pine-Oak Barrens,Conifer-Hardwood,UN
+610,20822,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Developed-Roads,Developed-Roads,Urban
+611,8,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Pine-Oak Barrens,Conifer-Hardwood,E
+612,3255,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+613,3382,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+614,15669,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,E
+615,88,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Recently Logged-Tree Cover,Conifer,E
+616,44,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Recently Logged-Tree Cover,Conifer,UN
+617,7,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Developed-Roads,Developed-Roads,Urban
+618,34942,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,D
+619,723,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Recently Logged-Tree Cover,Conifer,D
+620,13,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,B
+621,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Northern Oak Forest,Hardwood,C
+622,478,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Recently Logged-Tree Cover,Conifer,C
+623,63,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,UN
+624,20,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian Jack Pine-Red Pine Forest,Conifer,UN
+625,4,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian Jack Pine-Red Pine Forest,Conifer,C
+626,17,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Northern Pine Forest,Conifer,UN
+627,3543,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,E
+628,374,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+629,428,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Recently Logged-Herb and Grass Cover,Grassland,UN
+630,13,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,UN
+631,59,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Recently Logged-Shrub Cover,Shrubland,UN
+632,141,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+633,2587,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,UN
+634,2788,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,UN
+635,6809,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,D
+636,3,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Developed Ruderal Mixed Forest,Developed,UE
+637,6255,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Logged-Tree Cover,Conifer,E
+638,207,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Recently Logged-Tree Cover,Conifer,UN
+639,26,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,B
+640,110,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Recently Logged-Tree Cover,Conifer,B
+641,1764,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine Forest,Conifer,UN
+642,6694,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,UN
+643,9082,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,E
+644,7898,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Logged-Tree Cover,Conifer,UN
+645,1225,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine Forest,Conifer,E
+646,2,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Developed-High Intensity,Developed-High Intensity,Urban
+647,2423,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,E
+648,327,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+649,1273,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,E
+650,8326,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,UN
+651,7,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,D
+652,27,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Boreal-Laurentian Bog,Riparian,UN
+653,14222,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,D
+654,49,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,C
+655,678,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Oak Forest,Hardwood,E
+656,604,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+657,25,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,B
+658,10,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,B
+659,40,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,B
+660,4198,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,D
+661,62,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,C
+662,10,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Oak Barrens,Hardwood,C
+663,1406,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Developed-Low Intensity,Developed-Low Intensity,Urban
+664,24821,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,D
+665,29603,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,D
+666,13724,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,D
+667,317,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Freshwater Marsh,Riparian,A
+668,57,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Freshwater Marsh,Riparian,UN
+669,345,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Freshwater Marsh,Riparian,UN
+670,20,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+671,104,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Freshwater Marsh,Riparian,UN
+672,173,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,C
+673,848,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Oak Forest,Hardwood,UN
+674,46,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,UN
+675,4423,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northeastern North American Temperate Forest Plantation,Conifer,UE
+676,86,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+677,14,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,C
+678,105,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+679,664,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,B
+680,83,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,B
+681,37,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+682,211,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,B
+683,11,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Hardwood Forest,Hardwood,UN
+684,42,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Wet Meadow,Riparian,A
+685,5,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,UN
+686,98,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+687,1,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,UN
+688,4,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,B
+689,8,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,UN
+690,36,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Northern Oak Forest,Hardwood,D
+691,24,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,C
+692,47,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,B
+693,758,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,E
+694,3,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,UN
+695,5,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,UN
+696,58,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,C
+697,7798,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+698,32,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Boreal-Laurentian Bog,Riparian,UN
+699,5379,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Developed-Low Intensity,Developed-Low Intensity,Urban
+700,1041,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,UN
+701,25,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,UN
+702,12,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Oak Barrens,Hardwood,D
+703,2565,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Recently Logged-Herb and Grass Cover,Grassland,A
+704,609,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Developed-High Intensity,Developed-High Intensity,Urban
+705,48,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,UN
+706,288,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,B
+707,37,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Recently Logged-Tree Cover,Conifer,C
+708,10,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,C
+709,173,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Developed-Low Intensity,Developed-Low Intensity,Urban
+710,2,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Alkaline Fen,Riparian,UN
+711,4207,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,D
+712,65,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,B
+713,1413,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+714,2417,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+715,2,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,UN
+716,66,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+717,280,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian Pine Barrens,Conifer,D
+718,2240,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Northeastern North American Temperate Forest Plantation,Conifer,UE
+719,7121,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Developed-Roads,Developed-Roads,Urban
+720,5435,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,D
+721,3,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,UN
+722,630,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+723,47,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Recently Logged-Tree Cover,Conifer,C
+724,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,B
+725,1429,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+726,194,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+727,31,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+728,993,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,D
+729,52,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,C
+730,17,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+731,9,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Recently Disturbed Other-Herb and Grass Cover,Grassland,A
+732,7,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+733,29,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Oak Forest,Hardwood,C
+734,644,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Recently Logged-Shrub Cover,Shrubland,A
+735,61,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,B
+736,14,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Recently Logged-Tree Cover,Conifer,C
+737,2,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,D
+738,908,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+739,3,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Oak Barrens,Hardwood,D
+740,9,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian Oak Barrens,Hardwood,D
+741,6,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Oak Barrens,Hardwood,C
+742,7,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+743,957,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,C
+744,177,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Recently Logged-Shrub Cover,Shrubland,UN
+745,3100,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,C
+746,1355,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Developed-Roads,Developed-Roads,Urban
+747,19,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,D
+748,1128,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+749,77,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+750,832,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Recently Logged-Herb and Grass Cover,Grassland,B
+751,249,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Recently Logged-Herb and Grass Cover,Grassland,A
+752,6,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian Pine Barrens,Conifer,B
+753,1729,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+754,2699,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+755,9865,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,C
+756,156,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,C
+757,15,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+758,19,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian Pine-Oak Barrens,Conifer-Hardwood,C
+759,2120,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,C
+760,1,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northern Great Lakes Coastal Marsh,Riparian,UN
+761,250,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+762,8,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian Oak Barrens,Hardwood,C
+763,656,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,C
+764,25,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Northern Oak Forest,Hardwood,C
+765,2200,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,C
+766,5,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Pine Barrens,Conifer,UN
+767,4244,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Northeastern North American Temperate Forest Plantation,Conifer,UE
+768,64,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+769,111,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+770,108,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,C
+771,81,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,C
+772,289,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Recently Logged-Shrub Cover,Shrubland,C
+773,16,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Oak Barrens,Hardwood,B
+774,687,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+775,147,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Developed-Low Intensity,Developed-Low Intensity,Urban
+776,5,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Hardwood Forest,Hardwood,C
+777,30,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+778,286,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,C
+779,92,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian Bog,Riparian,UN
+780,11,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Developed-High Intensity,Developed-High Intensity,Urban
+781,100,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+782,52,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Recently Logged-Tree Cover,Conifer,C
+783,18,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,A
+784,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,UN
+785,139,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+786,1,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Wheat,Agricultural,Agriculture
+787,35,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+788,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,B
+789,163,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+790,472,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian Pine Barrens,Conifer,C
+791,203,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,C
+792,7170,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Recently Logged-Tree Cover,Conifer,D
+793,661,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,C
+794,314,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,B
+795,11,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Boreal-Laurentian Bog,Riparian,C
+796,111,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine Forest,Conifer,B
+797,6,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+798,221,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,B
+799,16,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian Pine Barrens,Conifer,C
+800,14,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,B
+801,5,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+802,43,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,A
+803,3,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Recently Logged-Herb and Grass Cover,Grassland,UN
+804,66,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,B
+805,59,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Floodplain Forest,Riparian,E
+806,73,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Floodplain Forest,Riparian,UN
+807,16,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Recently Disturbed Other-Herb and Grass Cover,Grassland,B
+808,179,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Shrub Swamp,Riparian,UN
+809,6,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,UN
+810,91,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Pine Barrens,Conifer,B
+811,718,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Recently Logged-Tree Cover,Conifer,C
+812,342,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Shrub Swamp,Riparian,A
+813,220,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Wet Meadow,Riparian,UN
+814,75,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,C
+815,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+816,37,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Logged-Tree Cover,Conifer,B
+817,45,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Recently Logged-Tree Cover,Conifer,B
+818,30,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agriculture
+819,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Recently Logged-Tree Cover,Conifer,UN
+820,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Recently Logged-Shrub Cover,Shrubland,UN
+821,2,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Recently Logged-Herb and Grass Cover,Grassland,UN
+822,1,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,North-Central Interior Maple-Basswood Forest,Hardwood,D
+823,13,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,E
+824,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,B
+825,282,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+826,98,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,UN
+827,24,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,UN
+828,18,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,UN
+829,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,UN
+830,8,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Oak Forest,Hardwood,B
+831,76,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,B
+832,1,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Disturbed Other-Tree Cover,Conifer,UN
+833,2,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,B
+834,39,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,B
+835,92,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Mixed Forested Wetland,Developed,UE
+836,31,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,C
+837,7,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,UN
+838,1178,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+839,210,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Developed Ruderal Mixed Forested Wetland,Developed,UE
+840,19,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Developed Ruderal Mixed Forested Wetland,Developed,UE
+841,3,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Mixed Forested Wetland,Developed,UE
+842,1,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Disturbed Other-Tree Cover,Conifer,E
+843,37,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+844,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Northern Oak Forest,Hardwood,UN
+845,52,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+846,1433,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Developed-Low Intensity,Developed-Low Intensity,Urban
+847,386,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+848,3,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Developed-Roads,Developed-Roads,Urban
+849,912,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+850,880,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,D
+851,3,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,A
+852,108,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+853,8,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,E
+854,377,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,C
+855,481,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+856,56,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,UN
+857,7,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,UN
+858,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,UN
+859,1,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Laurentian Jack Pine-Red Pine Forest,Conifer,D
+860,48,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+861,24,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Wheat,Agricultural,Agriculture
+862,3,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Recently Disturbed Other-Herb and Grass Cover,Grassland,A
+863,65,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Floodplain Forest,Riparian,D
+864,3,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,A
+865,3,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,D
+866,2,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,UE
+867,45,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Logged-Tree Cover,Conifer,B
+868,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Great Lakes Wooded Dune and Swale,Riparian,UN
+869,5,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Great Lakes Wooded Dune and Swale,Riparian,C
+870,24,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+871,2,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Disturbed Other-Tree Cover,Conifer,E
+872,8,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Disturbed Other-Tree Cover,Conifer,C
+873,17,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Alkaline Fen,Riparian,UN
+874,14,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,C
+875,11,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,B
+876,40,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Acidic Rocky Outcrop Woodland,Conifer,B
+877,1,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,B
+878,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Great Lakes Wooded Dune and Swale,Riparian,C
+879,8,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Pine Barrens,Conifer,B
+880,34,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,B
+881,16,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Recently Logged-Shrub Cover,Shrubland,A
+882,203,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,C
+883,122,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,C
+884,43,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Recently Logged-Tree Cover,Conifer,C
+885,8,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+886,1,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Floodplain Forest,Riparian,B
+887,1,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,UE
+888,44,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Freshwater Marsh,Riparian,A
+889,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,B
+890,2,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+891,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+892,365,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Wet Meadow,Riparian,A
+893,2,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+894,1,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Wheat,Agricultural,Agriculture
+895,4,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,B
+896,4,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,A
+897,1837,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+898,5,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,C
+899,290,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+900,23,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,B
+901,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,UN
+902,107,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+903,72,Barren-Rock/Sand/Clay,na,Barren-Rock/Sand/Clay,Great Lakes Dune,Sparsely Vegetated,Barren or Sparse
+904,277,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agriculture
+905,236,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northern & Central Native Ruderal Forest,Conifer-Hardwood,UE
+906,58,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,C
+907,2,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,B
+908,141,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+909,7,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+910,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Great Lakes Dune Grassland,Grassland,UN
+911,1,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Orchard,Agricultural,Agriculture
+912,232,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Acidic Rocky Outcrop Woodland,Conifer,E
+913,6,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,B
+914,10,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,B
+915,3,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Acidic Rocky Outcrop Shrubland,Shrubland,UN
+916,1,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Great Lakes Dune Grassland,Grassland,A
+917,140,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Acidic Rocky Outcrop Woodland,Conifer,UN
+918,5,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+919,4252,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+920,76,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Logged-Herb and Grass Cover,Grassland,UN
+921,5,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,D
+922,6,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,UN
+923,5,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Great Lakes Dune Grassland,Grassland,UN
+924,6,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Great Lakes Dune Grassland,Grassland,A
+925,32,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Logged-Shrub Cover,Shrubland,UN
+926,7,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,UN
+927,1,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian Acidic Rocky Outcrop Woodland,Conifer,B
+928,368,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Recently Logged-Herb and Grass Cover,Grassland,A
+929,10,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,C
+930,6,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,E
+931,5,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,E
+932,4,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,D
+933,1,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Northeastern North American Temperate Forest Plantation,Conifer,UE
+934,9,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Disturbed Other-Herb and Grass Cover,Grassland,B
+935,1,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,C
+936,5,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,B
+937,2,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,C
+938,2,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,C
+939,2,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Wheat,Agricultural,Agriculture
+940,4,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+941,607,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+942,5,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,C
+943,2,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Pine-Oak Barrens,Conifer-Hardwood,B
+944,16,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Freshwater Marsh,Riparian,E
+945,6,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,UN
+946,66,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+947,331,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+948,73,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Pine-Oak Barrens,Conifer-Hardwood,UN
+949,7,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian Pine-Oak Barrens,Conifer-Hardwood,D
+950,6,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Eastern Cool Temperate Urban Deciduous Forest,Developed,Urban
+951,30,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,C
+952,194,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Boreal-Laurentian Bog,Riparian,A
+953,13,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,UE
+954,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+955,14,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Developed Ruderal Herbaceous Wetland,Developed,UE
+956,109,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Recently Logged-Shrub Cover,Shrubland,A
+957,2,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Developed Ruderal Shrub Wetland,Developed,UE
+958,510,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+959,203,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+960,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Wheat,Agricultural,Agriculture
+961,27,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Floodplain Forest,Riparian,D
+962,202,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+963,9,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Developed Ruderal Shrub Wetland,Developed,UE
+964,417,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+965,52,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Developed Ruderal Mixed Forested Wetland,Developed,UE
+966,17,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+967,70,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Freshwater Marsh,Riparian,B
+968,4,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Developed Ruderal Shrub Wetland,Developed,UE
+969,2,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Alkaline Fen,Riparian,C
+970,3,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Developed Ruderal Herbaceous Wetland,Developed,UE
+971,7,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Northern Great Lakes Coastal Marsh,Riparian,B
+972,19,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,C
+973,57,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Wet Meadow,Riparian,A
+974,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,B
+975,28,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Shrub Swamp,Riparian,C
+976,7,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agriculture
+977,137,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Wet Meadow,Riparian,B
+978,26,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,C
+979,9,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agriculture
+980,4,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,UN
+981,4,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Floodplain Forest,Riparian,B
+982,47,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,B
+983,7,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,C
+984,11,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,C
+985,387,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+986,44,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Urban Herbaceous,Developed,Urban
+987,707,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+988,2,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,C
+989,291,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+990,204,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Developed-High Intensity,Developed-High Intensity,Urban
+991,95,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+992,21,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+993,31,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Developed-High Intensity,Developed-High Intensity,Urban
+994,23,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian Pine Barrens,Conifer,C
+995,18,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,C
+996,103,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Developed-Low Intensity,Developed-Low Intensity,Urban
+997,34,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+998,3,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Developed Ruderal Herbaceous Wetland,Developed,UE
+999,1,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Northern Great Lakes Interdunal Wetland,Riparian,B
+1000,4,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,UN
+1001,16,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+1002,257,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Developed-High Intensity,Developed-High Intensity,Urban
+1003,9,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Boreal-Laurentian Bog,Riparian,A
+1004,4,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Shrub Swamp,Riparian,A
+1005,40,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Northern Great Lakes Coastal Marsh,Riparian,A
+1006,2,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Floodplain Shrubland,Riparian,C
+1007,5,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Freshwater Marsh,Riparian,A
+1008,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Orchard,Agricultural,Agriculture
+1009,2,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,C
+1010,6,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Northern Great Lakes Interdunal Wetland,Riparian,A
+1011,11,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Developed-High Intensity,Developed-High Intensity,Urban
+1012,27,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+1013,4,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,D
+1014,4,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,C
+1015,2,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+1016,4,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian Oak Barrens,Hardwood,B
+1017,4,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian Oak Barrens,Hardwood,C
+1018,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian Pine Barrens,Conifer,C
+1019,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Developed-Low Intensity,Developed-Low Intensity,Urban
+1020,1,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,D
+1021,3,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Oak Barrens,Hardwood,E
+1022,96,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Oak Barrens,Hardwood,UN
+1023,2,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian Pine-Oak Barrens,Conifer-Hardwood,C
+1024,20,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,C
+1025,2,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+1026,2,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian-Acadian Floodplain Forest,Riparian,C
+1027,3,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+1028,2,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,B
+1029,5,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,B
+1030,1,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,D
+1031,23,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian Pine Barrens,Conifer,C
+1032,569,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+1033,4,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,A
+1034,7,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+1035,2,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Floodplain Forest,Riparian,C
+1036,4,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+1037,107,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+1038,35,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Developed Ruderal Evergreen Forest,Developed,UE
+1039,1,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,C
+1040,183,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Developed Ruderal Mixed Forested Wetland,Developed,UE
+1041,8,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,C
+1042,6,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+1043,7,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Developed Ruderal Mixed Forest,Developed,UE
+1044,5,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian Acidic Rocky Outcrop Shrubland,Shrubland,A
+1045,468,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+1046,5,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Acidic Rocky Outcrop Shrubland,Shrubland,A
+1047,1,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,B
+1048,3,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,B
+1049,4,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Alkaline Fen,Riparian,UN
+1050,171,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,C
+1051,1,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Recently Logged-Tree Cover,Conifer,A
+1052,1,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,A
+1053,1456,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Developed-High Intensity,Developed-High Intensity,Urban
+1054,3,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+1055,13,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+1056,2,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Floodplain Forest,Riparian,C
+1057,2,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Hardwood Forest,Hardwood,B
+1058,52,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+1059,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Eastern Cool Temperate Urban Evergreen Forest,Developed,Urban
+1060,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+1061,1,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Floodplain Shrubland,Riparian,UN
+1062,148,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,D
+1063,1,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,B
+1064,288,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Developed-High Intensity,Developed-High Intensity,Urban
+1065,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+1066,2,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,B
+1067,1,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Pine-Oak Barrens,Conifer-Hardwood,E
+1068,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+1069,2,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Disturbed Other-Shrub Cover,Shrubland,A
+1070,46,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agriculture
+1071,2,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+1072,2,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,C
+1073,6,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Pine-Oak Barrens,Conifer-Hardwood,B
+1074,1,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,D
+1075,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian Pine-Oak Barrens,Conifer-Hardwood,C
+1076,8,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,C
+1077,4,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,B
+1078,1,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Recently Disturbed Other-Tree Cover,Conifer,UN
+1079,11,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Disturbed Other-Herb and Grass Cover,Grassland,UN
+1080,1,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Acidic Rocky Outcrop Shrubland,Shrubland,UN
+1081,33,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,D
+1082,2,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian Pine Barrens,Conifer,B
+1083,24,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,C
+1084,5,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,B
+1085,29,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian Pine-Oak Barrens,Conifer-Hardwood,D
+1086,32,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+1087,303,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,UN
+1088,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian Acidic Rocky Outcrop Woodland,Conifer,UN
+1089,17,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Developed Ruderal Herbaceous Wetland,Developed,UE
+1090,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian Acidic Rocky Outcrop Woodland,Conifer,B
+1091,2,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian Acidic Rocky Outcrop Woodland,Conifer,C
+1092,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Recently Logged-Tree Cover,Conifer,C
+1093,1,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,UN
+1094,2,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,A
+1095,125,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+1096,61,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Developed Ruderal Shrub Wetland,Developed,UE
+1097,2,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Acidic Rocky Outcrop Woodland,Conifer,B
+1098,2,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian Pine-Oak Barrens,Conifer-Hardwood,C
+1099,8,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,UN
+1100,15,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,E
+1101,1,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian Acidic Rocky Outcrop Woodland,Conifer,C
+1102,2,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,D
+1103,2,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Laurentian Oak Barrens,Hardwood,B
+1104,1,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,E
+1105,1,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,D
+1106,10,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,A
+1107,2,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Recently Logged-Herb and Grass Cover,Grassland,A
+1108,13,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Developed Ruderal Shrub Wetland,Developed,UE
+1109,2,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,B
+1110,5,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,A
+1111,176,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+1112,7,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,D
+1113,2,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Disturbed Other-Tree Cover,Conifer,UN
+1114,1,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,B
+1115,1,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Recently Disturbed Other-Shrub Cover,Shrubland,UN
+1116,4,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,E
+1117,3,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,D
+1118,1,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,E
+1119,1,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian-Acadian Northern Pine Forest,Conifer,D
+1120,8,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agriculture
+1121,6,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,B
+1122,196,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Northern & Central Native Ruderal Forest,Conifer-Hardwood,UE
+1123,6,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+1124,2,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,B
+1125,1,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Recently Disturbed Other-Shrub Cover,Shrubland,A
+1126,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Recently Disturbed Other-Shrub Cover,Shrubland,A
+1127,1,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Northern Pine Forest,Conifer,UN
+1128,2,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Northern & Central Native Ruderal Forest,Conifer-Hardwood,UE
+1129,418,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agriculture
+1130,24,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,UN
+1131,3,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Northern & Central Native Ruderal Forest,Conifer-Hardwood,UE
+1132,13,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian Jack Pine-Red Pine Forest,Conifer,UN
+1133,2,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,UE
+1134,24,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Northern & Central Native Ruderal Forest,Conifer-Hardwood,UE
+1135,3,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+1136,19,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agriculture
+1137,2,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+1138,4,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,UE
+1139,2,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,UE
+1140,2,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Shrub Wetland,Developed,UE
+1141,16442,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+1142,5,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian Oak Barrens,Hardwood,B
+1143,417,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+1144,37,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Northeastern North American Temperate Forest Plantation,Conifer,UE
+1145,9,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,B
+1146,1240,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+1147,1,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Northern Pine Forest,Conifer,E
+1148,13,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Northern Oak Forest,Hardwood,UN
+1149,17,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,UN
+1150,1,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Shrub Wetland,Developed,UE
+1151,6,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Northern Pine Forest,Conifer,UN
+1152,1,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Northeastern North American Temperate Forest Plantation,Conifer,UE
+1153,2,Boreal Jack Pine-Black Spruce Forest - Spruce-Fir,13442_51,Conifer,Recently Logged-Tree Cover,Conifer,B
+1154,18,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,C
+1155,3,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Pine-Hemlock Forest,Conifer,B
+1156,7,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Herbaceous Wetland,Developed,UE
+1157,3,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Hardwood Forest,Hardwood,B
+1158,2,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,B
+1159,2,Laurentian Pine-Oak Barrens,14071_41_50_51,Hardwood-Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,E
+1160,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Recently Disturbed Other-Tree Cover,Conifer,D
+1161,11,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Alkaline Fen,Riparian,A
+1162,1099,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,UN
+1163,1,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Eastern Cool Temperate Developed Ruderal Grassland,Developed,UE
+1164,7,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Disturbed Other-Tree Cover,Conifer,D
+1165,4,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Eastern Cool Temperate Developed Ruderal Deciduous Forest,Developed,UE
+1166,1,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Eastern Cool Temperate Developed Ruderal Herbaceous Wetland,Developed,UE
+1167,5,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,UE
+1168,1,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,UE
+1169,181,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Northern Pine Forest,Conifer,UN
+1170,2,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+1171,2216,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+1172,1,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Northern & Central Ruderal Meadow,Exotic Herbaceous,UE
+1173,5,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Wheat,Agricultural,Agriculture
+1174,63,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,C
+1175,53,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Eastern Cool Temperate Close Grown Crop,Agricultural,Agriculture
+1176,9,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,UN
+1177,4,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Eastern Cool Temperate Wheat,Agricultural,Agriculture
+1178,6,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,UN
+1179,14,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Hardwood Forest,Hardwood,UN
+1180,1,Eastern Boreal Floodplain,14440_41_50_51,Hardwood,Laurentian-Acadian Shrub Swamp,Riparian,A
+1181,2,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,B
+1182,86,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Northeastern North American Temperate Forest Plantation,Conifer,UE
+1183,42,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian Oak Barrens,Hardwood,D
+1184,17,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian Pine Barrens,Conifer,UN
+1185,5,Laurentian-Acadian Northern Hardwoods Forest - Hemlock,13022_41_50_51,Hardwood,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,A
+1186,3,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+1187,8,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Eastern Cool Temperate Orchard,Agricultural,Agriculture
+1188,1,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Disturbed Other-Herb and Grass Cover,Grassland,UN
+1189,1,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agriculture
+1190,1,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Northern Oak Forest,Hardwood,UN
+1191,2,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Developed-Medium Intensity,Developed-Medium Intensity,Urban
+1192,1,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,B
+1193,1,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,UN
+1194,8,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Freshwater Marsh,Riparian,UN
+1195,1,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,UN
+1196,4,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Wet Meadow,Riparian,UN
+1197,1,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Laurentian-Acadian Shrub Swamp,Riparian,UN
+1198,8,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Eastern Cool Temperate Urban Mixed Forest,Developed,Urban
+1199,1,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Recently Disturbed Other-Tree Cover,Conifer,D
+1200,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,C
+1201,1,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Eastern Cool Temperate Developed Ruderal Shrubland,Developed,UE
+1202,2,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Recently Disturbed Other-Herb and Grass Cover,Grassland,A
+1203,1,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Eastern Cool Temperate Developed Ruderal Herbaceous Wetland,Developed,UE
+1204,1313,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+1205,2,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,UE
+1206,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,A
+1207,104,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Burned-Herb and Grass Cover,Grassland,B
+1208,138,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Recently Burned-Herb and Grass Cover,Grassland,A
+1209,112,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,14810_41_50_51_63,Riparian,Recently Burned-Herb and Grass Cover,Grassland,A
+1210,2,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Northeastern North American Temperate Forest Plantation,Conifer,UE
+1211,2,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,13660_51_63_64_65_66,Hardwood-Conifer,Recently Burned-Herb and Grass Cover,Grassland,A
+1212,2,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Burned-Shrub Cover,Shrubland,A
+1213,1,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Burned-Herb and Grass Cover,Grassland,E
+1214,1,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,B
+1215,1,Laurentian-Acadian Floodplain Systems,14750_41_50_51_63_64_65_66,Riparian,Laurentian-Acadian Northern Oak Forest,Hardwood,UN
+1216,1,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+1217,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Recently Disturbed Other-Herb and Grass Cover,Grassland,A
+1218,1,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Floodplain Shrubland,Riparian,A
+1219,6,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Wet Meadow,Riparian,A
+1220,1,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Shrub Swamp,Riparian,A
+1221,7,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,C
+1222,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Recently Burned-Tree Cover,Conifer,D
+1223,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,B
+1224,10,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Barren or Sparse
+1225,1,Boreal Jack Pine-Black Spruce Forest - Pine Barrens,13441_51,Conifer,Laurentian-Acadian Pine-Hemlock Forest,Conifer,B
+1226,1,Laurentian Pine-Oak Barrens - Jack Pine,14072_41_50_51,Conifer,Recently Disturbed Other-Tree Cover,Conifer,C
+1227,1,Boreal White Spruce-Fir-Hardwood Forest - Inland,13651_51,Conifer,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,A
+1228,3,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Laurentian-Acadian Northern Oak Forest,Hardwood,UN
+1229,12,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,B
+1230,17,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Recently Logged-Tree Cover,Conifer,C
+1231,3,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Boreal-Laurentian Bog,Riparian,A
+1232,1,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,UN
+1233,2,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,UE
+1234,1,Great Lakes Coastal Marsh Systems,14920_41_50_51_52_63,Riparian,Eastern Cool Temperate Urban Shrubland,Developed,Urban
+1235,2,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,B
+1236,5,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce Forest,Conifer,B
+1237,5,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian-Acadian Hardwood Forest,Hardwood,C
+1238,1,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Recently Disturbed Other-Shrub Cover,Shrubland,UN
+1239,1,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,UN
+1240,12,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,B
+1241,1,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,C
+1242,6,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Laurentian Jack Pine-Red Pine Forest,Conifer,A
+1243,52,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agriculture
+1244,2,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Eastern Cool Temperate Developed Ruderal Mixed Forest,Developed,UE
+1245,2,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,UN
+1246,1,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Aspen-Birch Forest,Hardwood,D
+1247,4,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,D
+1248,2,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Laurentian-Acadian Pine-Hemlock Forest,Conifer,D
+1249,45,Boreal White Spruce-Fir-Hardwood Forest - Coastal,13652_51,Conifer,Northern & Central Native Ruderal Forest,Conifer-Hardwood,UE
+1250,1,Laurentian-Acadian Shrub-Herbaceous Wetland Systems,14940_41_50_51,Riparian,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,UN
+1251,1,Boreal Acidic Peatland Systems,14770_40_41_50_51,Riparian,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,UN
+1252,4,Laurentian-Acadian Northern Pine(-Oak) Forest,13620_51_63_64_65_66,Hardwood-Conifer,Eastern Cool Temperate Row Crop,Agricultural,Agriculture
+1253,1,Laurentian-Acadian Northern Hardwoods Forest - Northern Sugar Maple-Basswood,13023_51,Hardwood,Eastern Cool Temperate Row Crop,Agricultural,Agriculture

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 GIS prep | Using LANDFIRE Products for FSC compliance</title>
+  <meta name="description" content="Chapter 3 GIS prep | Using LANDFIRE Products for FSC compliance" />
+  <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 GIS prep | Using LANDFIRE Products for FSC compliance" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 GIS prep | Using LANDFIRE Products for FSC compliance" />
+  
+  
+  
+
+<meta name="author" content="The Nature Conservancy’s LANDFIRE team" />
+
+
+<meta name="date" content="2021-02-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="softAndData.html"/>
+<link rel="next" href="methods.html"/>
+<script src="libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.17/datatables.js"></script>
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> LANDFIRE and the Forest Stewardship Council US Standards</a></li>
+<li class="chapter" data-level="2" data-path="softAndData.html"><a href="softAndData.html"><i class="fa fa-check"></i><b>2</b> Software and Datasets</a></li>
+<li class="chapter" data-level="3" data-path="gisPrep.html"><a href="gisPrep.html"><i class="fa fa-check"></i><b>3</b> GIS prep</a></li>
+<li class="chapter" data-level="4" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>4</b> Methods</a></li>
+<li class="chapter" data-level="5" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>5</b> Applications</a><ul>
+<li class="chapter" data-level="5.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>5.1</b> Example one</a></li>
+<li class="chapter" data-level="5.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>5.2</b> Example two</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>6</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Using LANDFIRE Products for FSC compliance</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="gisPrep" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> GIS prep</h1>
+<p>Methods:</p>
+<ol style="list-style-type: decimal">
+<li>Once spatial data is clipped to area of interest, perform a “combine” in ArcMap (Toolbox &gt; Spatial Analyst &gt; Local &gt; Combine) of the BpS, SCL and EVT datasets. Alternatively, you can combine a raster of the area of interest with those 3 datasets which are stored as larger extents (like shown below).</li>
+</ol>
+<p><img src="combine.JPG" width="100%" /></p>
+<p><br>
+<br></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Join in attributes. There are multiple ways-we recommend using the Join Field tool (Toolbox &gt; data management tools &gt; joins &gt; add join). One reason to do this is to be able to select which fields to join in. A potential resulting table looks like this for a landscape in Michigan (with minimal cleaning/formatting):</li>
+</ol>
+<p><br>
+<br></p>
+<div id="htmlwidget-26c824d72ae6d439be3a" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-26c824d72ae6d439be3a">{"x":{"filter":"none","data":[["1","2","3","4","5","6"],[1,2,3,4,5,6],[155604,4217,6051,2285,2971,5351],["Open Water","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock"],["na","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51"],["Open Water","Hardwood","Hardwood","Hardwood","Hardwood","Hardwood"],["Open Water","Northern &amp; Central Ruderal Meadow","Laurentian Jack Pine-Red Pine Forest","Laurentian Jack Pine-Red Pine Forest","Laurentian-Acadian Pine-Hemlock Forest","Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest"],["Open Water","Exotic Herbaceous","Conifer","Conifer","Conifer","Conifer"],["Water","UE","UN","E","UN","UN"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>VALUE<\/th>\n      <th>COUNT<\/th>\n      <th>BPS_NAME<\/th>\n      <th>BPS_MODEL<\/th>\n      <th>GROUPVEG<\/th>\n      <th>EVT_NAME<\/th>\n      <th>EVT_PHYS<\/th>\n      <th>LABEL<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<p><br>
+<br></p>
+<p>As is this table does not mean too much-we will need to do some cleaning, formatting and calculating.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Clean data table (combined “.csv” file). You will first need to save this file as an “.xlsx” file so that you can have multiple worksheets. We recommend keeping the original output as a “raw” spreadsheet in Excel, pasting that data into a new sheet and working with that new sheet moving forward.
+<ul>
+<li>It is OK to remove the “US_200BPS”, “US_200EVT”, and “US_200SCLASS” columns</li>
+<li>Rename some columns: “GROUPVEG” to “BPSGROUPVEG”; “EVT_PHYS” to “EVTGROUPVEG”; “LABEL” to “SUCCESSIONCLASS”, or similar as needed for clarity</li>
+<li>COUNT = number of 30m x 30m pixels for that combination of BpS-EVT-SCLS. Insert a column named “ACRES”, then calculate acres by multiplying COUNT by “0.222”. Copy-Paste Values for that new column. Below is an example of what our new data table looks like.</li>
+</ul></li>
+</ol>
+<p><br>
+<br></p>
+<div id="htmlwidget-626ec9ceb9d0460c3843" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-626ec9ceb9d0460c3843">{"x":{"filter":"none","data":[["1","2","3","4","5","6"],[1,2,3,4,5,6],[155604,4217,6051,2285,2971,5351],["Open Water","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock"],["na","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51"],["Open Water","Hardwood","Hardwood","Hardwood","Hardwood","Hardwood"],["Open Water","Northern &amp; Central Ruderal Meadow","Laurentian Jack Pine-Red Pine Forest","Laurentian Jack Pine-Red Pine Forest","Laurentian-Acadian Pine-Hemlock Forest","Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest"],["Open Water","Exotic Herbaceous","Conifer","Conifer","Conifer","Conifer"],["Water","UE","UN","E","UN","UN"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>VALUE<\/th>\n      <th>COUNT<\/th>\n      <th>BPS_NAME<\/th>\n      <th>BPS_MODEL<\/th>\n      <th>GROUPVEG<\/th>\n      <th>EVT_NAME<\/th>\n      <th>EVT_PHYS<\/th>\n      <th>LABEL<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<p><br>
+<br></p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="softAndData.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="methods.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["FSCBook.pdf", "FSCBook.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

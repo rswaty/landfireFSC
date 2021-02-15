@@ -1,0 +1,11 @@
+# Software and Datasets {#softAndData}
+
+You will need these LANDFIRE products:
+
+* Spatial datasets, clipped to your area(s) of interest
+    * [Biophysical Settings](https://www.landfire.gov/bps.php).  This dataset will be used to get at "community habitat", or where ecosystems could occur based on abiotic factors (e.g., soils, climate).
+    * [Succession classes](https://www.landfire.gov/sclass.php) characterizes structural classes on the landscape at the time the dataset represents (e.g., 2016 for LF Version 200).
+    * [Existing Vegetation Type](https://www.landfire.gov/evt.php) maps NatureServe's Ecological Systems (see descriptions [here](https://www.landfire.gov/documents/LANDFIRE_Ecological_Systems_Descriptions_CONUS.pdf)).
+* Non-spatial products
+    * [Biophysical Settings Descriptions](http://landfirereview.org/search.php) which has information on natural disturbance regimes and succession class descriptions (also available [here](https://tnc.box.com/s/d3ocvy969s1792m5885filjhktujp86e))
+    * [Reference Condition Table](https://tnc.box.com/s/d3ocvy969s1792m5885filjhktujp86e) supplements the BpS descriptions with the "reference" percentages for each succession class, for each Biophysical Settings.

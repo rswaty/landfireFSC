@@ -1,5 +1,5 @@
 --- 
-title: "Using LANDFIRE Products for FSC compliance"
+title: "Using LANDFIRE Products to explore historical and current ecosystems"
 author: "The Nature Conservancy's LANDFIRE team"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -7,11 +7,25 @@ documentclass: book
 
 ---
 
-# LANDFIRE and the Forest Stewardship Council US Standards
-Principles 6 and 9 of the Forest Stewardship Council have many criteria that require an understanding of ecosystem distributions past and present, historical disturbance regimes and succession classes of each ecosystem, past and present.  The nation's [LANDFIRE](www.landfire.gov) program produces many spatial datasets and ecological models that are relevant to these criteria.  Here we will provide technical guidance to develop charts, tables and maps that will get at:
+# LANDFIRE for landscape ecosystem assessment
 
-* historical ecosystem locations and amounts, and conversion to other land uses (e.g., agriculture) and ecosystems (e.g., northern pine-oak historically, northern hardwoods currently)
-* historical disturbance regimes
-* succession classes of each ecosystems, past and present
+There are some basic steps in assessing the ecological situation of your landscape, including:
 
-**ALSO analysis that will help with HCVAs and RSAs**
+* mapping historical and current ecosystems, and the difference between the two; and further looking at representation  of ecosystems inside and outside of your landscape of interest.
+* assessing succession classes (aka seral states) of these ecosystems, past and present
+* understanding natural disturbance regimes
+
+These steps, while foundational and conceptually simple can be difficult due to a lack of data, especially when doing then at a landscape scale which often means looking across multiple land ownerships.  
+
+<div style="float:right">
+```{r, echo=FALSE, fig.width=2} 
+knitr::include_graphics("mh_locator.JPG")
+
+```
+</div>
+
+In the United States, including the insular areas [LANDFIRE](www.landfire.gov) provides the datasets and ecological model results to get at these challenges and more.  Here we walk you through some of the technical steps needed to start your analysis.  We will do our work in a model landscape, the Michigamme Highlands in the Upper Peninsula of Michigan (highlighted in green in map).
+
+This is a technical guide-we will provide links for you to learn about the datasets and other inputs.  
+
+

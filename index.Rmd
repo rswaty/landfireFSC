@@ -8,49 +8,10 @@ documentclass: book
 ---
 
 # LANDFIRE and the Forest Stewardship Council US Standards
+Principles 6 and 9 of the Forest Stewardship Council have many criteria that require an understanding of ecosystem distributions past and present, historical disturbance regimes and succession classes of each ecosystem, past and present.  The nation's [LANDFIRE](www.landfire.gov) program produces many spatial datasets and ecological models that are relevant to these criteria.  Here we will provide technical guidance to develop charts, tables and maps that will get at:
 
+* historical ecosystem locations and amounts, and conversion to other land uses (e.g., agriculture) and ecosystems (e.g., northern pine-oak historically, northern hardwoods currently)
+* historical disturbance regimes
+* succession classes of each ecosystems, past and present
 
-
-## LANDFIRE and FSC Principle 6: General Potential
-
-Principle 6 of the US Forest Stewardship Council standards (both current and draft) centers on Environmental Values and Impacts.  There are several assessment criteria, with some focusing on documenting historical ecosystem attributes then comparing them to current.  These criteria are where [LANDFIRE](www.landfire.gov) products best fit.  
-
-Below we'll explore use of LANDFIRE products for specific indicators, with the DRAFT standards as the focus.
-
-## General
-
-* list LANDFIRE datasets to obtain
-* scale issue warning
-
-
-
-
-## Criteria 6.1, Assessing Environmental Values and Impacts
-
-From the standards document (currently page 35 in draft):
-
-
-<style>
-div.blue { background-color:#E4EEF4; border-radius: 5px; padding: 20px;}
-</style>
-<div class = "blue">
-The Organization shall assess environmental values in the Management Unit and
-FSC® NATIONAL FOREST STEWARDSHIP STANDARD OF THE UNITED STATES (V2-0 D1-0) 36
-those values outside the Management Unit potentially affected by management
-activities. This assessment shall be undertaken with a level of detail, scale, and
-frequency that is proportionate to the scale, intensity, and risk of management
-activities, and is sufficient for the purpose of deciding the necessary conservation
-measures, and for detecting and monitoring possible negative impacts of those
-activities.
-
-</div>
-<br>
-
-### Indicator 6.1.1-assessment of conditions
-This indicator seems to speak directly to LANDFIRE, as the suite of products can be used pretty directly to get at:
-
-* forest community types
-* succession classes
-* natural disturbance regimes
-* historical conditions (community types and succession classes)
-* comparing historical to current conditions
+**ALSO analysis that will help with HCVAs and RSAs**

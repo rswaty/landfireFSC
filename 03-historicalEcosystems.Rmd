@@ -1,5 +1,11 @@
 # Historical Ecosystems {#historicalEcosystems}
 
+In this chapter we will learn:
+
+* Which ecosystems, and how much of each were on our landscape historically
+* How much of each ecosystem has been converted to other land uses (e.g., agriculture)
+* How much of each historical ecosystem is mapped as a different ecosystem as of the latest LANDFIRE dataset
+
 ## First Question: how many acres (what percent) of each ecosystem were in the area of interest historically?
 
 For the next few questions we will work in a Pivot Table.  To get started  copy the entire "clean" sheet, click "Insert" at in the Excel ribbon then click "Pivot Table".  Once your pivot table is created you can start to explore.
@@ -118,7 +124,7 @@ Looking at the Laurentian-Acadian Northern Hardwoods Forest - Hemlock for our la
 * Cumulatively about 6% of this type is now roads and recently logged types.
 * The other EVTs mapped are not terribly "off-site" (e.g., something like "Plantation").  
 
-**The fine print**
+## The fine print
 While this assessment is illustrative, it is important to note that the methods used to create the BpS and EVT datasets are substantially different, and LANDFIRE datasets are not made for assessing small areas.  Please review.
 
 

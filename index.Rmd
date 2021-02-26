@@ -5,6 +5,7 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 
+
 ---
 
 # LANDFIRE for landscape ecosystem assessment
@@ -17,15 +18,20 @@ There are some basic steps in assessing the ecological situation of your landsca
 
 These steps, while foundational and conceptually simple can be difficult due to a lack of data, especially when doing then at a landscape scale which often means looking across multiple land ownerships.  
 
-<div style="float:right">
-```{r, echo=FALSE, fig.width=2} 
-knitr::include_graphics("mh_locator.JPG")
+```{r chunkname, echo=FALSE, out.width= "50%", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("michi.JPG")
 
 ```
-</div>
+
 
 In the United States, including the insular areas [LANDFIRE](www.landfire.gov) provides the datasets and ecological model results to get at these challenges and more.  Here we walk you through some of the technical steps needed to start your analysis.  We will do our work in a model landscape, the Michigamme Highlands in the Upper Peninsula of Michigan (highlighted in green in map).
 
-This is a technical guide-we will provide links for you to learn about the datasets and other inputs.  
+## This online guide...
+is a technical guide originally created for The Nature Conservancy's Global Science Gathering, working session titled "Billions (and billons) of pixels coupled with hundreds of ecosystem models: Making LANDFIRE products work for your landscape".  It was written in R using R-Studio, the "bookdown" package and is hosted on GitHub.
+
+## Getting Started
+For this guide we have done some of the heavy lifting for you, i.e., the GIS work and creation of an Excel workbook [**INSERT LINK HERE**].  You can explore the GIS work we did, and the datasets at [**INSERT LINK TO ARCMAP PROJECT HERE**]
+
+
 
 

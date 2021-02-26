@@ -12,3 +12,14 @@ second-question-how-much-of-the-historic-ecosystems-have-been-converted-to-a-dif
 the-fine-print
 histDist
 final-words
+fig:unnamed-chunk-1
+this-online-guide
+getting-started
+EVT
+conversion
+evt
+second-question-how-much-of-the-historic-ecosystems-have-been-converted-to-a-different-land-use-e.g.-agriculture-or-have-succeeded-to-a-different-ecosystem-1
+the-fine-print-1
+gis-prep-combine-data
+gis-prep-join-in-attributes
+gis-prepclean-data-table

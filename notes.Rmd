@@ -1,0 +1,26 @@
+---
+title: "Notes"
+author: "The Nature Conservancy's LANDFIRE team"
+date: "2/19/2021"
+output: html_document
+---
+
+
+HCVAs and RSAs:
+
+HCVAs:
+
+1. High concentrations of biodiversity.  G3 and above, s3 and above.  Not individual species, but concentrations in the same area. Densities above average etc. compared to ecoregion.  Multiple species.
+2. Is there an area within or adjacent to an area legally designated by state or fed?  
+3. Does the FMU contain a known threatened or endangered species
+4. Looking for ecological communities
+5. outstanding areas
+
+
+RSA:
+
+* places we have opportunities for progressive management
+* can we locate late successional?  Issue will be species composition in LANDFIRE
+
+
+

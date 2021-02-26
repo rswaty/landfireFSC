@@ -1,0 +1,9 @@
+# Existing Vegetation Types {#evt}
+
+Getting at amount of ecosystems on the ground today.
+
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+
+```
+

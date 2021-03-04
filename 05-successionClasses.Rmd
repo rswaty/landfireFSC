@@ -1,0 +1,14 @@
+# Succession Classes {#successionClasses}
+
+## What are "Succession Classes"?
+
+In general LANDFIRE succession classes are stages of development defined in the descriptions of each Biophysical Setting.  They are characterized by height, canopy cover and to some degree species composition.  Key takeaways:
+
+* To learn what the succession classes are for each Biophysical Setting you look to the corresponding description on http://landfirereview.org/test/search.php
+* LANDFIRE used state and transition models to estimate the amount of each succession class that would occur with natural (pre-European colonization) disturbance regimes.  Historical succession classes were not mapped as they were assumed to move around over time.
+* The [Succession Class](https://www.landfire.gov/sclass.php) dataset maps current succession classes, in addition to agricultural and developed land-use classes plus uncharacteristic vegetation.
+* By comparing the amounts of historical and current succession classes you can get a sense of which classes are over/under represented.
+
+## For our exercise here
+
+To illustrate the concept of comparing reference to current succession classes we will focus on 

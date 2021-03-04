@@ -1,12 +1,16 @@
 --- 
 title: "Using LANDFIRE Products to explore historical and current ecosystems"
-author: "The Nature Conservancy's LANDFIRE team"
+author: "Draft by The Nature Conservancy's LANDFIRE team"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 
 
+
 ---
+
+# This document...
+is a technical guide DRAFTED in R-Markdown using the Bookdown package.  It was created to support the "Wrangling billions (and billons) of pixels and hundreds  of ecosystem models: Making LANDFIRE products work for your landscape" working session.
 
 # LANDFIRE for landscape ecosystem assessment
 

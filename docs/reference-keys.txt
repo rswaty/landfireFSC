@@ -28,3 +28,7 @@ getting-at-amounts-of-historical-ecosystems
 general-methods-1
 getting-at-amounts-of-current-ecosystems
 visual-exploration
+successionClasses
+what-are-succession-classes
+this-document
+for-our-exercise-here

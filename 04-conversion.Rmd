@@ -71,6 +71,11 @@ While this assessment is illustrative, it is important to note that the methods 
 
 ## Visual exploration
 
+Sometimes patterns emerge from visuals.  Below is a Sankey chart generated in R.  On the left are the historical ecosystems, on the right current ecosystems.  If you hover over the colored bands you can explore what the historical ecosystems are today, or where current ecosystems came from.  Some potential interpretations, partially based on the chart, partially based on local knowledge:
+
+* There is more northern hardwoods mapped today than historically.  This could be due to "simplification" of ecosystems that have some shared species.  For example, many conifers have been removed and deer present a challenge for regeneration.  One hypothesis would be that due to logging and deer the "Pine-Hemlock-Hardwood-Forest" has been essentially converted to "Northern Hardwoods".
+* It might be more illuminating to group some types together, such as the "Recently Logged" types.
+* LANDFIRE has mapped potential change of the wetlands to other types.  This could be due to mapping errors, or due to alterations in hydrology because of roads perhaps.  More investigation is warrented.
 
 ```{r sankey, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
 

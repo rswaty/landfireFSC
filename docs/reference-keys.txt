@@ -23,3 +23,8 @@ the-fine-print-1
 gis-prep-combine-data
 gis-prep-join-in-attributes
 gis-prepclean-data-table
+general-methods
+getting-at-amounts-of-historical-ecosystems
+general-methods-1
+getting-at-amounts-of-current-ecosystems
+visual-exploration

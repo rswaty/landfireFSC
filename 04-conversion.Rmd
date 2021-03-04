@@ -69,4 +69,39 @@ Looking at the Laurentian-Acadian Northern Hardwoods Forest - Hemlock for our la
 While this assessment is illustrative, it is important to note that the methods used to create the BpS and EVT datasets are substantially different, and LANDFIRE datasets are not made for assessing small areas.  Please review.
 
 
+## Visual exploration
+
+
+```{r sankey, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
+
+library(networkD3)
+library(dplyr)
+library(readr)
+library(dplyr)
+
+data <- read_csv("bps2evt.csv")
+
+nodes <- data.frame(
+  name=c(as.character(data$source), 
+         as.character(data$target)) %>% unique())
+
+
+data$IDsource <- match(data$source, nodes$name)-1 
+data$IDtarget <- match(data$target, nodes$name)-1
+
+# Make the Network
+snky2 <- sankeyNetwork(Links = data, 
+                       Nodes = nodes,
+                       Source = "IDsource", 
+                       Target = "IDtarget",
+                       Value = "value", 
+                       NodeID = "name", 
+                       fontSize=14,
+                       iterations = 0,
+                       sinksRight=FALSE)
+
+snky2
+
+
+```
 

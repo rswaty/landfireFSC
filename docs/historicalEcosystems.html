@@ -21,10 +21,10 @@
   
   
 
-<meta name="author" content="The Nature Conservancy’s LANDFIRE team" />
+<meta name="author" content="Draft by The Nature Conservancy’s LANDFIRE team" />
 
 
-<meta name="date" content="2021-02-26" />
+<meta name="date" content="2021-03-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -61,6 +61,9 @@
 <script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
 <link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
 <script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+<script src="libs/d3-4.5.0/d3.min.js"></script>
+<script src="libs/sankey-1/sankey.js"></script>
+<script src="libs/sankeyNetwork-binding-0.4/sankeyNetwork.js"></script>
 
 
 
@@ -78,29 +81,44 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">A Minimal Book Example</a></li>
+<li><a href="./">DRAFT</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> LANDFIRE for landscape ecosystem assessment</a><ul>
-<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#this-online-guide"><i class="fa fa-check"></i><b>1.1</b> This online guide…</a></li>
-<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#getting-started"><i class="fa fa-check"></i><b>1.2</b> Getting Started</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> This document…</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#landfire-for-landscape-ecosystem-assessment"><i class="fa fa-check"></i><b>1.1</b> LANDFIRE for landscape ecosystem assessment</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#this-online-guide"><i class="fa fa-check"></i><b>1.2</b> This online guide…</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#getting-started"><i class="fa fa-check"></i><b>1.3</b> Getting Started</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="softAndData.html"><a href="softAndData.html"><i class="fa fa-check"></i><b>2</b> Software and Datasets</a><ul>
 <li class="chapter" data-level="2.1" data-path="softAndData.html"><a href="softAndData.html#to-get-started-you-will-need-the-landfire-products.-the-hyperlined-text-will-lead-you-to-descriptions"><i class="fa fa-check"></i><b>2.1</b> To get started you will need the LANDFIRE products. The hyperlined text will lead you to descriptions:</a></li>
 <li class="chapter" data-level="2.2" data-path="softAndData.html"><a href="softAndData.html#guidance-on-obtaining-landfire-products"><i class="fa fa-check"></i><b>2.2</b> Guidance on obtaining LANDFIRE products</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html"><i class="fa fa-check"></i><b>3</b> Historical Ecosystems</a></li>
-<li class="chapter" data-level="4" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>4</b> Existing Vegetation Types</a></li>
+<li class="chapter" data-level="3" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html"><i class="fa fa-check"></i><b>3</b> Historical Ecosystems</a><ul>
+<li class="chapter" data-level="3.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#general-methods"><i class="fa fa-check"></i><b>3.1</b> General methods</a></li>
+<li class="chapter" data-level="3.2" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#getting-at-amounts-of-historical-ecosystems"><i class="fa fa-check"></i><b>3.2</b> Getting at amounts of historical ecosystems</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>4</b> Existing Vegetation Types</a><ul>
+<li class="chapter" data-level="4.1" data-path="evt.html"><a href="evt.html#general-methods-1"><i class="fa fa-check"></i><b>4.1</b> General methods</a></li>
+<li class="chapter" data-level="4.2" data-path="evt.html"><a href="evt.html#getting-at-amounts-of-current-ecosystems"><i class="fa fa-check"></i><b>4.2</b> Getting at amounts of current ecosystems</a></li>
+</ul></li>
 <li class="chapter" data-level="5" data-path="conversion.html"><a href="conversion.html"><i class="fa fa-check"></i><b>5</b> Exploring conversion</a><ul>
 <li class="chapter" data-level="5.1" data-path="conversion.html"><a href="conversion.html#second-question-how-much-of-the-historic-ecosystems-have-been-converted-to-a-different-land-use-e.g.-agriculture-or-have-succeeded-to-a-different-ecosystem"><i class="fa fa-check"></i><b>5.1</b> Second question: how much of the historic ecosystems have been converted to a different land use (e.g., agriculture), or have succeeded to a different ecosystem?</a></li>
 <li class="chapter" data-level="5.2" data-path="conversion.html"><a href="conversion.html#the-fine-print"><i class="fa fa-check"></i><b>5.2</b> The fine print</a></li>
+<li class="chapter" data-level="5.3" data-path="conversion.html"><a href="conversion.html#visual-exploration"><i class="fa fa-check"></i><b>5.3</b> Visual exploration</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="histDist.html"><a href="histDist.html"><i class="fa fa-check"></i><b>6</b> Historical Disturbance Regimes</a></li>
-<li class="chapter" data-level="7" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>7</b> Final Words</a></li>
+<li class="chapter" data-level="6" data-path="successionClasses.html"><a href="successionClasses.html"><i class="fa fa-check"></i><b>6</b> Succession Classes</a><ul>
+<li class="chapter" data-level="6.1" data-path="successionClasses.html"><a href="successionClasses.html#what-are-succession-classes"><i class="fa fa-check"></i><b>6.1</b> What are “Succession Classes”?</a></li>
+<li class="chapter" data-level="6.2" data-path="successionClasses.html"><a href="successionClasses.html#for-our-exercise-here"><i class="fa fa-check"></i><b>6.2</b> For our exercise here</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="histDist.html"><a href="histDist.html"><i class="fa fa-check"></i><b>7</b> Historical Disturbance Regimes</a></li>
 <li class="chapter" data-level="8" data-path="gisPrep.html"><a href="gisPrep.html"><i class="fa fa-check"></i><b>8</b> APPENDIX</a><ul>
 <li class="chapter" data-level="8.1" data-path="gisPrep.html"><a href="gisPrep.html#gis-prep-combine-data"><i class="fa fa-check"></i><b>8.1</b> GIS Prep: Combine data</a></li>
 <li class="chapter" data-level="8.2" data-path="gisPrep.html"><a href="gisPrep.html#gis-prep-join-in-attributes"><i class="fa fa-check"></i><b>8.2</b> GIS Prep: Join in attributes</a></li>
 <li class="chapter" data-level="8.3" data-path="gisPrep.html"><a href="gisPrep.html#gis-prepclean-data-table"><i class="fa fa-check"></i><b>8.3</b> GIS Prep:Clean data table</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>9</b> Final Words</a></li>
+<li class="chapter" data-level="10" data-path="exampleIntro.html"><a href="exampleIntro.html"><i class="fa fa-check"></i><b>10</b> Our example landscape</a><ul>
+<li class="chapter" data-level="10.1" data-path="exampleIntro.html"><a href="exampleIntro.html#the-michigamme-highlands"><i class="fa fa-check"></i><b>10.1</b> The Michigamme Highlands</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -125,11 +143,24 @@
 <div id="historicalEcosystems" class="section level1">
 <h1><span class="header-section-number">3</span> Historical Ecosystems</h1>
 <p>In this chapter we will learn which ecosystems, and how much of each were on our landscape historically.</p>
+<div id="general-methods" class="section level2">
+<h2><span class="header-section-number">3.1</span> General methods</h2>
+<p>In this section (and most others) we will depend on “Pivot Tables” in Excel. They are powerful (for better or worse!) tools that allow for tasks such as:</p>
+<ul>
+<li>organization and formatting of data</li>
+<li>calculations</li>
+<li>filtering data</li>
+<li>nesting data</li>
+</ul>
+<p>With the power comes the call for caution. It is super easy to display values that look illuminating-but may be wrong. You can easily be duped into complacency, especially when working in the “value field settings”.</p>
+</div>
+<div id="getting-at-amounts-of-historical-ecosystems" class="section level2">
+<h2><span class="header-section-number">3.2</span> Getting at amounts of historical ecosystems</h2>
 <p><strong>Start by opening the “historical” tab in the Excel workbook.</strong></p>
 <ol style="list-style-type: decimal">
-<li>In the Pivot Table Fields pane, select BpS Name then acres.<br />
+<li>In the Pivot Table Fields pane, select “BPS_NAME” then “ACRES”.<br />
 </li>
-<li>Right click in the top “Sum of ACRES” field (not the table header), then sort in descending order.</li>
+<li>Right click in the top cell of the “Sum of ACRES” column (not the column header) in the Pivot Table, then “Sort Largest to Smallest”.</li>
 <li>In our example we have some BpSs that have low ACRES values. We also have categories that are not meaningful, such as “Barren-Rock/Sand/Clay”. We can do a little formatting/cleaning before making a chart:
 <ul>
 <li>To remove BpSs from the table you will click the drop-down menu to the right of “BPS_NAME” in the Pivot Table Fields pane. You can uncheck BpSs as appropriate.</li>
@@ -138,17 +169,18 @@
 <li>To get percentages, drag “ACRES” from the top Pivot Table Field pane to the “Values” pane. This will add a second “ACRES” column to the table. Click the drop down in the second instance of “ACRES” (reads “SUM of ACRES2” in our example), then Value Field Settings. In this menu select the “Show Values As” tab, click the “Show Values As” drop down then select “% of Grand Total% to get percentages of each BpS (make sure that”BPS_NAME" is selected as the “Base field”).<br />
 </li>
 <li>To get a “running total” of percentages you will add a third instance of “ACRES” to the “Values” pane, then Value Field Settings. In this menu select the “Show Values As” tab, click the “Show Values As” drop down then select “% Running Total In” to get running totals of percentages of each BpS (make sure that “BPS_NAME” is selected as the “Base field”).</li>
-<li>Save and keep this pivot table as is for now. We will make a couple modifications in the next section to get at a different question.</li>
+<li>Save!</li>
 </ol>
 <p>Formatted table of BpSs:</p>
-<div id="htmlwidget-ad0f50fdea751696c64a" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-ad0f50fdea751696c64a">{"x":{"filter":"none","data":[["1","2","3","4","5","6"],["Northern Hardwoods Forest - Hemlock","Acidic Peatland Systems","Pine-Hemlock-Hardwood Forest","Alkaline Conifer-Hardwood Swamp","White Spruce-Fir-Hardwood Forest - Inland","White Spruce-Fir-Hardwood Forest - Coastal"],[361509.018,85712.424,82992.702,56369.796,51340.608,41897.838],[50.09601316,11.87757568,11.50069095,7.811429043,7.114510693,5.805981426],[50.09601316,61.97358884,73.47427979,81.28570884,88.40021953,94.20620096]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>BpS<\/th>\n      <th>ACRES<\/th>\n      <th>PERCENT<\/th>\n      <th>RUNNING_PERCENT<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"pageLength":3,"columnDefs":[{"className":"dt-right","targets":[2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[3,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-6da1be5a3b3ce7cb9f33" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6da1be5a3b3ce7cb9f33">{"x":{"filter":"none","data":[["1","2","3","4","5","6"],["Northern Hardwoods Forest - Hemlock","Acidic Peatland Systems","Pine-Hemlock-Hardwood Forest","Alkaline Conifer-Hardwood Swamp","White Spruce-Fir-Hardwood Forest - Inland","White Spruce-Fir-Hardwood Forest - Coastal"],[361509.018,85712.424,82992.702,56369.796,51340.608,41897.838],[50.09601316,11.87757568,11.50069095,7.811429043,7.114510693,5.805981426],[50.09601316,61.97358884,73.47427979,81.28570884,88.40021953,94.20620096]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>BpS<\/th>\n      <th>ACRES<\/th>\n      <th>PERCENT<\/th>\n      <th>RUNNING_PERCENT<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"pageLength":3,"columnDefs":[{"className":"dt-right","targets":[2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[3,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 <p><br>
 <br></p>
-<p>We see that the top 4 BpSs comprised ~80% of our example landscape historically. We can visually confirm this and other patterns with a quick chart made in R (though similar charts available in Excel):</p>
+<p>We see that the top 4 BpSs comprised ~80% of our example landscape historically. We can visually confirm this and other patterns with a quick chart made in R (similar charts available in Excel by highlighting the data, clicking Insert then selecting the chart type in the “Charts” tab):</p>
 <p><br></p>
 <p><img src="FSCBook_files/figure-html/bpsChart-1.png" width="672" /></p>
 
+</div>
 </div>
             </section>
 

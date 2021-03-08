@@ -27,7 +27,7 @@ We use the same general methods as we did on the "Historical Ecosystems" page, u
 
 Formatted table of EVTs:
 
-```{r bpsDT, echo=FALSE, message=FALSE, warning=FALSE}
+```{r evtDT, echo=FALSE, message=FALSE, warning=FALSE}
 library(DT)
 library(readr)
 evt <- read_csv("evt.csv")

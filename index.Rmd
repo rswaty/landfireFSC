@@ -20,12 +20,15 @@ The goals are to:
 * compare amounts of succession classes past and present
 * calculate annual acres burned
 
-In the United States, including the insular areas [LANDFIRE](www.landfire.gov) provides the datasets and ecological model results to get at these challenges and more.  Here we walk you through some of the technical steps needed to start your analysis.  We will do our work in a model landscape, the Michigamme Highlands in the Upper Peninsula of Michigan (highlighted in green in map).
+In the United States, including the insular areas [LANDFIRE](www.landfire.gov) provides the datasets and ecological model results to get at these challenges and more.  Here we walk you through some of the technical steps needed to start your analysis.  We will do our work in a model landscape, the Michigamme Highlands in the Upper Peninsula of Michigan (highlighted in green in map below).
 
 To help you with the concepts we work through pre-processed LANDFIRE data for an example landscape.  To prepare the datasets for your landscape see the Appendix.
 
-## Getting Started
-For this guide we have done some of the heavy lifting for you, i.e., the GIS work and creation of an Excel workbook [**INSERT LINK HERE**].  You can explore the GIS work we did, and the datasets at [**INSERT LINK TO ARCMAP PROJECT HERE**]
+## Download this!
+To work through this guide you will need to download this [Excel workbook](https://github.com/rswaty/landfireFSC/blob/main/docs/combineClean.xlsx) by clicking the hyperlinked text, then the "Download" button that will be on the right side of the screen.
+
+
+
 
 
 ```{r chunkname, echo=FALSE, out.width= "100%"}

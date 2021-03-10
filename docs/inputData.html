@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>7 Succession Classes | Using LANDFIRE Products to explore historical and current ecosystems</title>
-  <meta name="description" content="7 Succession Classes | Using LANDFIRE Products to explore historical and current ecosystems" />
+  <title>3 LANDFIRE Data for landscape assessment | Using LANDFIRE Products to explore historical and current ecosystems</title>
+  <meta name="description" content="3 LANDFIRE Data for landscape assessment | Using LANDFIRE Products to explore historical and current ecosystems" />
   <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="7 Succession Classes | Using LANDFIRE Products to explore historical and current ecosystems" />
+  <meta property="og:title" content="3 LANDFIRE Data for landscape assessment | Using LANDFIRE Products to explore historical and current ecosystems" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="7 Succession Classes | Using LANDFIRE Products to explore historical and current ecosystems" />
+  <meta name="twitter:title" content="3 LANDFIRE Data for landscape assessment | Using LANDFIRE Products to explore historical and current ecosystems" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="conversion.html"/>
-<link rel="next" href="histDist.html"/>
+<link rel="prev" href="exampleIntro.html"/>
+<link rel="next" href="historicalEcosystems.html"/>
 <script src="libs/jquery-3.5.1/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -141,52 +141,47 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="successionClasses" class="section level1">
-<h1><span class="header-section-number">7</span> Succession Classes</h1>
-<div id="what-we-will-do-here" class="section level2">
-<h2><span class="header-section-number">7.1</span> What we will do here</h2>
-<p>While looking at conversion of historical ecosystems is valuable, we can dig deeper, comparing amounts historical succession classes to current. This gives us a broad measure of vegetation structure for ecosystems.</p>
-</div>
-<div id="what-are-succession-classes" class="section level2">
-<h2><span class="header-section-number">7.2</span> What are “Succession Classes”?</h2>
-<p>In general LANDFIRE succession classes are stages of development defined in the descriptions of each Biophysical Setting. They are characterized by height, canopy cover and to some degree species composition. Key takeaways:</p>
+<div id="inputData" class="section level1">
+<h1><span class="header-section-number">3</span> LANDFIRE Data for landscape assessment</h1>
+<div id="landfire-for-landscape-ecosystem-assessment" class="section level2">
+<h2><span class="header-section-number">3.1</span> LANDFIRE for landscape ecosystem assessment</h2>
+<p>There are some basic steps in assessing the ecological situation of your landscape, including:</p>
 <ul>
-<li>To learn what the succession classes are for each Biophysical Setting you look to the corresponding description on <a href="http://landfirereview.org/test/search.php" class="uri">http://landfirereview.org/test/search.php</a></li>
-<li>LANDFIRE used state and transition models to estimate the amount of each succession class that would occur with natural (pre-European colonization) disturbance regimes. Historical succession classes were not mapped as they were assumed to move around over time.</li>
-<li>The <a href="https://www.landfire.gov/sclass.php">Succession Class</a> dataset maps current succession classes, in addition to agricultural and developed land-use classes plus uncharacteristic vegetation.</li>
-<li>By comparing the amounts of historical and current succession classes you can get a sense of which classes are over/under represented.</li>
+<li>mapping historical and current ecosystems, and the difference between the two; and further looking at representation of ecosystems inside and outside of your landscape of interest.</li>
+<li>assessing succession classes (aka seral states) of these ecosystems, past and present</li>
+<li>understanding natural disturbance regimes</li>
+</ul>
+<p>These steps, while foundational and conceptually simple can be difficult due to a lack of data, especially when doing then at a landscape scale which often means looking across multiple land ownerships.</p>
+</div>
+<div id="the-landfire-datasets-we-used-for-this-guide" class="section level2">
+<h2><span class="header-section-number">3.2</span> The LANDFIRE datasets we used for this guide</h2>
+<ul>
+<li>Spatial datasets, clipped to your area(s) of interest
+<ul>
+<li><a href="https://www.landfire.gov/bps.php">Biophysical Settings (BpS)</a>. This dataset will be used to get at “community habitat”, or where ecosystems could occur based on abiotic factors (e.g., soils, climate).</li>
+<li><a href="https://www.landfire.gov/sclass.php">Succession classes</a> characterizes structural classes on the landscape at the time the dataset represents (e.g., 2016 for LF Version 200).</li>
+<li><a href="https://www.landfire.gov/evt.php">Existing Vegetation Type</a> maps NatureServe’s Ecological Systems (see descriptions <a href="https://www.landfire.gov/documents/LANDFIRE_Ecological_Systems_Descriptions_CONUS.pdf">here</a>).</li>
+</ul></li>
+<li>Non-spatial products
+<ul>
+<li><a href="http://landfirereview.org/search.php">Biophysical Settings Descriptions</a> which has information on natural disturbance regimes and succession class descriptions (also available <a href="https://tnc.box.com/s/d3ocvy969s1792m5885filjhktujp86e">here</a>).<br />
+</li>
+<li><a href="https://tnc.box.com/s/d3ocvy969s1792m5885filjhktujp86e">Reference Condition Table</a> supplements the BpS descriptions with the “reference” percentages for each succession class, for each Biophysical Settings.</li>
+</ul></li>
 </ul>
 </div>
-<div id="our-sample-ecosystem" class="section level2">
-<h2><span class="header-section-number">7.3</span> Our sample ecosystem</h2>
-<p>To illustrate the concept of comparing reference to current succession classes we will focus on the Northern Hardwoods-Hemlock Biophysical Setting. It is a dominant ecosystem in the Michigamme Highlands, has been heavily managed and faces many threats such as deer browsing.</p>
-</div>
-<div id="your-tasks" class="section level2">
-<h2><span class="header-section-number">7.4</span> Your tasks</h2>
-<p>We will start with our friend the Pivot Table to get current percentages of the relevant succession classes, then will look to the Biophysical Settings descriptions to get historical percentages.</p>
-<div id="current-succession-classes" class="section level3">
-<h3><span class="header-section-number">7.4.1</span> Current succession classes</h3>
-<ol style="list-style-type: decimal">
-<li>Open the “successionClasses” worksheet in our “combineClean.xlsx” workbook.</li>
-<li>In the Pivot Table Fields box highlight “BPS_MODEL” -&gt; click the down arrow -&gt; select only “Laurentian-Acadian Northern Hardwoods Forest - Hemlock”. Check the box next to “BPS_NAME”.</li>
-<li>In the Pivot Table Fields check the box next to “LABEL” to get a list of current succession classes.</li>
-<li>In the Pivot Table Fields check the box next to “ACRES”.</li>
-<li>In the Values pane click the doww arrow -&gt; select Value Field Settings. Once the Value field settings are open click Show Values As -&gt; select “% of Grand Total” from the dropdown list.</li>
-<li>Copy the resultant table -&gt; paste next to the Pivot Table in the same worksheet -&gt; add column names “Succession class” and “Current”.</li>
-</ol>
-</div>
-<div id="historical-succession-classes" class="section level3">
-<h3><span class="header-section-number">7.4.2</span> Historical succession classes</h3>
-<ol style="list-style-type: decimal">
-<li>Go to <a href="http://landfirereview.org/test/search.php" class="uri">http://landfirereview.org/test/search.php</a>, search for “Laurentian-Acadian Northern Hardwoods Forest - Hemlock” and download the corresponding document. It will be Model Number 13022, Map Zone(s) 41, 50, 51.<br />
-</li>
-<li>Skim through the document to get a sense of the ecosystem, paying particular attention to the “Succession Classes” section.</li>
-<li>There will be 5 succession classes, A, B, C, D and E with corresponding estimated reference amounts. For example, Succession Class A was modeled to be rare in this ecosystem that did not have much fire. We estimated that only 1% of this ecosystem would have been Succession Class a historically.</li>
-<li>Back in the pivot table name you will create a new column named “Historical” then type the succession class percentages from the document into the corresponding row.</li>
-</ol>
-<p>Now we can start to see some patterns emerge. We won’t spoil your fun by saying what those patterns are!</p>
+<div id="guidance-on-obtaining-landfire-products" class="section level2">
+<h2><span class="header-section-number">3.3</span> Guidance on obtaining LANDFIRE products</h2>
+<p>There are multiple ways to get LANDFIRE depending on whether you are looking to obtain BpS models and descriptions or the spatial data:</p>
+<ul>
+<li>For BpS models and descriptions go to: <a href="http://landfirereview.org/search.php" class="uri">http://landfirereview.org/search.php</a>. Start by clicking on the “View map of LANDFIRE Map Zones”. This will help you narrow down your search. Alternatively, you can wait to download BpS descriptions until you do some GIS work and get specific names of BpSs of interest.</li>
+<li>For the spatial datasets you can explore options <a href="https://www.landfire.gov/getdata.php">here</a> which include:
+<ul>
+<li>Downloading <a href="https://www.landfire.gov/version_comparison.php">Full Extent Mosaics</a>. When you do use this option you get large files that cover the entire lower 48, AK or HI (depending on your selection). We use this method when we have several landscapes and/or a large area and no computer storage issues.</li>
+<li>Using the <a href="https://www.landfire.gov/viewer/">LANDFIRE Data Distribution Site</a>. With this method you essentially select the datasets you need then draw a rectangle (or you can select state or counties) around your area of interest to start the downloader. We recommend this if your area of interest is not too large and/or you have a low number of landscapes and/or have storage limits.</li>
+</ul></li>
+</ul>
 
-</div>
 </div>
 </div>
             </section>
@@ -194,8 +189,8 @@
           </div>
         </div>
       </div>
-<a href="conversion.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="histDist.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="exampleIntro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="historicalEcosystems.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

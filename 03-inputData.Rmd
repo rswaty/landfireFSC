@@ -1,6 +1,17 @@
-# Software and Datasets {#softAndData}
+# LANDFIRE Data for landscape assessment {#inputData}
 
-## To get started you will need the LANDFIRE products.  The hyperlined text will lead you to descriptions:
+## LANDFIRE for landscape ecosystem assessment
+
+There are some basic steps in assessing the ecological situation of your landscape, including:
+
+* mapping historical and current ecosystems, and the difference between the two; and further looking at representation  of ecosystems inside and outside of your landscape of interest.
+* assessing succession classes (aka seral states) of these ecosystems, past and present
+* understanding natural disturbance regimes
+
+These steps, while foundational and conceptually simple can be difficult due to a lack of data, especially when doing then at a landscape scale which often means looking across multiple land ownerships.  
+
+
+## The LANDFIRE datasets we used for this guide
 
 * Spatial datasets, clipped to your area(s) of interest
     * [Biophysical Settings (BpS)](https://www.landfire.gov/bps.php).  This dataset will be used to get at "community habitat", or where ecosystems could occur based on abiotic factors (e.g., soils, climate).

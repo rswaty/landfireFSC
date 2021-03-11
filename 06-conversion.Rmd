@@ -1,14 +1,13 @@
 # Exploring conversion {#conversion}
 
-How much have historical ecosystems been converted to other land uses, or succeeded to other ecosystem types.
+**The main question we explore on this page: how much of the historic ecosystems have been converted to a different land use (e.g., agriculture), or have succeeded to a different ecosystem?
+
+## The fine print
+While this assessment is illustrative, it is important to note that the methods used to create the BpS and EVT datasets are substantially different, and LANDFIRE datasets are not made for assessing small areas.  Please review.  In the exercise we present all possible conversions, some of which may not be meaningful.  We have more confidence in mapped conversion from Northern Hardwoods to Developed-Roads than we would from a Northern Hardwoods to Northern Hardwoods-Hemlock, or even Pine-Hemlock-Hardwood.  Please be circumspect when reviewing results.  Consider lumping (Group tool in the Pivot Table) similar EVT types, or you can add value by developing a "Classification of Change" that might include "Not meaningful", "Meaningful" and "Check in field" categories.  
 
 
-
-## Second question: how much of the historic ecosystems have been converted to a different land use (e.g., agriculture), or have succeeded to a different ecosystem?
-
-If you are new to Pivot Tables this next section will 1) demonstrate their power and 2) showcase ways they can mislead!  
-
-Working in the Pivot Table from before (or you can create a new one if you prefer):
+## Pivot table work
+Working in the "Conversion" worksheet:
 
 1. Check the box next to "EVT_NAME" in the Pivot Table Fields pane.  Make sure that everything is arranged as in the screenshot below (e.g., "BPS_NAME" is on top of "EVT_NAME" in the "Rows" pane).  Note-I am about to sort in descending order.
 
@@ -40,7 +39,14 @@ knitr::include_graphics("pivotPercentParent.png")
 
 You'll see that ~34% of what was classified as "Boreal Acidic Peatland Systems" in the BpS dataset for our landscape is now classified as "Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen" in the Existing Vegetation Type dataset.    Scroll through the table below to explore the resulting data.  The table has been exported from the Pivot Table and cleaned up a bit for viewing.  
 
-**Note: I filtered for the Top 10 EVTs per BpS.** 
+
+**Example output**
+
+Below is essentially the output from our Pivot Table work with a few changes:
+
+* Names have been shortened for ease of reading
+* Numbers have been rounded
+* We filtered for the top 10 most widespreat Biophysical Settings
 
 <br>
 
@@ -53,7 +59,8 @@ bpsEvt <- read_csv("bpsEvt.csv")
 datatable((bpsEvt), 
           class = 'cell-border stripe',
           options = list(scrollX  = TRUE, 
-                         pageLength = 5, scrollY = "400px"))
+                         pageLength = 5, scrollY = "400px")) %>%
+  formatRound("Percent", 0)
 ```
 
 <br>
@@ -65,17 +72,15 @@ Looking at the Laurentian-Acadian Northern Hardwoods Forest - Hemlock for our la
 * Cumulatively about 6% of this type is now roads and recently logged types.
 * The other EVTs mapped are not terribly "off-site" (e.g., something like "Plantation").  
 
-## The fine print
-While this assessment is illustrative, it is important to note that the methods used to create the BpS and EVT datasets are substantially different, and LANDFIRE datasets are not made for assessing small areas.  Please review.
 
 
-## Visual exploration
+## Visual exploration for fun. 
 
-Sometimes patterns emerge from visuals.  Below is a Sankey chart generated in R.  On the left are the historical ecosystems, on the right current ecosystems.  If you hover over the colored bands you can explore what the historical ecosystems are today, or where current ecosystems came from.  Some potential interpretations, partially based on the chart, partially based on local knowledge:
+Sometimes patterns emerge from visuals.  Below is a [Sankey Diagram](https://en.wikipedia.org/wiki/Sankey_diagram) generated in R (can also be created in Excel we hear.  See instructions [here](https://mychartguide.com/how-to-draw-sankey-diagram-in-excel/)).  On the left are the historical ecosystems, on the right current ecosystems and flow bands.  The width of the bands is proportional to the flow rate.  Some potential interpretations, partially based on the chart, partially based on local knowledge:
 
 * There is more northern hardwoods mapped today than historically.  This could be due to "simplification" of ecosystems that have some shared species.  For example, many conifers have been removed and deer present a challenge for regeneration.  One hypothesis would be that due to logging and deer the "Pine-Hemlock-Hardwood-Forest" has been essentially converted to "Northern Hardwoods".
 * It might be more illuminating to group some types together, such as the "Recently Logged" types.
-* LANDFIRE has mapped potential change of the wetlands to other types.  This could be due to mapping errors, or due to alterations in hydrology because of roads perhaps.  More investigation is warrented.
+* LANDFIRE has mapped potential change of the wetlands to other types.  This could be due to mapping errors, or due to alterations in hydrology because of roads perhaps.  More investigation is warranted.
 
 ```{r sankey, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
 

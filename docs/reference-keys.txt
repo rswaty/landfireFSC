@@ -1,5 +1,5 @@
 this-document
-getting-started
+download-this
 exampleIntro
 inputData
 landfire-for-landscape-ecosystem-assessment
@@ -7,14 +7,15 @@ the-landfire-datasets-we-used-for-this-guide
 guidance-on-obtaining-landfire-products
 historicalEcosystems
 general-methods
+a-few-potential-traps-with-pivot-tables
 getting-at-amounts-of-historical-ecosystems
 evt
 general-methods-1
 getting-at-amounts-of-current-ecosystems
 conversion
-second-question-how-much-of-the-historic-ecosystems-have-been-converted-to-a-different-land-use-e.g.-agriculture-or-have-succeeded-to-a-different-ecosystem
 the-fine-print
-visual-exploration
+pivot-table-work
+visual-exploration-for-fun.
 successionClasses
 what-we-will-do-here
 what-are-succession-classes
@@ -22,9 +23,7 @@ our-sample-ecosystem
 your-tasks
 current-succession-classes
 historical-succession-classes
-histDist
 gisPrep
 gis-prep-combine-data
 gis-prep-join-in-attributes
 gis-prepclean-data-table
-download-this

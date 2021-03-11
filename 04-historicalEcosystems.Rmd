@@ -12,12 +12,19 @@ In this section (and most others) we will depend on "Pivot Tables" in Excel.  Th
 * filtering data
 * nesting data
 
-With the power comes the call for caution.  It is super easy to display values that look illuminating-but may be wrong.  You can easily be duped into complacency, especially when working in the "value field settings".
+With the power comes the call for caution.  It is super easy to display values that look illuminating-but may be wrong.  You can easily be duped into complacency, especially when working in the "value field settings."
+
+### A few potential traps with Pivot Tables
+Pivot Tables allow you to calculate, summarize, format and analyze datasets.  There are a few traps we run into frequently that are worth mentioning here:
+
+* **Your Pivot Table controls go away**.  This happens when you click outside of the main Pivot Table area (where your values are, usually on the left side of screen).  To fix this click inside one of the Pivot Table columns.  Another way to fix this is to right click inside a Pivot Table cell and select "Show field list". 
+* **Miscalculating.**  This typically happens when you are in the "Value Field Settings" pane and select the wrong "Show values as" option.  The key here is to visually inspect the results to make sure you have made the correct selection.
+* **You want to remove totals and subtotals without having to delete them all.** To fix this and many formatting issues click anywhere inside of the Pivot Table -> Click "Design" from the top ribbon -> click the "Subtotals" drop down -> click "Do Not Show Subtotals".  Repeat for Grand Totals.  While you are there, explore the Report Layout and Blank Rows drop downs.
 
 
 ## Getting at amounts of historical ecosystems
 
-**Start by opening the "historical" tab in the Excel workbook.**
+**Start by opening the "historical" tab in the Excel workbook.**  
 
 1. In the Pivot Table Fields pane, select "BPS_NAME" then "ACRES".  
 2. Right click in the top cell of the "Sum of ACRES" column (not the column header) in the Pivot Table, then "Sort Largest to Smallest".
@@ -30,7 +37,12 @@ With the power comes the call for caution.  It is super easy to display values t
 
 
 
-Formatted table of BpSs:
+**Example output**
+
+Below is essentially the output from our Pivot Table work with a couple changes:
+
+* Names have been shortened for ease of reading
+* Numbers have been rounded
 
 ```{r bpsDT, echo=FALSE, message=FALSE, warning=FALSE}
 library(DT)
@@ -39,8 +51,10 @@ bps <- read_csv("bps.csv")
 
 
 datatable(head(bps), 
-          class = 'cell-border stripe',
-          options = list(scrollX  = TRUE, pageLength = 3))
+          class = 'cell-border stripe', 
+          options = list(scrollX  = TRUE, pageLength = 3)) %>%
+  formatRound(c("ACRES", "PERCENT", "RUNNING_PERCENT"), 0)
+
 ```
 
 <br>

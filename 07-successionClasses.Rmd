@@ -1,23 +1,23 @@
 # Succession Classes {#successionClasses}
 
 ## What we will do here
-While looking at conversion of historical ecosystems is valuable, we can dig deeper, comparing amounts historical succession classes to current.  This gives us a broad measure of vegetation structure for ecosystems.
+While looking at conversion of historical ecosystems is valuable, we can dig deeper, comparing amounts historical succession classes to current.  This gives us a broad measure of the changes in vegetation structure for ecosystems.
 
-## What are "Succession Classes"?
+## What are "Succession Classes?"
 
-In general LANDFIRE succession classes are stages of development defined in the descriptions of each Biophysical Setting.  They are characterized by height, canopy cover and to some degree species composition.  Key takeaways:
+In general LANDFIRE succession classes are stages of development defined in the descriptions of each Biophysical Setting.  They are characterized by vegetation height, canopy cover and to some degree species composition.  Key takeaways:
 
 * To learn what the succession classes are for each Biophysical Setting you look to the corresponding description on http://landfirereview.org/test/search.php
 * LANDFIRE used state and transition models to estimate the amount of each succession class that would occur with natural (pre-European colonization) disturbance regimes.  Historical succession classes were not mapped as they were assumed to move around over time.
-* The [Succession Class](https://www.landfire.gov/sclass.php) dataset maps current succession classes, in addition to agricultural and developed land-use classes plus uncharacteristic vegetation.
-* By comparing the amounts of historical and current succession classes you can get a sense of which classes are over/under represented.
+* The [Succession Class](https://www.landfire.gov/sclass.php) dataset maps the current location of succession classes, in addition to agricultural and developed land-use classes plus uncharacteristic vegetation.  Uncharacteristic typically represents exotic vegetation, or vegetation structure that would not have occured historically.
+* By comparing the amounts of historical and current succession classes you can get a sense of which classes are over/under represented.  This assumes that the landscape you are assessing is large enough to potentially include the full compliment of succession classes.
 
 ## Our sample ecosystem
 
-To illustrate the concept of comparing reference to current succession classes we will focus on the Northern Hardwoods-Hemlock Biophysical Setting.  It is a dominant ecosystem in the Michigamme Highlands, has been heavily managed and faces many threats such as deer browsing.  
+To illustrate the concept of comparing reference to current succession classes we will focus on the Laurentian-Acadian Northern Hardwoods-Hemlock Biophysical Setting.  It is a dominant ecosystem in the Michigamme Highlands, has been heavily managed and faces many threats such as deer browsing.  
 
 ## Your tasks
-We will start with our friend the Pivot Table to get current percentages of the relevant succession classes, then will look to the Biophysical Settings descriptions to get historical percentages.
+We will start with our friend the Pivot Table to get current percentages of the relevant succession classes, then we will look to the Biophysical Settings descriptions to get historical percentages.
 
 ### Current succession classes
 
@@ -32,8 +32,8 @@ We will start with our friend the Pivot Table to get current percentages of the 
 
 1. Go to http://landfirereview.org/test/search.php, search for "Laurentian-Acadian Northern Hardwoods Forest - Hemlock" and download the corresponding document.  It will be Model Number 13022, Map Zone(s) 41, 50, 51.  
 2. Skim through the document to get a sense of the ecosystem, paying particular attention to the "Succession Classes" section.
-3. There will be 5 succession classes, A, B, C, D and E with corresponding estimated reference amounts.  For example, Succession Class A was modeled to be rare in this ecosystem that did not have much fire.  We estimated that only 1% of this ecosystem would have been Succession Class a historically.
-4. Back in the pivot table name you will create a new column named "Historical" then type the succession class percentages from the document into the corresponding row.  
+3. There are be 5 succession classes, A, B, C, D and E with corresponding estimated reference amounts.  For example, Succession Class A was modeled to be rare in this ecosystem that did not have much fire.  LANDFIRE estimated that only 1% of this ecosystem would have been Succession Class a historically.
+4. Back in the pivot table, you will create a new column named "Historical", then type the succession class percentages from the document into the corresponding row.  
 
 Now we can start to see some patterns emerge.  We won't spoil your fun by saying what those patterns are!
 

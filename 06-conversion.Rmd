@@ -1,9 +1,9 @@
 # Exploring conversion {#conversion}
 
-**The main question we explore on this page: how much of the historic ecosystems have been converted to a different land use (e.g., agriculture), or have succeeded to a different ecosystem?
+**The main question we explore on this page: how much of the historic ecosystems have been converted to a different land use (e.g., agriculture).  
 
 ## The fine print
-While this assessment is illustrative, it is important to note that the methods used to create the BpS and EVT datasets are substantially different, and LANDFIRE datasets are not made for assessing small areas.  Please review.  In the exercise we present all possible conversions, some of which may not be meaningful.  We have more confidence in mapped conversion from Northern Hardwoods to Developed-Roads than we would from a Northern Hardwoods to Northern Hardwoods-Hemlock, or even Pine-Hemlock-Hardwood.  Please be circumspect when reviewing results.  Consider lumping (Group tool in the Pivot Table) similar EVT types, or you can add value by developing a "Classification of Change" that might include "Not meaningful", "Meaningful" and "Check in field" categories.  
+While this assessment is illustrative, it is important to note that the methods used to create the BpS and EVT datasets are substantially different, and LANDFIRE datasets are not made for assessing small areas.  Please review.  In the exercise we present all possible conversions, some of which may not be meaningful.  We have more confidence in mapped conversion from Northern Hardwoods to Developed-Roads than we would from a Northern Hardwoods to Northern Hardwoods-Hemlock, or even Pine-Hemlock-Hardwood.  Please be circumspect when reviewing results.  We will demonstrate lumping (Group tool in the Pivot Table) similar EVT types here, or you could add value by developing a "Classification of Change" that might include "Not meaningful", "Meaningful" and "Check in field" categories.  
 
 
 ## Pivot table work
@@ -37,7 +37,25 @@ knitr::include_graphics("pivotPercentParent.png")
 
 <br>
 
-You'll see that ~34% of what was classified as "Boreal Acidic Peatland Systems" in the BpS dataset for our landscape is now classified as "Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen" in the Existing Vegetation Type dataset.    Scroll through the table below to explore the resulting data.  The table has been exported from the Pivot Table and cleaned up a bit for viewing.  
+You'll see that ~34% of what was classified as "Boreal Acidic Peatland Systems" in the BpS dataset for our landscape is now classified as "Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen" in the Existing Vegetation Type dataset.  As noted above without a fair amount of knowledge of the landscape and review of the input datasets this sort of comparison should be viewed with skepticism.  Below we will do some grouping to make the comparison more broad, and probably accurate.
+
+1. We will start by reformatting the Pivot Table a bit.  
+    * Remove both "Sum of ACRES" columns by dragging them up to the PivotTable Fields pane.
+    * Remove the "BPS_NAME" column by unchecking it in the "Rows" field. 
+    * Click within the Pivot Table -> Design tab -> Subtotals -> Do not show subtotals.
+    * Design tab -> Grand Totals -> "Off for rows and columns.
+    * Design tab -> Report Layout -> "Show in tabular form" and "Repeat all line items"
+2. To assist in grouping, add in the "EVT_PHYS" column by checking it in the PivotTable Fields pane.  Insure it is listed on top of "EVT_NAME" in the Rows pane.  If not drag it to the top.
+3. In the "EVT_NAME" column, hold your Shift key while selecting all of the EVT_NAME types within the Agricultural EVT_PHYS column -> right click the highlighted types -> select "Group".  This will create a new field called "EVT_NAME2" and a grouped type auot-named "Group1".  You can rename this by clicking in any of the "Group 1" cells and typing something such as "Agriculture". 
+4. Take the same approach as in # 3 to group the EVTs that begin with or include the word "Developed" *except* you will be working in the "EVT_NAME2" field now.
+5. Now that we have done some grouping let's clean this table up and bring in the "BPS_NAME" column.  Drag "EVT_NAME" and "EVT_PHYS" from the Rows field to the PivotTable Fields pane, or uncheck them in the PivotTable Fields pane.   Add in the "BPS_NAME" field by checking it in the PivotTable Fields pane. Drag the "BPS_NAME" field to the top of the rows pane if it is not already there.
+6. Add the "Sum of ACRES" field, sort descending and change the value field settings to show "% of Parent Row Total". Remember how to do all of that?
+  
+
+Note-another approach would be to simply use the "EVT_PHYS" column.  Since we wanted to retain some EVTs we did not use this approach here. Further in the interest of time we did not do a complete Grouping.  
+
+
+Scroll through the table below to explore the resulting data.  The table has been exported from the Pivot Table and cleaned up a bit for viewing.  
 
 
 **Example output**

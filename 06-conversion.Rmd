@@ -1,6 +1,6 @@
 # Exploring conversion {#conversion}
 
-**The main question we explore on this page: how much of the historic ecosystems have been converted to a different land use (e.g., agriculture).  
+**The main question we explore on this page: how much of the historic ecosystems have been converted to a different land use (e.g., agriculture).**  
 
 ## The fine print
 While this assessment is illustrative, it is important to note that the methods used to create the BpS and EVT datasets are substantially different, and LANDFIRE datasets are not made for assessing small areas.  Please review.  In the exercise we present all possible conversions, some of which may not be meaningful.  We have more confidence in mapped conversion from Northern Hardwoods to Developed-Roads than we would from a Northern Hardwoods to Northern Hardwoods-Hemlock, or even Pine-Hemlock-Hardwood.  Please be circumspect when reviewing results.  We will demonstrate lumping (Group tool in the Pivot Table) similar EVT types here, or you could add value by developing a "Classification of Change" that might include "Not meaningful", "Meaningful" and "Check in field" categories.  
@@ -101,7 +101,7 @@ Sometimes patterns emerge from visuals.  Below is a [Sankey Diagram](https://en.
 * It might be more illuminating to group some types together, such as the "Recently Logged" types.
 * LANDFIRE has mapped potential change of the wetlands to other types.  This could be due to mapping errors, or due to alterations in hydrology because of roads perhaps.  More investigation is warranted.
 
-[Download Sankey Diagram](https://github.com/rswaty/landfireFSC/blob/main/sankey.html)
+Click [here](https://rswaty.github.io/landfireFSC/sankey.html) to view diagram in your web browser. 
 
 ```{r sankey, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
 

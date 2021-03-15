@@ -65,9 +65,8 @@ ggplot() +
   coord_flip() +
   labs(x = "", 
        y = "Acres", 
-       title = "Current Ecosystems",
-       subtitle = "Names cleaned for clarity",
-       caption = "From LANDFIRE Existing Vegetation Type data",
+       title = "Current Ecosystems of the Michigamme Highlands",
+       caption = "From LANDFIRE Existing Vegetation Type data. Names shortened for clarity",
        colour = "black") +
   scale_y_continuous(labels = comma) +
 theme(plot.title = element_text(size = 15), axis.title = element_text(size = 13), panel.grid.major = element_blank(), panel.grid.minor = element_blank(),

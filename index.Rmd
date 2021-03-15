@@ -11,7 +11,9 @@ documentclass: book
 
 # This document...
 
-is a technical guide originally created for The Nature Conservancy's Global Science Gathering, working session titled "Billions (and billons) of pixels coupled with hundreds of ecosystem models: Making LANDFIRE products work for your landscape".  It was written in R using R-Studio, the "bookdown" package and is hosted on GitHub.
+is a technical guide originally created for The Nature Conservancy's Global Science Gathering, working session titled **"Billions (and billons) of pixels coupled with hundreds of ecosystem models: Making LANDFIRE products work for your landscape"** delivered by Kori Blankenship and Randy Swaty.  It was written in R using [R-Studio](https://rstudio.com/), the ["bookdown" package](https://www.bookdown.org/) and is hosted on [GitHub(links to this repository)](https://github.com/rswaty/landfireFSC).  
+
+You are a guinea pig, the subject of an experiment.  We hope you do not feel duped.  We'd sincerely appreciate your feedback on the session, any ideas or edits you have for this document and questions you may have about what we do.  Please e-mail use at [landfire@tnc.org](landfire@tnc.org).  
 
 The goals are to:
 

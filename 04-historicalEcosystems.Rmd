@@ -73,9 +73,8 @@ ggplot(bps, aes(x = reorder(BpS, ACRES), y = ACRES)) +
   coord_flip() +
   labs(x = "", 
        y = "Acres", 
-       title = "Historical Ecosystems",
-       subtitle = "Names cleaned for clarity",
-       caption = "From LANDFIRE Biophysical Settings data",
+       title = "Historical Ecosystems of the Michigamme Highlands landscape",
+       caption = "From LANDFIRE Biophysical Settings data. Names shortened for clarity.",
        colour = "black") +
   scale_y_continuous(labels = comma) +
 theme(plot.title = element_text(size = 15), axis.title = element_text(size = 13), panel.grid.major = element_blank(), panel.grid.minor = element_blank(),

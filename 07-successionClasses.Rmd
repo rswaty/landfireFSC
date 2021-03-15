@@ -30,7 +30,7 @@ We will start with our friend the Pivot Table to get current percentages of the 
 
 ###  Historical succession classes
 
-1. Go to http://landfirereview.org/test/search.php, search for "Laurentian-Acadian Northern Hardwoods Forest - Hemlock" and download the corresponding document.  It will be Model Number 13022, Map Zone(s) 41, 50, 51.  
+1. Open the "NorthernHardwoodsHemlock.docx" document that is in the "toDownload" zipped folder.  
 2. Skim through the document to get a sense of the ecosystem, paying particular attention to the "Succession Classes" section.
 3. There are be 5 succession classes, A, B, C, D and E with corresponding estimated reference amounts.  For example, Succession Class A was modeled to be rare in this ecosystem that did not have much fire.  LANDFIRE estimated that only 1% of this ecosystem would have been Succession Class a historically.
 4. Back in the pivot table, you will create a new column named "Historical", then type the succession class percentages from the document into the corresponding row.  

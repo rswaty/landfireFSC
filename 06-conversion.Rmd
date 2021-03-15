@@ -37,23 +37,6 @@ knitr::include_graphics("pivotPercentParent.png")
 
 <br>
 
-You'll see that ~34% of what was classified as "Boreal Acidic Peatland Systems" in the BpS dataset for our landscape is now classified as "Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen" in the Existing Vegetation Type dataset.  As noted above without a fair amount of knowledge of the landscape and review of the input datasets this sort of comparison should be viewed with skepticism.  Below we will do some grouping to make the comparison more broad, and probably accurate.
-
-1. We will start by reformatting the Pivot Table a bit.  
-    * Remove both "Sum of ACRES" columns by dragging them up to the PivotTable Fields pane.
-    * Remove the "BPS_NAME" column by unchecking it in the "Rows" field. 
-    * Click within the Pivot Table -> Design tab -> Subtotals -> Do not show subtotals.
-    * Design tab -> Grand Totals -> "Off for rows and columns.
-    * Design tab -> Report Layout -> "Show in tabular form" and "Repeat all line items"
-2. To assist in grouping, add in the "EVT_PHYS" column by checking it in the PivotTable Fields pane.  Insure it is listed on top of "EVT_NAME" in the Rows pane.  If not drag it to the top.
-3. In the "EVT_NAME" column, hold your Shift key while selecting all of the EVT_NAME types within the Agricultural EVT_PHYS column -> right click the highlighted types -> select "Group".  This will create a new field called "EVT_NAME2" and a grouped type auot-named "Group1".  You can rename this by clicking in any of the "Group 1" cells and typing something such as "Agriculture". 
-4. Take the same approach as in # 3 to group the EVTs that begin with or include the word "Developed" *except* you will be working in the "EVT_NAME2" field now.
-5. Now that we have done some grouping let's clean this table up and bring in the "BPS_NAME" column.  Drag "EVT_NAME" and "EVT_PHYS" from the Rows field to the PivotTable Fields pane, or uncheck them in the PivotTable Fields pane.   Add in the "BPS_NAME" field by checking it in the PivotTable Fields pane. Drag the "BPS_NAME" field to the top of the rows pane if it is not already there.
-6. Add the "Sum of ACRES" field, sort descending and change the value field settings to show "% of Parent Row Total". Remember how to do all of that?
-  
-
-Note-another approach would be to simply use the "EVT_PHYS" column.  Since we wanted to retain some EVTs we did not use this approach here. Further in the interest of time we did not do a complete Grouping.  
-
 
 Scroll through the table below to explore the resulting data.  The table has been exported from the Pivot Table and cleaned up a bit for viewing.  
 
@@ -90,6 +73,24 @@ Looking at the Laurentian-Acadian Northern Hardwoods Forest - Hemlock for our la
 * Cumulatively about 6% of this type is now roads and recently logged types.
 * The other EVTs mapped are not terribly "off-site" (e.g., something like "Plantation").  
 
+
+As noted above without a fair amount of knowledge of the landscape and review of the input datasets this sort of comparison should be viewed with skepticism.  Below we will do some grouping to make the comparison more broad, and probably accurate.
+
+## Grouping
+1. We will start by reformatting the Pivot Table a bit.  
+    * Remove both "Sum of ACRES" columns by dragging them up to the PivotTable Fields pane.
+    * Remove the "BPS_NAME" column by unchecking it in the "Rows" field. 
+    * Click within the Pivot Table -> Design tab -> Subtotals -> Do not show subtotals.
+    * Design tab -> Grand Totals -> "Off for rows and columns.
+    * Design tab -> Report Layout -> "Show in tabular form" and "Repeat all line items"
+2. To assist in grouping, add in the "EVT_PHYS" column by checking it in the PivotTable Fields pane.  Insure it is listed on top of "EVT_NAME" in the Rows pane.  If not drag it to the top.
+3. In the "EVT_NAME" column, hold your Shift key while selecting all of the EVT_NAME types within the Agricultural EVT_PHYS column -> right click the highlighted types -> select "Group".  This will create a new field called "EVT_NAME2" and a grouped type auot-named "Group1".  You can rename this by clicking in any of the "Group 1" cells and typing something such as "Agriculture". 
+4. Take the same approach as in # 3 to group the EVTs that begin with or include the word "Developed" *except* you will be working in the "EVT_NAME2" field now.
+5. Now that we have done some grouping let's clean this table up and bring in the "BPS_NAME" column.  Drag "EVT_NAME" and "EVT_PHYS" from the Rows field to the PivotTable Fields pane, or uncheck them in the PivotTable Fields pane.   Add in the "BPS_NAME" field by checking it in the PivotTable Fields pane. Drag the "BPS_NAME" field to the top of the rows pane if it is not already there.
+6. Add the "Sum of ACRES" field, sort descending and change the value field settings to show "% of Parent Row Total". Remember how to do all of that?
+  
+
+Note-another approach would be to simply use the "EVT_PHYS" column.  Since we wanted to retain some EVTs we did not use this approach here. Further in the interest of time we did not do a complete Grouping.  
 
 
 ## Visual exploration for fun. 

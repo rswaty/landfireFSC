@@ -27,6 +27,8 @@ To help you with the concepts we work through pre-processed LANDFIRE data for an
 ## Download this!
 To work through this guide you will need to download this [Excel workbook](https://github.com/rswaty/landfireFSC/blob/main/docs/combineClean.xlsx) by clicking the hyperlinked text, then the "Download" button that will be on the right side of the screen.
 
+[folder download test]()
+
 
 
 

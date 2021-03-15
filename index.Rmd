@@ -25,12 +25,11 @@ In the United States, including the insular areas, [LANDFIRE](https://www.landfi
 To help you with the concepts we work through pre-processed LANDFIRE data for an example landscape.  To prepare the datasets for your landscape see the Appendix.
 
 ## Download this!
-To work through this guide you will need to download this [Excel workbook](https://github.com/rswaty/landfireFSC/blob/main/docs/combineClean.xlsx) by clicking the hyperlinked text, then the "Download" button that will be on the right side of the screen.
+To work through this guide you will need to download this [zipped folder](https://github.com/rswaty/landfireFSC/blob/main/toDownload.zip) by clicking the hyperlinked text, then the "Download" button that will be on the right side of the screen.  This folder contains:
 
-[folder download test]()
-
-
-
+* An Excel file
+* One ecosystem description
+* An ArcMap map package file in case you want to explore in ArcMap.
 
 
 ```{r chunkname, echo=FALSE, out.width= "100%"}

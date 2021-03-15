@@ -101,6 +101,8 @@ Sometimes patterns emerge from visuals.  Below is a [Sankey Diagram](https://en.
 * It might be more illuminating to group some types together, such as the "Recently Logged" types.
 * LANDFIRE has mapped potential change of the wetlands to other types.  This could be due to mapping errors, or due to alterations in hydrology because of roads perhaps.  More investigation is warranted.
 
+[Download Sankey Diagram]()
+
 ```{r sankey, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
 
 library(networkD3)
@@ -130,6 +132,10 @@ snky2 <- sankeyNetwork(Links = data,
                        sinksRight=FALSE)
 
 snky2
+
+# save the widget
+library(htmlwidgets)
+saveWidget(snky2, "sankey.html")
 
 
 ```

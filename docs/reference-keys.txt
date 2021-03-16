@@ -15,7 +15,6 @@ getting-at-amounts-of-current-ecosystems
 conversion
 the-fine-print
 pivot-table-work
-grouping
 visual-exploration-for-fun.
 successionClasses
 what-we-will-do-here

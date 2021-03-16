@@ -26,6 +26,28 @@ In the United States, including the insular areas, [LANDFIRE](https://www.landfi
 
 To help you with the concepts we work through pre-processed LANDFIRE data for an example landscape.  To prepare the datasets for your landscape see the Appendix.
 
+
+**ZOOM, pan, explore the Michigamme Highlands area**
+```{r loadshp, message=FALSE, warning=FALSE, include=FALSE}
+library(raster)
+library(leaflet)
+library(sf)
+
+michi <- st_read("michishp.shp")
+michi <- st_transform(michi, CRS("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0"))
+
+```
+
+
+```{r leafletMichi, echo=FALSE, message=FALSE, warning=FALSE}
+
+leaflet(data = michi) %>% 
+  addTiles() %>% 
+  addPolygons(fill = FALSE, stroke = TRUE, color = "#193b22")
+
+```
+
+
 ## Download this!
 To work through this guide you will need to download this [zipped folder](https://github.com/rswaty/landfireFSC/blob/main/toDownload.zip) by clicking the hyperlinked text, then the "Download" button that will be on the right side of the screen.  This folder contains:
 
@@ -33,11 +55,6 @@ To work through this guide you will need to download this [zipped folder](https:
 * One ecosystem description
 * An ArcMap map package file in case you want to explore in ArcMap.
 
-
-```{r chunkname, echo=FALSE, out.width= "100%"}
-knitr::include_graphics("michi.JPG")
-
-```
 
 
 

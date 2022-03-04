@@ -1,6 +1,6 @@
 # Our example landscape {#exampleIntro}
 
-Hi Kieht
+
 
 **The Michigamme Highlands**
 
@@ -10,7 +10,9 @@ Logging and mining have been the major industrial forces in the area.  Both cont
 
 The area is of conservation interest due to the relatively high connectivity, large average land parcel size and projected climate change resiliency (see map below).
 
+**The Cumberland Plateau**
 
+Written by KP: Our example landscape is in the... (finish thought here about how cool Appalachian forests are and include some sources). 
 
 
 ```{r michiResilient, echo=FALSE, out.width= "100%"}

@@ -80,7 +80,7 @@ Methods:
 
 
 ```{r, echo=FALSE, out.width='100%'} 
-knitr::include_graphics("combine.JPG")
+knitr::include_graphics("images/combine.JPG")
 
 ```
 
@@ -95,7 +95,7 @@ knitr::include_graphics("combine.JPG")
 ```{r combineDT, echo=FALSE, message=FALSE, warning=FALSE}
 library(DT)
 library(readr)
-combine <- read_csv("combine.csv")
+combine <- read_csv("mhData/combineMH.csv")
 
 
 datatable(head(combine), class = 'cell-border stripe')
@@ -117,7 +117,7 @@ As is this table does not mean too much-we will need to do some cleaning, format
 ```{r combineCleanDT, echo=FALSE, message=FALSE, warning=FALSE}
 library(DT)
 library(readr)
-combineClean <- read_csv("combineClean.csv")
+combineClean <- read_csv("mhData/combineCleanMH.csv")
 
 
 datatable(head(combine), class = 'cell-border stripe')
@@ -143,7 +143,7 @@ Formatted table of BpSs:
 ```{r bpsDT, echo=FALSE, message=FALSE, warning=FALSE}
 library(DT)
 library(readr)
-bps <- read_csv("bps.csv")
+bps <- read_csv("mhData/bpsMH.csv")
 
 
 datatable(head(bps), class = 'cell-border stripe')

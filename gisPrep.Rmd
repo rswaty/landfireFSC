@@ -6,7 +6,7 @@ Once spatial data is properly projected and clipped to area of interest, perform
 
 
 ```{r, echo=FALSE, out.width='100%'} 
-knitr::include_graphics("combine.JPG")
+knitr::include_graphics("images/combine.JPG")
 
 ```
 
@@ -23,7 +23,7 @@ There are multiple ways-we recommend using the Join Field tool (Toolbox > data m
 ```{r combineDT, echo=FALSE, message=FALSE, warning=FALSE}
 library(DT)
 library(readr)
-combine <- read_csv("combine.csv")
+combine <- read_csv("mhData/combineMH.csv")
 
 
 datatable(head(combine), 
@@ -49,7 +49,7 @@ You will first need to save the combined ".csv" file file as an ".xlsx" file so 
 ```{r combineCleanDT, echo=FALSE, message=FALSE, warning=FALSE}
 library(DT)
 library(readr)
-combineClean <- read_csv("combineClean.csv")
+combineClean <- read_csv("mhData/combineCleanMH.csv")
 
 
 datatable(head(combine), 

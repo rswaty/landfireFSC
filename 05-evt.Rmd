@@ -36,7 +36,7 @@ Below is essentially the output from our Pivot Table work with a couple changes:
 ```{r evtDT, echo=FALSE, message=FALSE, warning=FALSE}
 library(DT)
 library(readr)
-evt <- read_csv("evt.csv")
+evt <- read_csv("mhData/evtMH.csv")
 
 
 datatable(head(evt), 

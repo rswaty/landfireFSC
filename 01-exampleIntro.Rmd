@@ -16,6 +16,6 @@ Written by KP: Our example landscape is in the... (finish thought here about how
 
 
 ```{r michiResilient, echo=FALSE, out.width= "100%"}
-knitr::include_graphics("michilResilience.JPG")
+knitr::include_graphics("images/michilResilience.jpg")
 
 ```

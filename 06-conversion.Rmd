@@ -33,7 +33,7 @@ library(dplyr)
 library(readr)
 library(dplyr)
 
-data <- read_csv("bps2evt.csv")
+data <- read_csv("mhData/bps2evtMH.csv")
 
 nodes <- data.frame(
   name=c(as.character(data$source), 

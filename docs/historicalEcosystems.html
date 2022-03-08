@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>4 Historical Ecosystems | Using LANDFIRE Products to explore historical and current ecosystems</title>
   <meta name="description" content="4 Historical Ecosystems | Using LANDFIRE Products to explore historical and current ecosystems" />
-  <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="4 Historical Ecosystems | Using LANDFIRE Products to explore historical and current ecosystems" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Draft by The Nature Conservancy’s LANDFIRE team" />
 
 
-<meta name="date" content="2021-03-16" />
+<meta name="date" content="2022-03-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,9 @@
   
 <link rel="prev" href="inputData.html"/>
 <link rel="next" href="evt.html"/>
-<script src="libs/jquery-3.5.1/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,11 +51,9 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
-<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
 <link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
 <script src="libs/leaflet-1.3.1/leaflet.js"></script>
 <link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
@@ -62,12 +62,12 @@
 <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
 <script src="libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="libs/datatables-binding-0.17.2/datatables.js"></script>
-<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
-<link href="libs/crosstalk-1.1.1.9000/css/crosstalk.css" rel="stylesheet" />
-<script src="libs/crosstalk-1.1.1.9000/js/crosstalk.min.js"></script>
+<script src="libs/datatables-binding-0.20/datatables.js"></script>
+<link href="libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
 <script src="libs/d3-4.5.0/d3.min.js"></script>
 <script src="libs/sankey-1/sankey.js"></script>
 <script src="libs/sankeyNetwork-binding-0.4/sankeyNetwork.js"></script>
@@ -91,40 +91,50 @@
 <li><a href="./">DRAFT</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> This document…</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#download-this"><i class="fa fa-check"></i><b>1.1</b> Download this!</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#about-this-document"><i class="fa fa-check"></i><b>1.2</b> About this document</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="exampleIntro.html"><a href="exampleIntro.html"><i class="fa fa-check"></i><b>2</b> Our example landscape</a></li>
-<li class="chapter" data-level="3" data-path="inputData.html"><a href="inputData.html"><i class="fa fa-check"></i><b>3</b> LANDFIRE Data for landscape assessment</a><ul>
-<li class="chapter" data-level="3.1" data-path="inputData.html"><a href="inputData.html#landfire-for-landscape-ecosystem-assessment"><i class="fa fa-check"></i><b>3.1</b> LANDFIRE for landscape ecosystem assessment</a></li>
+<li class="chapter" data-level="3" data-path="inputData.html"><a href="inputData.html"><i class="fa fa-check"></i><b>3</b> LANDFIRE Data for landscape assessment</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="inputData.html"><a href="inputData.html#landfire-for-landscape-ecosystem-assessment-test"><i class="fa fa-check"></i><b>3.1</b> LANDFIRE for landscape ecosystem assessment Test</a></li>
 <li class="chapter" data-level="3.2" data-path="inputData.html"><a href="inputData.html#the-landfire-datasets-we-used-for-this-guide"><i class="fa fa-check"></i><b>3.2</b> The LANDFIRE datasets we used for this guide</a></li>
 <li class="chapter" data-level="3.3" data-path="inputData.html"><a href="inputData.html#guidance-on-obtaining-landfire-products"><i class="fa fa-check"></i><b>3.3</b> Guidance on obtaining LANDFIRE products</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html"><i class="fa fa-check"></i><b>4</b> Historical Ecosystems</a><ul>
-<li class="chapter" data-level="4.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#general-methods"><i class="fa fa-check"></i><b>4.1</b> General methods</a><ul>
+<li class="chapter" data-level="4" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html"><i class="fa fa-check"></i><b>4</b> Historical Ecosystems</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#general-methods"><i class="fa fa-check"></i><b>4.1</b> General methods</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#a-few-potential-traps-with-pivot-tables"><i class="fa fa-check"></i><b>4.1.1</b> A few potential traps with Pivot Tables</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#getting-at-amounts-of-historical-ecosystems"><i class="fa fa-check"></i><b>4.2</b> Getting at amounts of historical ecosystems</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>5</b> Existing Vegetation Types</a><ul>
+<li class="chapter" data-level="5" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>5</b> Existing Vegetation Types</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="evt.html"><a href="evt.html#general-methods-1"><i class="fa fa-check"></i><b>5.1</b> General methods</a></li>
 <li class="chapter" data-level="5.2" data-path="evt.html"><a href="evt.html#getting-at-amounts-of-current-ecosystems"><i class="fa fa-check"></i><b>5.2</b> Getting at amounts of current ecosystems</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="conversion.html"><a href="conversion.html"><i class="fa fa-check"></i><b>6</b> Exploring conversion</a><ul>
+<li class="chapter" data-level="6" data-path="conversion.html"><a href="conversion.html"><i class="fa fa-check"></i><b>6</b> Exploring conversion</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="conversion.html"><a href="conversion.html#the-fine-print"><i class="fa fa-check"></i><b>6.1</b> The fine print</a></li>
 <li class="chapter" data-level="6.2" data-path="conversion.html"><a href="conversion.html#pivot-table-work"><i class="fa fa-check"></i><b>6.2</b> Pivot table work</a></li>
 <li class="chapter" data-level="6.3" data-path="conversion.html"><a href="conversion.html#visual-exploration-for-fun."><i class="fa fa-check"></i><b>6.3</b> Visual exploration for fun.</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="successionClasses.html"><a href="successionClasses.html"><i class="fa fa-check"></i><b>7</b> Succession Classes</a><ul>
+<li class="chapter" data-level="7" data-path="successionClasses.html"><a href="successionClasses.html"><i class="fa fa-check"></i><b>7</b> Succession Classes</a>
+<ul>
 <li class="chapter" data-level="7.1" data-path="successionClasses.html"><a href="successionClasses.html#what-we-will-do-here"><i class="fa fa-check"></i><b>7.1</b> What we will do here</a></li>
 <li class="chapter" data-level="7.2" data-path="successionClasses.html"><a href="successionClasses.html#what-are-succession-classes"><i class="fa fa-check"></i><b>7.2</b> What are “Succession Classes?”</a></li>
 <li class="chapter" data-level="7.3" data-path="successionClasses.html"><a href="successionClasses.html#our-sample-ecosystem"><i class="fa fa-check"></i><b>7.3</b> Our sample ecosystem</a></li>
-<li class="chapter" data-level="7.4" data-path="successionClasses.html"><a href="successionClasses.html#your-tasks"><i class="fa fa-check"></i><b>7.4</b> Your tasks</a><ul>
+<li class="chapter" data-level="7.4" data-path="successionClasses.html"><a href="successionClasses.html#your-tasks"><i class="fa fa-check"></i><b>7.4</b> Your tasks</a>
+<ul>
 <li class="chapter" data-level="7.4.1" data-path="successionClasses.html"><a href="successionClasses.html#current-succession-classes"><i class="fa fa-check"></i><b>7.4.1</b> Current succession classes</a></li>
 <li class="chapter" data-level="7.4.2" data-path="successionClasses.html"><a href="successionClasses.html#historical-succession-classes"><i class="fa fa-check"></i><b>7.4.2</b> Historical succession classes</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="gisPrep.html"><a href="gisPrep.html"><i class="fa fa-check"></i><b>8</b> APPENDIX</a><ul>
+<li class="chapter" data-level="8" data-path="gisPrep.html"><a href="gisPrep.html"><i class="fa fa-check"></i><b>8</b> APPENDIX</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="gisPrep.html"><a href="gisPrep.html#gis-prep-combine-data"><i class="fa fa-check"></i><b>8.1</b> GIS Prep: Combine data</a></li>
 <li class="chapter" data-level="8.2" data-path="gisPrep.html"><a href="gisPrep.html#gis-prep-join-in-attributes"><i class="fa fa-check"></i><b>8.2</b> GIS Prep: Join in attributes</a></li>
 <li class="chapter" data-level="8.3" data-path="gisPrep.html"><a href="gisPrep.html#gis-prepclean-data-table"><i class="fa fa-check"></i><b>8.3</b> GIS Prep:Clean data table</a></li>
@@ -149,10 +159,10 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="historicalEcosystems" class="section level1">
+<div id="historicalEcosystems" class="section level1" number="4">
 <h1><span class="header-section-number">4</span> Historical Ecosystems</h1>
 <p>In this chapter we will learn which ecosystems, and how much of each were on our landscape historically.</p>
-<div id="general-methods" class="section level2">
+<div id="general-methods" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> General methods</h2>
 <p>In this section (and most others) we will depend on “Pivot Tables” in Excel. They are powerful (for better or worse!) tools that allow for tasks such as:</p>
 <ul>
@@ -162,7 +172,7 @@
 <li>nesting data</li>
 </ul>
 <p>With the power comes the call for caution. It is super easy to display values that look illuminating-but may be wrong. You can easily be duped into complacency, especially when working in the “value field settings.”</p>
-<div id="a-few-potential-traps-with-pivot-tables" class="section level3">
+<div id="a-few-potential-traps-with-pivot-tables" class="section level3" number="4.1.1">
 <h3><span class="header-section-number">4.1.1</span> A few potential traps with Pivot Tables</h3>
 <p>Pivot Tables allow you to calculate, summarize, format and analyze datasets. There are a few traps we run into frequently that are worth mentioning here:</p>
 <ul>
@@ -172,7 +182,7 @@
 </ul>
 </div>
 </div>
-<div id="getting-at-amounts-of-historical-ecosystems" class="section level2">
+<div id="getting-at-amounts-of-historical-ecosystems" class="section level2" number="4.2">
 <h2><span class="header-section-number">4.2</span> Getting at amounts of historical ecosystems</h2>
 <p><strong>Start by opening the “historical” tab in the Excel workbook.</strong></p>
 <ol style="list-style-type: decimal">
@@ -184,7 +194,7 @@
 <li>To remove BpSs from the table you will click the drop-down menu to the right of “BPS_NAME” in the Pivot Table Fields pane. You can uncheck BpSs as appropriate.</li>
 <li>It is also possible to filter by right clicking on the top value in the list of BpSs, then selecting Filter &gt; Top 10…. Once in that menu you can refine the filtering.</li>
 </ul></li>
-<li>To get percentages, drag “ACRES” from the top Pivot Table Field pane to the “Values” pane. This will add a second “ACRES” column to the table. Click the drop down in the second instance of “ACRES” (reads “SUM of ACRES2” in our example), then Value Field Settings. In this menu select the “Show Values As” tab, click the “Show Values As” drop down then select “% of Grand Total% to get percentages of each BpS (make sure that”BPS_NAME" is selected as the “Base field”).<br />
+<li>To get percentages, drag “ACRES” from the top Pivot Table Field pane to the “Values” pane. This will add a second “ACRES” column to the table. Click the drop down in the second instance of “ACRES” (reads “SUM of ACRES2” in our example), then Value Field Settings. In this menu select the “Show Values As” tab, click the “Show Values As” drop down then select “% of Grand Total% to get percentages of each BpS (make sure that”BPS_NAME” is selected as the “Base field”).<br />
 </li>
 <li>To get a “running total” of percentages you will add a third instance of “ACRES” to the “Values” pane, then Value Field Settings. In this menu select the “Show Values As” tab, click the “Show Values As” drop down then select “% Running Total In” to get running totals of percentages of each BpS (make sure that “BPS_NAME” is selected as the “Base field”).</li>
 <li>Save!</li>
@@ -195,8 +205,8 @@
 <li>Names have been shortened for ease of reading</li>
 <li>Numbers have been rounded</li>
 </ul>
-<div id="htmlwidget-0c238dab3c067c6cb68f" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-0c238dab3c067c6cb68f">{"x":{"filter":"none","data":[["1","2","3","4","5","6"],["Northern Hardwoods Forest - Hemlock","Acidic Peatland Systems","Pine-Hemlock-Hardwood Forest","Alkaline Conifer-Hardwood Swamp","White Spruce-Fir-Hardwood Forest - Inland","White Spruce-Fir-Hardwood Forest - Coastal"],[361509.018,85712.424,82992.702,56369.796,51340.608,41897.838],[50.09601316,11.87757568,11.50069095,7.811429043,7.114510693,5.805981426],[50.09601316,61.97358884,73.47427979,81.28570884,88.40021953,94.20620096]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>BpS<\/th>\n      <th>ACRES<\/th>\n      <th>PERCENT<\/th>\n      <th>RUNNING_PERCENT<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"pageLength":3,"columnDefs":[{"targets":2,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\");\n  }"},{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\");\n  }"},{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\");\n  }"},{"className":"dt-right","targets":[2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[3,10,25,50,100]}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render","options.columnDefs.2.render"],"jsHooks":[]}</script>
+<div id="htmlwidget-71aa7cb9afb14077d4d7" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-71aa7cb9afb14077d4d7">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Northern Hardwoods Forest - Hemlock","Acidic Peatland Systems","Pine-Hemlock-Hardwood Forest","Alkaline Conifer-Hardwood Swamp","White Spruce-Fir-Hardwood Forest - Inland","White Spruce-Fir-Hardwood Forest - Coastal"],[361509.018,85712.424,82992.702,56369.796,51340.608,41897.838],[50.09601316,11.87757568,11.50069095,7.811429043,7.114510693,5.805981426],[50.09601316,61.97358884,73.47427979,81.28570884,88.40021953,94.20620096]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>BpS<\/th>\n      <th>ACRES<\/th>\n      <th>PERCENT<\/th>\n      <th>RUNNING_PERCENT<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"pageLength":3,"columnDefs":[{"targets":2,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\");\n  }"},{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\");\n  }"},{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\");\n  }"},{"className":"dt-right","targets":[2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[3,10,25,50,100]}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render","options.columnDefs.2.render"],"jsHooks":[]}</script>
 <p><br>
 <br></p>
 <p>We see that the top 4 BpSs comprised ~80% of our example landscape historically. We can visually confirm this and other patterns with a quick chart made in R (similar charts available in Excel by highlighting the data, clicking Insert then selecting the chart type in the “Charts” tab):</p>
@@ -215,7 +225,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -234,6 +243,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -254,6 +264,10 @@ gitbook.start({
 "text": null
 },
 "download": ["FSCBook.pdf", "FSCBook.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

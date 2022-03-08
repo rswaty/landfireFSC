@@ -38,7 +38,7 @@ library(raster)
 library(leaflet)
 library(sf)
 
-michi <- st_read("michishp.shp")
+michi <- st_read("mhData/michishp.shp")
 michi <- st_transform(michi, CRS("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0"))
 
 ```

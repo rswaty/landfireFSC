@@ -47,7 +47,7 @@ Below is essentially the output from our Pivot Table work with a couple changes:
 ```{r bpsDT, echo=FALSE, message=FALSE, warning=FALSE}
 library(DT)
 library(readr)
-bps <- read_csv("bps.csv")
+bps <- read_csv("mhData/bpsMH.csv")
 
 
 datatable(head(bps), 

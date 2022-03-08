@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>8 APPENDIX | Using LANDFIRE Products to explore historical and current ecosystems</title>
   <meta name="description" content="8 APPENDIX | Using LANDFIRE Products to explore historical and current ecosystems" />
-  <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="8 APPENDIX | Using LANDFIRE Products to explore historical and current ecosystems" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Draft by The Nature Conservancy’s LANDFIRE team" />
 
 
-<meta name="date" content="2021-03-16" />
+<meta name="date" content="2022-03-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,9 @@
   
 <link rel="prev" href="successionClasses.html"/>
 
-<script src="libs/jquery-3.5.1/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,11 +51,9 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
-<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
 <link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
 <script src="libs/leaflet-1.3.1/leaflet.js"></script>
 <link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
@@ -62,12 +62,12 @@
 <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
 <script src="libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="libs/datatables-binding-0.17.2/datatables.js"></script>
-<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
-<link href="libs/crosstalk-1.1.1.9000/css/crosstalk.css" rel="stylesheet" />
-<script src="libs/crosstalk-1.1.1.9000/js/crosstalk.min.js"></script>
+<script src="libs/datatables-binding-0.20/datatables.js"></script>
+<link href="libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
 <script src="libs/d3-4.5.0/d3.min.js"></script>
 <script src="libs/sankey-1/sankey.js"></script>
 <script src="libs/sankeyNetwork-binding-0.4/sankeyNetwork.js"></script>
@@ -91,40 +91,50 @@
 <li><a href="./">DRAFT</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> This document…</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#download-this"><i class="fa fa-check"></i><b>1.1</b> Download this!</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#about-this-document"><i class="fa fa-check"></i><b>1.2</b> About this document</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="exampleIntro.html"><a href="exampleIntro.html"><i class="fa fa-check"></i><b>2</b> Our example landscape</a></li>
-<li class="chapter" data-level="3" data-path="inputData.html"><a href="inputData.html"><i class="fa fa-check"></i><b>3</b> LANDFIRE Data for landscape assessment</a><ul>
-<li class="chapter" data-level="3.1" data-path="inputData.html"><a href="inputData.html#landfire-for-landscape-ecosystem-assessment"><i class="fa fa-check"></i><b>3.1</b> LANDFIRE for landscape ecosystem assessment</a></li>
+<li class="chapter" data-level="3" data-path="inputData.html"><a href="inputData.html"><i class="fa fa-check"></i><b>3</b> LANDFIRE Data for landscape assessment</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="inputData.html"><a href="inputData.html#landfire-for-landscape-ecosystem-assessment-test"><i class="fa fa-check"></i><b>3.1</b> LANDFIRE for landscape ecosystem assessment Test</a></li>
 <li class="chapter" data-level="3.2" data-path="inputData.html"><a href="inputData.html#the-landfire-datasets-we-used-for-this-guide"><i class="fa fa-check"></i><b>3.2</b> The LANDFIRE datasets we used for this guide</a></li>
 <li class="chapter" data-level="3.3" data-path="inputData.html"><a href="inputData.html#guidance-on-obtaining-landfire-products"><i class="fa fa-check"></i><b>3.3</b> Guidance on obtaining LANDFIRE products</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html"><i class="fa fa-check"></i><b>4</b> Historical Ecosystems</a><ul>
-<li class="chapter" data-level="4.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#general-methods"><i class="fa fa-check"></i><b>4.1</b> General methods</a><ul>
+<li class="chapter" data-level="4" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html"><i class="fa fa-check"></i><b>4</b> Historical Ecosystems</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#general-methods"><i class="fa fa-check"></i><b>4.1</b> General methods</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#a-few-potential-traps-with-pivot-tables"><i class="fa fa-check"></i><b>4.1.1</b> A few potential traps with Pivot Tables</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#getting-at-amounts-of-historical-ecosystems"><i class="fa fa-check"></i><b>4.2</b> Getting at amounts of historical ecosystems</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>5</b> Existing Vegetation Types</a><ul>
+<li class="chapter" data-level="5" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>5</b> Existing Vegetation Types</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="evt.html"><a href="evt.html#general-methods-1"><i class="fa fa-check"></i><b>5.1</b> General methods</a></li>
 <li class="chapter" data-level="5.2" data-path="evt.html"><a href="evt.html#getting-at-amounts-of-current-ecosystems"><i class="fa fa-check"></i><b>5.2</b> Getting at amounts of current ecosystems</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="conversion.html"><a href="conversion.html"><i class="fa fa-check"></i><b>6</b> Exploring conversion</a><ul>
+<li class="chapter" data-level="6" data-path="conversion.html"><a href="conversion.html"><i class="fa fa-check"></i><b>6</b> Exploring conversion</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="conversion.html"><a href="conversion.html#the-fine-print"><i class="fa fa-check"></i><b>6.1</b> The fine print</a></li>
 <li class="chapter" data-level="6.2" data-path="conversion.html"><a href="conversion.html#pivot-table-work"><i class="fa fa-check"></i><b>6.2</b> Pivot table work</a></li>
 <li class="chapter" data-level="6.3" data-path="conversion.html"><a href="conversion.html#visual-exploration-for-fun."><i class="fa fa-check"></i><b>6.3</b> Visual exploration for fun.</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="successionClasses.html"><a href="successionClasses.html"><i class="fa fa-check"></i><b>7</b> Succession Classes</a><ul>
+<li class="chapter" data-level="7" data-path="successionClasses.html"><a href="successionClasses.html"><i class="fa fa-check"></i><b>7</b> Succession Classes</a>
+<ul>
 <li class="chapter" data-level="7.1" data-path="successionClasses.html"><a href="successionClasses.html#what-we-will-do-here"><i class="fa fa-check"></i><b>7.1</b> What we will do here</a></li>
 <li class="chapter" data-level="7.2" data-path="successionClasses.html"><a href="successionClasses.html#what-are-succession-classes"><i class="fa fa-check"></i><b>7.2</b> What are “Succession Classes?”</a></li>
 <li class="chapter" data-level="7.3" data-path="successionClasses.html"><a href="successionClasses.html#our-sample-ecosystem"><i class="fa fa-check"></i><b>7.3</b> Our sample ecosystem</a></li>
-<li class="chapter" data-level="7.4" data-path="successionClasses.html"><a href="successionClasses.html#your-tasks"><i class="fa fa-check"></i><b>7.4</b> Your tasks</a><ul>
+<li class="chapter" data-level="7.4" data-path="successionClasses.html"><a href="successionClasses.html#your-tasks"><i class="fa fa-check"></i><b>7.4</b> Your tasks</a>
+<ul>
 <li class="chapter" data-level="7.4.1" data-path="successionClasses.html"><a href="successionClasses.html#current-succession-classes"><i class="fa fa-check"></i><b>7.4.1</b> Current succession classes</a></li>
 <li class="chapter" data-level="7.4.2" data-path="successionClasses.html"><a href="successionClasses.html#historical-succession-classes"><i class="fa fa-check"></i><b>7.4.2</b> Historical succession classes</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="gisPrep.html"><a href="gisPrep.html"><i class="fa fa-check"></i><b>8</b> APPENDIX</a><ul>
+<li class="chapter" data-level="8" data-path="gisPrep.html"><a href="gisPrep.html"><i class="fa fa-check"></i><b>8</b> APPENDIX</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="gisPrep.html"><a href="gisPrep.html#gis-prep-combine-data"><i class="fa fa-check"></i><b>8.1</b> GIS Prep: Combine data</a></li>
 <li class="chapter" data-level="8.2" data-path="gisPrep.html"><a href="gisPrep.html#gis-prep-join-in-attributes"><i class="fa fa-check"></i><b>8.2</b> GIS Prep: Join in attributes</a></li>
 <li class="chapter" data-level="8.3" data-path="gisPrep.html"><a href="gisPrep.html#gis-prepclean-data-table"><i class="fa fa-check"></i><b>8.3</b> GIS Prep:Clean data table</a></li>
@@ -149,27 +159,27 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="gisPrep" class="section level1">
+<div id="gisPrep" class="section level1" number="8">
 <h1><span class="header-section-number">8</span> APPENDIX</h1>
-<div id="gis-prep-combine-data" class="section level2">
+<div id="gis-prep-combine-data" class="section level2" number="8.1">
 <h2><span class="header-section-number">8.1</span> GIS Prep: Combine data</h2>
 <p>Once spatial data is properly projected and clipped to area of interest, perform a “combine” in ArcMap (Toolbox &gt; Spatial Analyst &gt; Local &gt; Combine) of the BpS, SCL and EVT datasets. Alternatively, you can combine a raster of the area of interest with those 3 datasets which are stored as larger extents (like shown below).</p>
-<p><img src="combine.JPG" width="100%" /></p>
+<p><img src="images/combine.JPG" width="100%" /></p>
 <p><br>
 <br></p>
 </div>
-<div id="gis-prep-join-in-attributes" class="section level2">
+<div id="gis-prep-join-in-attributes" class="section level2" number="8.2">
 <h2><span class="header-section-number">8.2</span> GIS Prep: Join in attributes</h2>
 <p>There are multiple ways-we recommend using the Join Field tool (Toolbox &gt; data management tools &gt; joins &gt; add join). One reason to do this is to be able to select which fields to join in. A potential resulting table looks like this for a landscape in Michigan (with minimal cleaning/formatting):</p>
 <p><br>
 <br></p>
-<div id="htmlwidget-2c1506879c4c2e6fd4b3" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2c1506879c4c2e6fd4b3">{"x":{"filter":"none","data":[["1","2","3","4","5","6"],[1,2,3,4,5,6],[155604,4217,6051,2285,2971,5351],["Open Water","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock"],["na","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51"],["Open Water","Hardwood","Hardwood","Hardwood","Hardwood","Hardwood"],["Open Water","Northern &amp; Central Ruderal Meadow","Laurentian Jack Pine-Red Pine Forest","Laurentian Jack Pine-Red Pine Forest","Laurentian-Acadian Pine-Hemlock Forest","Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest"],["Open Water","Exotic Herbaceous","Conifer","Conifer","Conifer","Conifer"],["Water","UE","UN","E","UN","UN"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>VALUE<\/th>\n      <th>COUNT<\/th>\n      <th>BPS_NAME<\/th>\n      <th>BPS_MODEL<\/th>\n      <th>GROUPVEG<\/th>\n      <th>EVT_NAME<\/th>\n      <th>EVT_PHYS<\/th>\n      <th>LABEL<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"pageLength":3,"columnDefs":[{"className":"dt-right","targets":[1,2]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[3,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-9b775172acbc6fe26c2a" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-9b775172acbc6fe26c2a">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],[1,2,3,4,5,6],[155604,4217,6051,2285,2971,5351],["Open Water","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock"],["na","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51"],["Open Water","Hardwood","Hardwood","Hardwood","Hardwood","Hardwood"],["Open Water","Northern &amp; Central Ruderal Meadow","Laurentian Jack Pine-Red Pine Forest","Laurentian Jack Pine-Red Pine Forest","Laurentian-Acadian Pine-Hemlock Forest","Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest"],["Open Water","Exotic Herbaceous","Conifer","Conifer","Conifer","Conifer"],["Water","UE","UN","E","UN","UN"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>VALUE<\/th>\n      <th>COUNT<\/th>\n      <th>BPS_NAME<\/th>\n      <th>BPS_MODEL<\/th>\n      <th>GROUPVEG<\/th>\n      <th>EVT_NAME<\/th>\n      <th>EVT_PHYS<\/th>\n      <th>LABEL<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"pageLength":3,"columnDefs":[{"className":"dt-right","targets":[1,2]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[3,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 <p><br>
 <br></p>
 <p>As is this table does not mean too much-we will need to do some cleaning, formatting and calculating.</p>
 </div>
-<div id="gis-prepclean-data-table" class="section level2">
+<div id="gis-prepclean-data-table" class="section level2" number="8.3">
 <h2><span class="header-section-number">8.3</span> GIS Prep:Clean data table</h2>
 <p>You will first need to save the combined “.csv” file file as an “.xlsx” file so that you can have multiple worksheets. We recommend keeping the original output as a “raw” spreadsheet in Excel, pasting that data into a new sheet and working with that new sheet moving forward.
 * It is OK to remove the “US_200BPS”, “US_200EVT”, and “US_200SCLASS” columns
@@ -177,8 +187,8 @@
 * COUNT = number of 30m x 30m pixels for that combination of BpS-EVT-SCLS. Insert a column named “ACRES”, then calculate acres by multiplying COUNT by “0.222”. Copy-Paste Values for that new column. Below is an example of what our new data table looks like.</p>
 <p><br>
 <br></p>
-<div id="htmlwidget-36435859516686866ef0" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-36435859516686866ef0">{"x":{"filter":"none","data":[["1","2","3","4","5","6"],[1,2,3,4,5,6],[155604,4217,6051,2285,2971,5351],["Open Water","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock"],["na","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51"],["Open Water","Hardwood","Hardwood","Hardwood","Hardwood","Hardwood"],["Open Water","Northern &amp; Central Ruderal Meadow","Laurentian Jack Pine-Red Pine Forest","Laurentian Jack Pine-Red Pine Forest","Laurentian-Acadian Pine-Hemlock Forest","Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest"],["Open Water","Exotic Herbaceous","Conifer","Conifer","Conifer","Conifer"],["Water","UE","UN","E","UN","UN"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>VALUE<\/th>\n      <th>COUNT<\/th>\n      <th>BPS_NAME<\/th>\n      <th>BPS_MODEL<\/th>\n      <th>GROUPVEG<\/th>\n      <th>EVT_NAME<\/th>\n      <th>EVT_PHYS<\/th>\n      <th>LABEL<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"pageLength":3,"columnDefs":[{"className":"dt-right","targets":[1,2]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[3,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-e7e98b6666a06e15cea4" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e7e98b6666a06e15cea4">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],[1,2,3,4,5,6],[155604,4217,6051,2285,2971,5351],["Open Water","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock","Laurentian-Acadian Northern Hardwoods Forest - Hemlock"],["na","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51","13022_41_50_51"],["Open Water","Hardwood","Hardwood","Hardwood","Hardwood","Hardwood"],["Open Water","Northern &amp; Central Ruderal Meadow","Laurentian Jack Pine-Red Pine Forest","Laurentian Jack Pine-Red Pine Forest","Laurentian-Acadian Pine-Hemlock Forest","Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest"],["Open Water","Exotic Herbaceous","Conifer","Conifer","Conifer","Conifer"],["Water","UE","UN","E","UN","UN"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>VALUE<\/th>\n      <th>COUNT<\/th>\n      <th>BPS_NAME<\/th>\n      <th>BPS_MODEL<\/th>\n      <th>GROUPVEG<\/th>\n      <th>EVT_NAME<\/th>\n      <th>EVT_PHYS<\/th>\n      <th>LABEL<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"pageLength":3,"columnDefs":[{"className":"dt-right","targets":[1,2]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[3,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 <p><br>
 <br></p>
 
@@ -194,7 +204,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -213,6 +222,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -233,6 +243,10 @@ gitbook.start({
 "text": null
 },
 "download": ["FSCBook.pdf", "FSCBook.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

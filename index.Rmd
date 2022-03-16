@@ -1,6 +1,6 @@
 --- 
 title: "Using LANDFIRE Products to explore historical and current ecosystems"
-author: "Draft by The Nature Conservancy's LANDFIRE team"
+author: "Draft by Randy Swaty, Keith Phelps and Stacey Marion"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book

@@ -2,7 +2,7 @@
 
 ## GIS Prep: Combine data
 
-Once spatial data is properly projected and clipped to area of interest, perform a "combine" in ArcMap (Toolbox > Spatial Analyst > Local > Combine) of the BpS, SCL and EVT datasets.  Alternatively, you can combine a raster of the area of interest with those 3 datasets which are stored as larger extents (like shown below).
+Once spatial data is properly projected and clipped to area of interest, perform a "combine" in ArcMap (Toolbox > Spatial Analyst > Local > Combine) of the BpS, SCL and EVT datasets. Alternatively, you can combine a raster of the area of interest with those 3 datasets which are stored as larger extents (like shown below).
 
 
 ```{r, echo=FALSE, out.width='100%'} 

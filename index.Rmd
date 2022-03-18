@@ -10,13 +10,13 @@ documentclass: book
 ---
 
 # Introduction
-The [Forest Stewardship Council](https://fsc.org/en) develops and delivers Principles, Criteria and Indicators for sustainable forest management (need link to correct standard).   Principles 6 and 9  are focused on Environmental Impact and Maintenance of High Conservation Value Areas respectfully.  Many of the criteria and indicators within those principles require a GIS assessment of historical and current vegetation conditions, disturbance regimes and landscape patterns
+The [Forest Stewardship Council](https://fsc.org/en) develops and delivers Principles, Criteria and Indicators for sustainable forest management (https://fsc.org/en/document-centre/documents/resource/392). Principles 6 and 9  are focused on Environmental Impact and Maintenance of High Conservation Value Areas respectfully.  Many of the criteria and indicators within Principles 6 and 9 require a GIS assessment of historical and current vegetation conditions, disturbance regimes, and landscape patterns.
 
 [LANDFIRE](https://landfire.gov/) is an interagency program within the United States that "provides 20+ national geo-spatial layers (e.g. vegetation, fuel, disturbance, etc.), databases, and ecological models that are available to the public for the US and insular areas."  With this data it is possible to fulfill the requirements of several indicators within Principles 6 and 9.  Here we provide guidance for:
 
 * downloading relevant LANDFIRE datasets and models
 * completing the GIS processing of LANDFIRE data
-* developing visuals (e.g., maps and charts) to help illustrate findings
+* developing visuals (e.g., maps and charts) to help illustrate findings in support of Principles 6 and 9
 
 
 In general the analyses developed here will help managers:

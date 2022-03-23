@@ -1,8 +1,3 @@
----
-title: "Our Methods and Disclaimers for the LANDFIRE FSC GIS Analysis"
-output: html_document
----
-
 # GIS Analysis Requirements, Methods, and Disclaimers... oh my!  {#ourmethods}
 
 ## GIS Analysis Requirements 
@@ -28,6 +23,7 @@ In this document, each section will include steps to complete a different compon
 There are always many different ways to complete a GIS analysis and because of this, we'd like to share a few disclaimers. First, this tutorial is specific to the Ataya Study Area and outlines steps exactly performed to this Study Area. If you are using a different Study Area, you will have to locate the relevant Biophysical Settings (BpS) descriptions for your Study Area through the LANDFIRE website. Second, this GIS analysis utilizes ArcPro only. Unfortunately for managers who are running open source GIS software (i.e. GRASS GIS, QGIS) this tutorial is not designed for these GIS platforms.
 
 If you are having trouble with this tutorial, here are some people that can assist you!
+
 * Problems with LANDFIRE data? helpdesk@landfire.gov
 * Problems with the rMarkdown document? Randy Swaty: rswaty@tnc.org
 * Problems with the GIS analysis? Keith Phelps: kpphelp@clemson.edu or Stacey Marion: stacmarion@gmail.com

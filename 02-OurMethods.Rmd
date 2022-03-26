@@ -1,34 +1,39 @@
-# GIS Analysis Requirements, Methods, and Disclaimers... oh my!  {#ourmethods}
+# Our Method  {#ourmethods}
 
 ## GIS Analysis Requirements 
 
-To complete this GIS tutorial, you will need a 2.9 version of ESRI ArcPro. In ArcPro, you must also ensure your Spatial Analyst Extension is enabled. If you are unsure if this is enabled, you can check by going to ArcPro Settings, Licensing, and ESRI Extensions. Once in the ESRI Extensions box, scroll down to Spatial Analyst. You will see if the license is active or "greyed out" (indicating you need to activate the Spatial Analyst License). 
+This tutorial uses ESRI ArcGIS Pro (2.9). If using ArcGIS Pro, ensure your Spatial Analyst Extension is enabled. If you are unsure if this is enabled, you can check by going to Settings, Licensing, and ESRI Extensions. Once in the ESRI Extensions box, scroll down to Spatial Analyst. You will see if the license is active or "grayed out" (indicating you need to activate the Spatial Analyst License). 
 
-Additionally, you will need Microsoft Excel 2022 and a reliable internet connection to download the LANDFIRE datasets pertinent to this analysis. 
+Additionally, you will need Microsoft Excel (2022) and a reliable internet connection to download the LANDFIRE datasets pertinent to this analysis. 
 
-Lastly, before you begin this analysis please create a new ArcPro project with a project specific geodatabase (named to your choosing!) All of our newly created GIS data will be saved to this geodatabse. If you are using the Ataya Study Area to perform your analysis, please save that Study Area shapefile to your geodatabse. You'll be able to aquire an Ataya shapefile at the end of this section. Alternatively, if you are using your own Study Area shapefile, save it to your project specific geodatabase as you follow along with this tutorial! 
+Lastly, prior to beginning this analysis, we recommend that you create a new ArcGIS Pro project with a project specific geodatabase (named to your choosing!). If you are following the Ataya Study Area tutorial, please save that Study Area shapefile to your geodatabase. You'll be able to acquire an Ataya shapefile at the end of this section. Alternatively, if you are using your own Study Area shapefile, save it to your project specific geodatabase as you follow along with this tutorial.
+
 
 ## Methods 
 
-In this document, each section will include steps to complete a different component of the GIS analysis. The components of the GIS analysis are:
+Each subsequent chapter outlines steps to complete a different component of the GIS analysis. The general components of the analysis are:
 
-* Downloading and preparing the nesecarry LANDFIRE datasets for a Study Area
+* Downloading and preparing the necessary LANDFIRE datasets for a Study Area
 * Spatially combining these LANDFIRE datasets into one (1) new Study Area LANDFIRE dataset
 * Performing "Join Fields" to update the new Study Area Landfire dataset
 * Assessing acreage of the Study Area LANDFIRE dataset and "masking" it to the Study Area boundary
-* Performing summary Excel steps to observe acreage of: historic ecosystems, current vegetation types, ecosystem conversion, and succesion classes within the Study Area. 
+* Performing data summariessummary Excel steps to observe acreage of: historic ecosystems, current vegetation types, ecosystem conversion, and succession classes within the Study Area.
 
 ## Disclaimers 
 
-There are always many different ways to complete a GIS analysis and because of this, we'd like to share a few disclaimers. First, this tutorial is specific to the Ataya Study Area and outlines steps exactly performed to this Study Area. If you are using a different Study Area, you will have to locate the relevant Biophysical Settings (BpS) descriptions for your Study Area through the LANDFIRE website. Second, this GIS analysis utilizes ArcPro only. Unfortunately for managers who are running open source GIS software (i.e. GRASS GIS, QGIS) this tutorial is not designed for these GIS platforms.
+There are always many different ways to complete a GIS analysis and because of this, we'd like to share a few disclaimers. 
+
+First, this tutorial is specific to the Ataya Study Area and outlines steps exactly performed to this Study Area. If you are using a different Study Area, you will have to locate the relevant Biophysical Settings (BpS) descriptions for your Study Area through the LANDFIRE website. 
+
+Second, this tutorial GIS analysis was performed using ArcGIS Pro only. Unfortunately for managers who are running using older versions of ArcMap or open source GIS or data processing software (i.e. GRASS GIS, QGIS) this tutorial is not designed for these GIS platforms. These platforms can likely recreate the outcomes of this tutorial, however specific geoprocessing tools may look or act differently. If using software other than ArcGIS Pro, make sure to understand the underlying process behind each tool. 
 
 If you are having trouble with this tutorial, here are some people that can assist you!
-
 * Problems with LANDFIRE data? helpdesk@landfire.gov
 * Problems with the rMarkdown document? Randy Swaty: rswaty@tnc.org
 * Problems with the GIS analysis? Keith Phelps: kpphelp@clemson.edu or Stacey Marion: stacmarion@gmail.com
 
 We are always looking for ways to improve our GIS analysis steps, accesibility of our content, and availability of this analysis to as many forest managers as possible. If you have any suggestions for us, please reach out to Keith Phelps (kpphelp@clemson.edu), Stacey Marion (stacmarion@gmail.com), or Randy Swaty (rswaty@tnc.org). 
+
 
 ## Lastly... Download this!
 To work through this guide you will need to download this [zipped folder](https://github.com/rswaty/landfireFSC/blob/main/toDownload.zip) by clicking the hyperlinked text, then the "Download" button that will be on the right side of the screen.  This folder contains:

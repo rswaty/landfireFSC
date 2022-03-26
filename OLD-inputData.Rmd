@@ -1,0 +1,30 @@
+# LANDFIRE Data for landscape assessment {#inputData}
+
+## LANDFIRE for landscape ecosystem assessment  Test
+
+There are some basic steps in assessing the ecological situation of your landscape, including:
+
+* mapping historical and current ecosystems, and the difference between the two; and further looking at representation  of ecosystems inside and outside of your landscape of interest.
+* assessing succession classes (aka seral states) of these ecosystems, past and present
+
+These steps, while foundational and conceptually simple, can be difficult due to a lack of data, especially when doing them at a landscape scale which often means looking across multiple land ownerships.  
+
+
+## The LANDFIRE datasets we used for this guide
+
+* Spatial datasets, clipped to your area(s) of interest
+    * [Biophysical Settings (BpS)](https://www.landfire.gov/bps.php).  This dataset will be used to get at "community habitat", or where ecosystems could occur based on abiotic factors (e.g., soils, climate and natural disturbance regimes).
+    * [Succession classes](https://www.landfire.gov/sclass.php) characterize structural classes on the landscape at the time the dataset represents (e.g., 2016 for LF Version 200).
+    * [Existing Vegetation Type](https://www.landfire.gov/evt.php) maps NatureServe's Ecological Systems (see descriptions [here](https://www.landfire.gov/documents/LANDFIRE_Ecological_Systems_Descriptions_CONUS.pdf)).
+* Non-spatial products
+    * [Biophysical Settings Descriptions](http://landfirereview.org/test/search.php) which has information on natural disturbance regimes and succession class descriptions (also available [here](https://www.landfire.gov/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_9182020.zip)).  
+    * [Reference Condition Table](https://www.landfire.gov/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) supplements the BpS descriptions with the "reference" percentages for each succession class, for each Biophysical Settings.
+    
+## Guidance on obtaining LANDFIRE products
+
+There are multiple ways to get LANDFIRE products depending on whether you are looking to obtain BpS models and descriptions or the spatial data:
+
+* For BpS models and descriptions go to: http://landfirereview.org/search.php.  Start by clicking on the "View map of LANDFIRE Map Zones".  This will help you narrow down your search.  Alternatively, you can wait to download BpS descriptions until you do some GIS work and get specific names of BpSs of interest.
+* For the spatial datasets you can explore options [here](https://www.landfire.gov/getdata.php) which include:
+    * Downloading [Full Extent Mosaics](https://www.landfire.gov/version_comparison.php).  When you do use this option you get large files that cover the entire lower 48, AK or HI (depending on your selection).  We use this method when we have several landscapes and/or a large area and no computer storage issues.
+    * Using the [LANDFIRE Data Distribution Site](https://www.landfire.gov/viewer/).  With this method you essentially select the datasets you need then draw a rectangle (or you can select state or counties) around your area of interest to start the downloader.  We recommend this if your area of interest is not too large and/or you have a low number of landscapes and/or have storage limits.

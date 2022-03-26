@@ -1,0 +1,39 @@
+# Succession Classes {#successionClasses}
+
+## What We Will Do
+While looking at conversion of historical ecosystems is valuable, we can dig deeper, comparing amounts historical succession classes to current.  This gives us a broad measure of the changes in vegetation structure for ecosystems.
+
+## What are "Succession Classes?"
+
+In general LANDFIRE succession classes are stages of development defined in the descriptions of each Biophysical Setting. They are characterized by vegetation height, canopy cover and to some degree species composition. Key takeaways:
+
+* To learn what the succession classes are for each Biophysical Setting you look to the corresponding description on http://landfirereview.org/test/search.php
+* LANDFIRE used state and transition models to estimate the amount of each succession class that would occur with natural (pre-European colonization) disturbance regimes.  Historical succession classes were not mapped as they were assumed to move around over time.
+* The [Succession Class](https://www.landfire.gov/sclass.php) dataset maps the current location of succession classes, in addition to agricultural and developed land-use classes plus uncharacteristic vegetation. Uncharacteristic typically represents exotic vegetation, or vegetation structure that would not have occurred historically.
+* By comparing the amounts of historical and current succession classes you can get a sense of which classes are over/under represented. This assumes that the landscape you are assessing is large enough to potentially include the full compliment of succession classes.
+
+## Our Sample Ecosystem
+
+To illustrate the concept of comparing reference to current succession classes we will focus on the South-Central Interior Mesophytic Forest Biophysical Setting. It is a dominant ecosystem in the Ataya, has been heavily managed, has experienced extensive clear cut logging, and faces many threats such as deer browsing.  
+
+## Your Tasks
+We will start with our friend the Pivot Table to get current percentages of the relevant succession classes, then we will look to the Biophysical Settings descriptions to get historical percentages.
+
+### Current Succession Classes
+
+1. Open the "successionClasses" worksheet in our "combineClean.xlsx" workbook.
+2. In the Pivot Table Fields box highlight "BPS_MODEL" -> click the down arrow -> select only "South-Central Interior Mesophytic Forest".  Check the box next to "BPS_NAME".
+3. In the Pivot Table Fields check the box next to "LABEL" to get a list of current succession classes.
+4. In the Pivot Table Fields check the box next to "ACRES".
+5. In the Values pane click the down arrow -> select Value Field Settings. Once the Value field settings are open click Show Values As -> select "% of Grand Total" from the dropdown list.
+6. Copy the resultant table -> paste next to the Pivot Table in the same worksheet -> add column names "Succession class" and "Current". 
+
+###  Historical succession classes
+
+1. Open the "SouthMesophytic.docx" document that is in the "toDownload" zipped folder.  
+2. Skim through the document to get a sense of the ecosystem, paying particular attention to the "Succession Classes" section.
+3. There are be 5 succession classes, A, B, C, D and E with corresponding estimated reference amounts. For example, Succession Class A was modeled to be rare in this ecosystem as fire was infrequent with the average fire return interval for the ecosystem being 50-200 years. LANDFIRE estimated that only 2% of this ecosystem would have been Succession Class A historically.
+4. Back in the pivot table, you will create a new column named "Historical", then type the succession class percentages from the document into the corresponding row.  
+
+Now we can start to see some patterns emerge.  We won't spoil your fun by saying what those patterns are!
+

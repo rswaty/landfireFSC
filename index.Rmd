@@ -6,26 +6,27 @@ The [Forest Stewardship Council](https://fsc.org/en) (FSC) develops and delivers
 
 ## LANDFIRE and FSC
 
-[LANDFIRE](https://landfire.gov/) is an interagency program within the United States that "provides 20+ national geo-spatial layers (e.g. vegetation, fuel, disturbance, etc.), databases, and ecological models that are available to the public for the US and insular areas."  With this free and regularly updated data, it is possible to fulfill the GIS requirements of several indicators within Principles 6 and 9.  Here we provide guidance for:
+[LANDFIRE](https://landfire.gov/) is an interagency program within the United States that "provides 20+ national geo-spatial layers (e.g. vegetation, fuel, disturbance, etc.), databases, and ecological models that are available to the public for the US and insular areas." With this free and regularly updated data, it is possible to fulfill the GIS requirements of several indicators within Principles 6 and 9. Here we provide guidance for:
 
-* downloading relevant LANDFIRE datasets and models
-* completing the GIS processing of LANDFIRE data
-* developing visuals (e.g., maps and charts) to help illustrate findings in support of Principles 6 and 9
+* Downloading relevant LANDFIRE datasets and models
+* Completing the GIS processing of LANDFIRE data
+* Developing visuals (e.g., maps and charts) to help illustrate findings in support of Principles 6 and 9
 
 ## GIS Tutorial Goals
 
-
 In general the analyses developed here will help forest managers:
 
-* quantify ecosystems past and present
-* explore ecosystem conversion (both to unnatural (e.g., urban) land uses and different ecosystems)
-* compare amounts of succession classes past and present
-* document types and amounts of historical disturbances
+* Assess “representation” of ecosystems within ownerships and landscapes.
+* Map ecosystems and their conditions, past and present.
+* Understand natural disturbance regimes and compare them to current landscape disturbance patterns.
+* Explore ecosystem conversion (both to unnatural (e.g., urban) land uses and different ecosystems).
+* Provide context for where ecological restoration or conservation of current ecosystems should be prioritized on a landscape.  
+* Assess site conditions that can be completed with existing datasets.
+* Assess climate change and future condition considerations where possible with existing data.
 
+In the United States, including the insular areas, [LANDFIRE](https://www.landfire.gov/) provides the datasets and ecological model results to get at these challenges and more. Here we walk you through some of the technical steps needed to start your analysis. We will do our work in a model landscape called the Ataya Forest Tract (hereafter referred to as "Ataya"). Ataya is owned by The Nature Conservancy (TNC), actively managed under FSC standards, and is located in the Central Appalachians (highlighted in green in map below).
 
-In the United States, including the insular areas, [LANDFIRE](https://www.landfire.gov/) provides the datasets and ecological model results to get at these challenges and more. Here we walk you through some of the technical steps needed to start your analysis.  We will do our work in a model landscape- the Ataya Forest Tract- which is owned by The Nature Conservancy (TNC), actively managed under FSC standards, and is located in the Central Appalachians (highlighted in green in map below).
-
-To help you with the concepts we have worked through pre-processed LANDFIRE data for this example landscape.  To prepare the datasets for your own landscape see the Appendix.
+To help you with the concepts we have worked through pre-processed LANDFIRE data for this example landscape. To prepare the datasets for your own landscape, you may download the relevant LANDFIRE data for your own landscape and follow our steps.
 
 **ZOOM, pan, explore the Ataya Forest Tract area**
 ```{r loadshp1, message=FALSE, warning=FALSE, include=FALSE}

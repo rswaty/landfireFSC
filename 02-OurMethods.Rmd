@@ -6,33 +6,35 @@ This tutorial uses ESRI ArcGIS Pro (2.9). If using ArcGIS Pro, ensure your Spati
 
 Additionally, you will need Microsoft Excel (2022) and a reliable internet connection to download the LANDFIRE datasets pertinent to this analysis. 
 
-Lastly, prior to beginning this analysis, we recommend that you create a new ArcGIS Pro project with a project specific geodatabase (named to your choosing!). If you are following the Ataya Study Area tutorial, please save that Study Area shapefile to your geodatabase. You'll be able to acquire an Ataya shapefile at the end of this section. Alternatively, if you are using your own Study Area shapefile, save it to your project specific geodatabase as you follow along with this tutorial.
+Lastly, prior to beginning this analysis, we recommend that you create a new ArcGIS Pro project with a project specific geodatabase (named to your choosing!) If you are following the Ataya Study Area tutorial, please save that Study Area shapefile to your geodatabase. You'll be able to acquire an Ataya shapefile at the end of this section. Alternatively, if you are using your own Study Area shapefile, save it to your project specific geodatabase as you follow along with this tutorial.
 
 
 ## Methods 
 
 Each subsequent chapter outlines steps to complete a different component of the GIS analysis. The general components of the analysis are:
 
-* Downloading and preparing the necessary LANDFIRE datasets for a Study Area
-* Spatially combining these LANDFIRE datasets into one (1) new Study Area LANDFIRE dataset
-* Performing "Join Fields" to update the new Study Area Landfire dataset
-* Assessing acreage of the Study Area LANDFIRE dataset and "masking" it to the Study Area boundary
-* Performing data summariessummary Excel steps to observe acreage of: historic ecosystems, current vegetation types, ecosystem conversion, and succession classes within the Study Area.
+* Downloading and preparing the necessary LANDFIRE datasets for a Study Area.
+* Spatially combining these LANDFIRE datasets into one (1) new Study Area LANDFIRE dataset.
+* Performing "Join Fields" to update the new Study Area Landfire dataset.
+* Assessing acreage of the Study Area LANDFIRE dataset and "masking" it to the Study Area boundary.
+* Performing data summary Excel steps to observe acreage of: historic ecosystems, current vegetation types, ecosystem conversion, and succession classes within the Study Area.
 
 ## Disclaimers 
 
 There are always many different ways to complete a GIS analysis and because of this, we'd like to share a few disclaimers. 
 
-First, this tutorial is specific to the Ataya Study Area and outlines steps exactly performed to this Study Area. If you are using a different Study Area, you will have to locate the relevant Biophysical Settings (BpS) descriptions for your Study Area through the LANDFIRE website. 
+First, this tutorial is specific to the Ataya Study Area and outlines steps exactly performed to this Study Area. If you are using a different Study Area, you will have to locate the relevant LANDFIRE datasets and Biophysical Settings (BpS) descriptions for your Study Area through the LANDFIRE website. 
 
-Second, this tutorial GIS analysis was performed using ArcGIS Pro only. Unfortunately for managers who are running using older versions of ArcMap or open source GIS or data processing software (i.e. GRASS GIS, QGIS) this tutorial is not designed for these GIS platforms. These platforms can likely recreate the outcomes of this tutorial, however specific geoprocessing tools may look or act differently. If using software other than ArcGIS Pro, make sure to understand the underlying process behind each tool. 
+Second, LANDFIRE data is best represented at coarse landscape scales (i.e. landscapes in excess of 100,000 acres or more). LANDFIRE data is not as accurate for fine landscape level assessments (i.e. a forest stand of 100 acres or less). Due to the development of LANDFIRE data at large landscape scales, some LANDFIRE ecosystem data, such as Existing Vegetation Type (EVT), may not represent a 1:1 relation of the GIS data to current ground conditions. We like to think of our analysis as a guide for understanding forest conditions past and present. This guide still functions best with human input on the ground to make effective final forest management decisions. If you have smaller acreage of forest land and still wish to perform this analysis, consider using the watershed your forest is in!  
+
+Third, this tutorial GIS analysis was performed using ArcGIS Pro only. Unfortunately for managers who are using older versions of ArcMap or open source GIS/data processing software (i.e. GRASS GIS, QGIS) this tutorial is not designed for these GIS platforms. These platforms can likely recreate the outcomes of this tutorial, however specific geoprocessing tools may look or act differently. If using software other than ArcGIS Pro, make sure to understand the underlying process behind each tool. 
 
 If you are having trouble with this tutorial, here are some people that can assist you!
 * Problems with LANDFIRE data? helpdesk@landfire.gov
 * Problems with the rMarkdown document? Randy Swaty: rswaty@tnc.org
 * Problems with the GIS analysis? Keith Phelps: kpphelp@clemson.edu or Stacey Marion: stacmarion@gmail.com
 
-We are always looking for ways to improve our GIS analysis steps, accesibility of our content, and availability of this analysis to as many forest managers as possible. If you have any suggestions for us, please reach out to Keith Phelps (kpphelp@clemson.edu), Stacey Marion (stacmarion@gmail.com), or Randy Swaty (rswaty@tnc.org). 
+We are always looking for ways to improve our GIS analysis steps, accessibility of our content, and availability of this analysis to as many forest managers as possible. If you have any suggestions for us, please reach out to Keith Phelps (kpphelp@clemson.edu), Stacey Marion (stacmarion@gmail.com), or Randy Swaty (rswaty@tnc.org). 
 
 
 ## Lastly... Download this!

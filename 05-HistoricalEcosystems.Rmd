@@ -1,21 +1,22 @@
-# Historical Ecosystems {#historicalEcosystems}
+# Historical Ecosystems {#historicalecosystems}
 
-In this chapter we will learn which ecosystems, and how much of each were on our landscape historically.
+In this section we will learn which ecosystems, and how much of each, were on our landscape historically.
 
 
-## General methods
+## General Methods
 
-In this section (and most others) we will depend on "Pivot Tables" in Excel.  They are powerful (for better or worse!) tools that allow for tasks such as:
+In this section (and most others following) we will depend on "Pivot Tables" in Excel. These are powerful (for better or worse!) tools that allow for tasks such as:
 
-* organization and formatting of data
-* calculations
-* filtering data
-* nesting data
+* Organization and formatting of data.
+* Calculations.
+* Filtering data.
+* Nesting data.
 
-With the power comes the call for caution.  It is super easy to display values that look illuminating-but may be wrong.  You can easily be duped into complacency, especially when working in the "value field settings."
+With the power comes the call for caution.  It is very easy to display values that look illuminating- but may be wrong. You can easily be duped into complacency, especially when working in the "value field settings."
 
-### A few potential traps with Pivot Tables
-Pivot Tables allow you to calculate, summarize, format and analyze datasets.  There are a few traps we run into frequently that are worth mentioning here:
+### Some Potential Traps with Pivot Tables
+
+Pivot Tables allow you to calculate, summarize, format and analyze datasets. These are a few traps we run into frequently which are worth mentioning here:
 
 * **Your Pivot Table controls go away**.  This happens when you click outside of the main Pivot Table area (where your values are, usually on the left side of screen).  To fix this click inside one of the Pivot Table columns.  Another way to fix this is to right click inside a Pivot Table cell and select "Show field list". 
 * **Miscalculating.**  This typically happens when you are in the "Value Field Settings" pane and select the wrong "Show values as" option.  The key here is to visually inspect the results to make sure you have made the correct selection.
@@ -24,30 +25,29 @@ Pivot Tables allow you to calculate, summarize, format and analyze datasets.  Th
 
 ## Getting at amounts of historical ecosystems
 
-**Start by opening the "historical" tab in the Excel workbook.**  
+**Start by opening the "Historical" tab in the Excel workbook ("combineClean").**  
 
 1. In the Pivot Table Fields pane, select "BPS_NAME" then "ACRES".  
 2. Right click in the top cell of the "Sum of ACRES" column (not the column header) in the Pivot Table, then "Sort Largest to Smallest".
-3. In our example we have some BpSs that have low ACRES values.  We also have categories that are not meaningful, such as "Barren-Rock/Sand/Clay".  We can do a little formatting/cleaning before making a chart:
+3. In our example we have some BpSs that have low ACRES values. We can do a little formatting/cleaning before making a chart:
     * To remove BpSs from the table you will click the drop-down menu to the right of "BPS_NAME" in the Pivot Table Fields pane.  You can uncheck BpSs as appropriate.
     * It is also possible to filter by right clicking on the top value in the list of BpSs, then selecting Filter > Top 10....  Once in that menu you can refine the filtering.
-4. To get percentages, drag "ACRES" from the top Pivot Table Field pane to the "Values" pane.  This will add a second "ACRES" column to the table.  Click the drop down in the second instance of "ACRES" (reads "SUM of ACRES2" in our example), then Value Field Settings.  In this menu select the "Show Values As" tab, click the "Show Values As" drop down then select "% of Grand Total% to get percentages of each BpS (make sure that "BPS_NAME" is selected as the "Base field").  
-5.  To get a "running total" of percentages you will add a third instance of "ACRES" to the "Values" pane, then Value Field Settings.  In this menu select the "Show Values As" tab, click the "Show Values As" drop down then select "% Running Total In" to get running totals of  percentages of each BpS (make sure that "BPS_NAME" is selected as the "Base field"). 
+4. To get percentages, drag "ACRES" from the top Pivot Table Field pane to the "Values" pane. This will add a second "ACRES" column to the table. Right click in the second instance of "ACRES" (reads "SUM of ACRES2" in our example) to open up a drop down menu, then navigate to Value Field Settings. In this menu select the "Show Values As" tab, click the "Show Values As" drop down then select "% of Grand Total% to get percentages of each BpS (make sure that "BPS_NAME" is selected as the "Base field").  
+5.  To get a "running total" of percentages you will add a third instance of "ACRES" to the "Values" pane, then navigate to Value Field Settings.  In this menu select the "Show Values As" tab, click the "Show Values As" drop down then select "% Running Total In" to get running totals of  percentages of each BpS (make sure that "BPS_NAME" is selected as the "Base field"). 
 6. Save!
-
 
 
 **Example output**
 
 Below is essentially the output from our Pivot Table work with a couple changes:
 
-* Names have been shortened for ease of reading
-* Numbers have been rounded
+* Names have been shortened for ease of reading.
+* Numbers have been rounded.
 
 ```{r bpsDT, echo=FALSE, message=FALSE, warning=FALSE}
 library(DT)
 library(readr)
-bps <- read_csv("mhData/bpsMH.csv")
+bps <- read_csv("AtayaData/bpsAtaya.csv")
 
 
 datatable(head(bps), 
@@ -60,7 +60,7 @@ datatable(head(bps),
 <br>
 <br>
 
-We see that the top 4 BpSs comprised ~80% of our example landscape historically.  We can visually confirm this and other patterns with a quick chart made in R (similar charts available in Excel by highlighting the data, clicking Insert then selecting the chart type in the "Charts" tab):
+We see that the top 4 BpSs comprised ~90% of our example landscape historically. We can visually confirm this and other patterns with a quick chart made in R (similar charts available in Excel by highlighting the data, clicking Insert then selecting the chart type in the "Charts" tab):
 
 <br>
 
@@ -73,7 +73,7 @@ ggplot(bps, aes(x = reorder(BpS, ACRES), y = ACRES)) +
   coord_flip() +
   labs(x = "", 
        y = "Acres", 
-       title = "Historical Ecosystems of the Michigamme Highlands landscape",
+       title = "Historical Ecosystems of Ataya",
        caption = "From LANDFIRE Biophysical Settings data. Names shortened for clarity.",
        colour = "black") +
   scale_y_continuous(labels = comma) +

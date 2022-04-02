@@ -52,7 +52,7 @@ bps <- read_csv("AtayaData/bpsAtaya.csv")
 
 datatable(head(bps), 
           class = 'cell-border stripe', 
-          options = list(scrollX  = TRUE, pageLength = 3)) %>%
+          options = list(scrollX  = TRUE, pageLength = 5)) %>%
   formatRound(c("ACRES", "PERCENT", "RUNNING_PERCENT"), 0)
 
 ```

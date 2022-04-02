@@ -1,30 +1,32 @@
-# Exploring conversion {#conversion}
+# Exploring Conversion {#conversion}
 
-**The main question we explore on this page: how much of the historic ecosystems have been converted to a different land use (e.g., agriculture).**  
+**The main question we explore on this page: how much of the historic ecosystems have been converted to a different land use? (e.g., agriculture).**  
 
-## The fine print
+## The Fine Print
 While this assessment is illustrative, it is important to note that the methods used to create the BpS and EVT datasets are substantially different, and LANDFIRE datasets are not made for assessing small areas.  Please review.  In the exercise we will focus on the coarsest classifications.  If you need to work at the finer classification levels proceed with caution!
 
-## Pivot table work
+## Pivot Table Work
 Working in the "Conversion" worksheet:
 
 1. Check the "GROUPVEG" then the "EVT_PHYS" fields to add them to the Pivot Table.  Make sure that GROUPVEG is the leftmost column.  If not drag that field to the top in the Rows pane.
 2. In the cell above the "GROUPVEG" field header type "past"; in the cell above the "EVT_PHYS" type "present".
-3. If you fancy click the dropdown in the "GROUPVEG" header.  Here you can remove types.  Let's remove "Barren-Rock/Sand/Clay".
+3. If you fancy click the dropdown in the "GROUPVEG" header.  Here you can remove types.
 4. Check the "ACRES" field to add it to the Pivot Table.
 5. Explore.  Of what was historically mapped as CONIFER, what's the biggest non-CONIFER type today?
-6. Switch the order of the fields by dragging "EVT_PHYS" to the top of the Rows pane.  Which GROUPVEG type was most converted to "Developed"?
+6. Switch the order of the fields by dragging "EVT_PHYS" to the top of the Rows pane. Which GROUPVEG type was most converted to "Developed"?
+
+We can easily make excel charts and bar graphs to summarize these findings and demonstrate change from historic conditions. We can also dive a little bit deeper into visualizing these ecosystem changes...
 
 
-## Visual exploration for fun. 
+## Visual Exploration with Sankey Diagrams 
 
-Sometimes patterns emerge from visuals.  Below is a [Sankey Diagram](https://en.wikipedia.org/wiki/Sankey_diagram) generated in R (can also be created in Excel we hear.  See instructions [here](https://mychartguide.com/how-to-draw-sankey-diagram-in-excel/)).  On the left are the historical ecosystems, on the right current ecosystems and flow bands.  The width of the bands is proportional to the flow rate.  Some potential interpretations, partially based on the chart, partially based on local knowledge:
+Sometimes patterns emerge more explicitly from visuals. Below is a [Sankey Diagram](https://en.wikipedia.org/wiki/Sankey_diagram) generated in R (which can also be created in Excel. See instructions [here](https://mychartguide.com/how-to-draw-sankey-diagram-in-excel/)). On the left are the historical ecosystems, on the right current ecosystems and flow bands. The width of the bands is proportional to the flow rate. Here is a potential interpretation for the result of our Study Area (partially based on the chart and partially based on local knowledge):
 
-* There is more northern hardwoods mapped today than historically.  This could be due to "simplification" of ecosystems that have some shared species.  For example, many conifers have been removed and deer present a challenge for regeneration.  One hypothesis would be that due to logging and deer the "Pine-Hemlock-Hardwood-Forest" has been essentially converted to "Northern Hardwoods".
-* It might be more illuminating to group some types together, such as the "Recently Logged" types.
-* LANDFIRE has mapped potential change of the wetlands to other types.  This could be due to mapping errors, or due to alterations in hydrology because of roads perhaps.  More investigation is warranted.
+* There is far more Allegheny Dry Oak Forest and Northern/Central Native Ruderal Forest mapped today than historically. Additionally, Southern Appalachian Cove and South-Central Interior Mesophytic Forests have greatly decreased over time. This could be due to a legacy of extensive ecosystem disturbance on the landscape. For example, we know that extensive clear-cut logging occurred all throughout the Appalachians in the late 19th and early 20th centuries. After these cut-over events, extensive wildfires erupted across the region due to the residual logging slash. These wildfires also spawned US Forest Service fire suppression policies in the early 20th century which altered ecosystem disturbances further. 
+* One hypothesis would be that due to homogeneous logging and wildfire disturbance across large landscape contexts, favorable conditions to shade-intolerant oak species (i.e. high light levels, open canopies, reduced duff layers) resulted in a massive increase in oak recruitment. As the forests grew back, oak became a far more common tree species and influenced the development of forest types away from maples, tulip-poplars, and other more shade-tolerant trees- typical dominants of Southern Appalachian Cover and South-Central Interior Mesophytic Forests. Additionally, as American chestnuts were lost due to chestnut blight in the early 20th century, oaks most likely took their place.  
 
-Click [here](https://rswaty.github.io/landfireFSC/sankey.html) to view diagram in your web browser. 
+
+Click [here](https://rswaty.github.io/landfireFSC/sankey.html) to the view diagram in your web browser. 
 
 ```{r sankey, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
 
@@ -33,7 +35,7 @@ library(dplyr)
 library(readr)
 library(dplyr)
 
-data <- read_csv("mhData/bps2evtMH.csv")
+data <- read_csv("AtayaData/bps2evt.csv")
 
 nodes <- data.frame(
   name=c(as.character(data$source), 
@@ -62,3 +64,43 @@ saveWidget(snky2, "sankey.html")
 
 
 ```
+
+## Excel Steps for Preparing a Conversion Table and Sankey Diagram
+Let's create a table summary which will allow us to view percent change of historical ecosystems (Bps) into current ecosystems (EVT). This data table can also be used for Sankey diagrams in R. 
+
+1. Open the "Bps2evt" worksheet
+2. In the Pivot Table, check "BPS_Name", "EVT_Name", and "COUNT"
+3. In the Main Ribbon of the worksheet (where File, Home, Insert etc. are located) navigate all the way to the last Tab on the right labeled "Design". Click on "Design".
+4. In the "Subtotals" tab, click on the down arrow and navigate to "Do Not Show Subtotals". Click on this option. 
+5. In the "Grand Totals" tab, click on the down arrow and navigate to "Turn Off for Rows and Columns". Click on this option. 
+6. In the "Report Layout" tab, click on the down arrow and navigate to "Show In Tabular Form". Click on this option. 
+7. In the "Report Layout" tab, click on the down arrow and navigate to "Repeat All Item Labels". Click on this option. 
+8. In the top data cell for the "BPS_Name" data column, right click and navigate to "Filter". Click on "Top 10..."
+9. In the box that opens, change "10" to 90 and "Items" to "Percent". 
+  * This will select the top 90% of BpS settings in the Ataya Study Area.
+10. In the top data cell for the "EVT_Name" data column, right click and navigate to "Filter". Click on "Top 10..."
+11. In the box that opens, change "10" to 90 and "Items" to "Percent". 
+  * This will select the top 90% of EVT settings in the Ataya Study Area.
+12. In the "Sum of Count" data column, right click on the top cell and navigate to "Value Field Settings". 
+13. In "Value Field Settings", click on "Show Values As" and navigate to "% of Parent Row total" and click. 
+14. Change the name of "Sum of Count" to "Percent". 
+
+Voila! We now have a table which should look similar to what's below. For this tutorial, we have rounded our percents and are only displaying a portion of the table for easy viewing. 
+
+```{r bps2evtDT, echo=FALSE, message=FALSE, warning=FALSE}
+library(DT)
+library(readr)
+bps2evt <- read_csv("AtayaData/bps2evt_display.csv")
+
+
+datatable(head(bps2evt), 
+          class = 'cell-border stripe',
+          options = list(scrollX  = TRUE, pageLength = 5))%>%
+ formatRound(c("PERCENT"), 0) 
+```
+
+<br>
+<br>
+
+## Interpreting the Conversion Table
+This table gives us 

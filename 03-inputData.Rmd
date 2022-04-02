@@ -1,4 +1,4 @@
-# LANDFIRE Data for FSC {#InputData}
+# LANDFIRE Data for FSC {#inputdata}
 
 ## LANDFIRE for Landscape Ecosystem Assessment  
 
@@ -6,7 +6,7 @@ To support assessment of a forest's conditions, particularly FSC Principles 6 - 
 
 * Change between historical and current ecosystem condition 
 * The representation of ecosystems within and outside of your landscape of interest.
-* Change in succession classes (aka seral states) of communities over time
+* Change in Succession Classes (aka seral states) of communities over time
 
 These steps, while foundational and conceptually simple, can be difficult due to a lack of data, especially when the study area of interest is large scale, occurs across multiple land ownerships, or is subject to land cover change. Using LANDFIRE spatial models overcomes this data barrier by providing a suite of terrestrial data appropriate for landscape scale analysis. 
 

@@ -32,6 +32,7 @@ Below is essentially the output from our Pivot Table work with a couple changes:
 
 * Names have been shortened for ease of reading
 * Numbers have been rounded
+* We have only included a selection of (5) EVTs
 
 ```{r evtDT, echo=FALSE, message=FALSE, warning=FALSE}
 library(DT)
@@ -41,14 +42,14 @@ evt <- read_csv("AtayaData/evtAtaya.csv")
 
 datatable(head(evt), 
           class = 'cell-border stripe',
-          options = list(scrollX  = TRUE, pageLength = 3))%>%
+          options = list(scrollX  = TRUE, pageLength = 5))%>%
   formatRound(c("ACRES", "PERCENT", "RUNNING_PERCENT"), 0)
 ```
 
 <br>
 <br>
 
-We see that first there are many EVT's.  This partially due to the addition of Developed and other "modern" categories such as "Recently Logged-Tree Cover". Second we see that of the "natural" types there are some important changes from historical ecosystem conditions. In Ataya, there is currently far more acreage associated with Southern Appalachian Oak Forest and Alleghany Dry Oak Forest/Woodland. We can visually confirm this and other patterns with a quick chart made in R (similar charts available in Excel by highlighting the data, clicking Insert then selecting the chart type in the "Charts" tab):
+We see that first there are many EVT's. This is partially due to the addition of Developed and other "modern" categories such as "Recently Logged-Tree Cover". Second we see that of the "natural" types there are some important changes from historic ecosystem conditions. In Ataya, there is currently far more acreage associated with Allegheny Dry Oak Forest/Woodland. We can visually confirm this and other patterns with a quick chart made in R (similar charts available in Excel by highlighting the data, clicking Insert then selecting the chart type in the "Charts" tab):
 
 <br>
 

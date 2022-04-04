@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.4.3)  3 APR 2022 22:33
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.4.3)  3 APR 2022 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -701,18 +701,41 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Chapter 1.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 95.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 95.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 95.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 95.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 95.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 95.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 95.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 95.
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
+
+ []
+
+[6]
+Chapter 2.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    p
-l.95 ...hics[width=100px]{KP_screenshots/FSC_Logo}
+l.152 ...[width=2500px]{KP_GISmaps/Ataya_studyfig}
                                                    
 Here is how much of TeX's memory you used:
- 16897 strings out of 478179
- 312487 string characters out of 5852895
- 743334 words of memory out of 5000000
- 37305 multiletter control sequences out of 15000+600000
- 472857 words of font info for 62 fonts, out of 8000000 for 9000
+ 16926 strings out of 478179
+ 313380 string characters out of 5852895
+ 749334 words of memory out of 5000000
+ 37320 multiletter control sequences out of 15000+600000
+ 475702 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,6n,121p,512b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,6n,121p,1037b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on FSCBook.pdf (4 pages).
+Output written on FSCBook.pdf (6 pages).

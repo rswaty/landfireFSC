@@ -8,7 +8,6 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
 description: "This is a TNC LANDFIRE GIS and excel tutorial to assist forest managers in FSC® audits"
 always_allow_html: true 
 ---
@@ -17,6 +16,7 @@ always_allow_html: true
 # Introduction {#Introduction}
 
 ## The Forest Stewardship Council (FSC®)
+
 ```{r FSClogo, echo=FALSE, out.width=50}
 knitr::include_graphics("KP_screenshots/FSC_Logo.jpg")
 

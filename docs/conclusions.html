@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>10 Conclusions | LANDFIRE and FSC®</title>
+  <meta name="description" content="This is a TNC LANDFIRE GIS and excel tutorial to assist forest managers in FSC® audits" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="10 Conclusions | LANDFIRE and FSC®" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a TNC LANDFIRE GIS and excel tutorial to assist forest managers in FSC® audits" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="10 Conclusions | LANDFIRE and FSC®" />
+  
+  <meta name="twitter:description" content="This is a TNC LANDFIRE GIS and excel tutorial to assist forest managers in FSC® audits" />
+  
+
+<meta name="author" content="Randy Swaty, Keith Phelps, and Stacey Marion" />
+
+
+<meta name="date" content="2022-04-03" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="successionClasses.html"/>
+<link rel="next" href="appendix.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.21/datatables.js"></script>
+<link href="libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<script src="libs/d3-4.5.0/d3.min.js"></script>
+<script src="libs/sankey-1/sankey.js"></script>
+<script src="libs/sankeyNetwork-binding-0.4/sankeyNetwork.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">DRAFT</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#the-forest-stewardship-council-fsc"><i class="fa fa-check"></i><b>1.1</b> The Forest Stewardship Council (FSC®)</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#landfire-and-fsc"><i class="fa fa-check"></i><b>1.2</b> LANDFIRE and FSC®</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#gis-tutorial-goals"><i class="fa fa-check"></i><b>1.3</b> GIS Tutorial Goals</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="Ataya.html"><a href="Ataya.html"><i class="fa fa-check"></i><b>2</b> Our Example Landscape</a></li>
+<li class="chapter" data-level="3" data-path="ourmethods.html"><a href="ourmethods.html"><i class="fa fa-check"></i><b>3</b> Our Method</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="ourmethods.html"><a href="ourmethods.html#gis-analysis-requirements"><i class="fa fa-check"></i><b>3.1</b> GIS Analysis Requirements</a></li>
+<li class="chapter" data-level="3.2" data-path="ourmethods.html"><a href="ourmethods.html#methods"><i class="fa fa-check"></i><b>3.2</b> Methods</a></li>
+<li class="chapter" data-level="3.3" data-path="ourmethods.html"><a href="ourmethods.html#disclaimers"><i class="fa fa-check"></i><b>3.3</b> Disclaimers</a></li>
+<li class="chapter" data-level="3.4" data-path="ourmethods.html"><a href="ourmethods.html#lastly-download-this"><i class="fa fa-check"></i><b>3.4</b> Lastly… Download this!</a></li>
+<li class="chapter" data-level="3.5" data-path="ourmethods.html"><a href="ourmethods.html#about-this-document"><i class="fa fa-check"></i><b>3.5</b> About this document</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="inputdata.html"><a href="inputdata.html"><i class="fa fa-check"></i><b>4</b> LANDFIRE Data for FSC®</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="inputdata.html"><a href="inputdata.html#landfire-for-landscape-ecosystem-assessment"><i class="fa fa-check"></i><b>4.1</b> LANDFIRE for Landscape Ecosystem Assessment</a></li>
+<li class="chapter" data-level="4.2" data-path="inputdata.html"><a href="inputdata.html#landfire-datasets-used-for-this-tutorial"><i class="fa fa-check"></i><b>4.2</b> LANDFIRE Datasets Used For This Tutorial</a></li>
+<li class="chapter" data-level="4.3" data-path="inputdata.html"><a href="inputdata.html#guidance-on-obtaining-landfire-products"><i class="fa fa-check"></i><b>4.3</b> Guidance on Obtaining LANDFIRE Products</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="gis.html"><a href="gis.html"><i class="fa fa-check"></i><b>5</b> LANDFIRE Data for Landscape Assessment</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="gis.html"><a href="gis.html#if-you-havent-already-download-this"><i class="fa fa-check"></i><b>5.1</b> If you haven’t already… Download this!</a></li>
+<li class="chapter" data-level="5.2" data-path="gis.html"><a href="gis.html#load-spatial-data"><i class="fa fa-check"></i><b>5.2</b> Load Spatial Data</a></li>
+<li class="chapter" data-level="5.3" data-path="gis.html"><a href="gis.html#download-three-3-landfire-rasters-for-the-study-area-bps-evt-and-sclass"><i class="fa fa-check"></i><b>5.3</b> Download Three (3) LANDFIRE Rasters for the Study Area: BpS, EVT, and sClass</a></li>
+<li class="chapter" data-level="5.4" data-path="gis.html"><a href="gis.html#project-to-the-appropriate-coordinate-system"><i class="fa fa-check"></i><b>5.4</b> Project to the Appropriate Coordinate System</a></li>
+<li class="chapter" data-level="5.5" data-path="gis.html"><a href="gis.html#landfire-data-stacking"><i class="fa fa-check"></i><b>5.5</b> LANDFIRE Data Stacking</a></li>
+<li class="chapter" data-level="5.6" data-path="gis.html"><a href="gis.html#join-bps-tabular-data"><i class="fa fa-check"></i><b>5.6</b> Join BpS Tabular Data</a></li>
+<li class="chapter" data-level="5.7" data-path="gis.html"><a href="gis.html#join-evt-tabular-data"><i class="fa fa-check"></i><b>5.7</b> Join EVT Tabular Data</a></li>
+<li class="chapter" data-level="5.8" data-path="gis.html"><a href="gis.html#join-sclass-tabular-data"><i class="fa fa-check"></i><b>5.8</b> Join sClass tabular data</a></li>
+<li class="chapter" data-level="5.9" data-path="gis.html"><a href="gis.html#crop-the-combined-raster-to-the-study-area"><i class="fa fa-check"></i><b>5.9</b> Crop the combined raster to the study area</a></li>
+<li class="chapter" data-level="5.10" data-path="gis.html"><a href="gis.html#calculate-area-field"><i class="fa fa-check"></i><b>5.10</b> Calculate Area Field</a></li>
+<li class="chapter" data-level="5.11" data-path="gis.html"><a href="gis.html#export-combine_studyarea-attribute-table-into-a-.csv-format"><i class="fa fa-check"></i><b>5.11</b> Export combine_studyArea attribute table into a .csv format</a></li>
+<li class="chapter" data-level="5.12" data-path="gis.html"><a href="gis.html#open-the-tutorial-excel-workbook"><i class="fa fa-check"></i><b>5.12</b> Open the Tutorial Excel Workbook</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="historicalecosystems.html"><a href="historicalecosystems.html"><i class="fa fa-check"></i><b>6</b> Historical Ecosystems</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="historicalecosystems.html"><a href="historicalecosystems.html#general-methods"><i class="fa fa-check"></i><b>6.1</b> General Methods</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="historicalecosystems.html"><a href="historicalecosystems.html#some-potential-traps-with-pivot-tables"><i class="fa fa-check"></i><b>6.1.1</b> Some Potential Traps with Pivot Tables</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="historicalecosystems.html"><a href="historicalecosystems.html#getting-at-amounts-of-historical-ecosystems"><i class="fa fa-check"></i><b>6.2</b> Getting at amounts of historical ecosystems</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>7</b> Existing Vegetation Types</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="evt.html"><a href="evt.html#general-methods-1"><i class="fa fa-check"></i><b>7.1</b> General Methods</a></li>
+<li class="chapter" data-level="7.2" data-path="evt.html"><a href="evt.html#getting-at-amounts-of-current-ecosystems"><i class="fa fa-check"></i><b>7.2</b> Getting at Amounts of Current Ecosystems</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="conversion.html"><a href="conversion.html"><i class="fa fa-check"></i><b>8</b> Exploring Conversion</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="conversion.html"><a href="conversion.html#the-fine-print"><i class="fa fa-check"></i><b>8.1</b> The Fine Print</a></li>
+<li class="chapter" data-level="8.2" data-path="conversion.html"><a href="conversion.html#pivot-table-work"><i class="fa fa-check"></i><b>8.2</b> Pivot Table Work</a></li>
+<li class="chapter" data-level="8.3" data-path="conversion.html"><a href="conversion.html#excel-steps-for-preparing-an-ecosystem-conversion-table"><i class="fa fa-check"></i><b>8.3</b> Excel Steps for Preparing an Ecosystem Conversion Table</a></li>
+<li class="chapter" data-level="8.4" data-path="conversion.html"><a href="conversion.html#interpreting-the-ecosystem-conversion-table"><i class="fa fa-check"></i><b>8.4</b> Interpreting the Ecosystem Conversion Table</a></li>
+<li class="chapter" data-level="8.5" data-path="conversion.html"><a href="conversion.html#visual-exploration-with-a-sankey-diagram"><i class="fa fa-check"></i><b>8.5</b> Visual Exploration with a Sankey Diagram</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="successionClasses.html"><a href="successionClasses.html"><i class="fa fa-check"></i><b>9</b> Succession Classes</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="successionClasses.html"><a href="successionClasses.html#what-we-will-do"><i class="fa fa-check"></i><b>9.1</b> What We Will Do</a></li>
+<li class="chapter" data-level="9.2" data-path="successionClasses.html"><a href="successionClasses.html#what-are-succession-classes"><i class="fa fa-check"></i><b>9.2</b> What are “Succession Classes?”</a></li>
+<li class="chapter" data-level="9.3" data-path="successionClasses.html"><a href="successionClasses.html#our-sample-ecosystem"><i class="fa fa-check"></i><b>9.3</b> Our Sample Ecosystem</a></li>
+<li class="chapter" data-level="9.4" data-path="successionClasses.html"><a href="successionClasses.html#your-tasks"><i class="fa fa-check"></i><b>9.4</b> Your Tasks</a>
+<ul>
+<li class="chapter" data-level="9.4.1" data-path="successionClasses.html"><a href="successionClasses.html#current-succession-classes"><i class="fa fa-check"></i><b>9.4.1</b> Current Succession Classes</a></li>
+<li class="chapter" data-level="9.4.2" data-path="successionClasses.html"><a href="successionClasses.html#historical-succession-classes"><i class="fa fa-check"></i><b>9.4.2</b> Historical succession classes</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="conclusions.html"><a href="conclusions.html"><i class="fa fa-check"></i><b>10</b> Conclusions</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="conclusions.html"><a href="conclusions.html#bringing-it-all-together"><i class="fa fa-check"></i><b>10.1</b> Bringing it All Together</a></li>
+<li class="chapter" data-level="10.2" data-path="conclusions.html"><a href="conclusions.html#recap-for-fsc"><i class="fa fa-check"></i><b>10.2</b> Recap for FSC®</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>11</b> APPENDIX</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="appendix.html"><a href="appendix.html#landifre-data-downloading-help"><i class="fa fa-check"></i><b>11.1</b> LANDIFRE Data Downloading Help</a></li>
+<li class="chapter" data-level="11.2" data-path="appendix.html"><a href="appendix.html#export-combine_studyarea-attribute-table-into-an-excel-workbook"><i class="fa fa-check"></i><b>11.2</b> Export “combine_studyArea” attribute table into an Excel Workbook</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">LANDFIRE and FSC®</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="conclusions" class="section level1" number="10">
+<h1><span class="header-section-number">10</span> Conclusions</h1>
+<div id="bringing-it-all-together" class="section level2" number="10.1">
+<h2><span class="header-section-number">10.1</span> Bringing it All Together</h2>
+<p>We’ve got a lot of useful deliverables from our analysis (GIS maps, tables, charts, interpretations) but let’s spend some time bringing all our analyses together. For Ataya, we see that historically our forest was dominated mostly by Southern Appalachian Oak Forest, Southern and Central Appalachian Cove Forest, and South-Central Interior Mesophytic Forests. We also know the current forests have shifted most to Allegeheny Dry Oak Forest/Woodland. Southern and Central Appalachian Cove Forests have experienced a particularly high degree of ecosystem conversion. Additionally, Ataya has large areas of uncharacteristic exotic vegetation and native ruderal forest.</p>
+<p><strong>Let’s draw some potential forest management implications.</strong></p>
+<p>This is not an exhaustive list by any means- just some ideas to get the creative juices flowing. Feel free to revisit our previous sections to view GIS maps and charts!</p>
+<ul>
+<li>We see a very high departure from historic conditions for Ataya. Our restoration efforts shouldn’t be focused on re-converting everything back to our BpS map as this is not feasible. This is not to say we should avoid preserving and locating unchanged forest. We can use our BpS and EVT maps to potentially find areas where the forests have remained stable for longer periods of time, and use these areas as representatives of historic conditions for teaching purposes, genotype conservation, and seed collection/preservation among other things.<br />
+</li>
+<li>Perhaps we need to spend some extra time mapping Cove Forest communities in the field. If this forest type is experiencing particular heavy ecosystem conversion, it may be important we assess, preserve, and more intimately manage the best representations of that forest community type.</li>
+<li>We have a better idea of where we may need to concentrate efforts on invasive plant management. This includes areas in the southern portions of Ataya where concentrated pockets of uncharacteristic exotic vegetation can be observed. A field assessment could confirm these suspicions and influence an Integrated Pest Management plan.</li>
+<li>We know that oaks require specific shade-reduced conditions to regenerate and recruit into the forest canopy. Based on the level of oak community types present on the landscape now, prescribed fire and timber harvesting to facilitate oak regeneration (i.e. thinning, shelterwood cuts) will be incredibly important for a forest management plan/strategy.
+<ul>
+<li>Since most of the oak dominated forests in the south of Ataya are in Succession Class D and E (i.e. more closed canopy conditions), prescribed fire and harvesting activities to facilitate tree canopy gaps and oak recruitment may be very important in this section of the forest.</li>
+</ul></li>
+</ul>
+</div>
+<div id="recap-for-fsc" class="section level2" number="10.2">
+<h2><span class="header-section-number">10.2</span> Recap for FSC®</h2>
+<p>After our analysis is complete, we can see that we have provided the following for a potential FSC® Audit:</p>
+<ul>
+<li>Maps and acreage for historic ecosystems</li>
+<li>Maps and acreage for current ecosystems/land cover</li>
+<li>Mapss of current Forest Succession Classes</li>
+<li>Tables to assess ecosystem conversion</li>
+<li>Tables to assess acreage for historic and present conditions</li>
+<li>Some strategies for developing management implications with LANDFIRE</li>
+</ul>
+<p>We hope you have enjoyed our tutorial. We wish you all the best in your future LANDFIRE analyses and keep us updated with any unique findings for your forest area!</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="successionClasses.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="appendix.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["FSCBook.pdf", "FSCBook.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

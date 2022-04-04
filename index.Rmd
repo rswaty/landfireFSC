@@ -10,6 +10,7 @@ biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "This is a TNC LANDFIRE GIS and excel tutorial to assist forest managers in FSC® audits"
+always_allow_html: true 
 ---
 
 

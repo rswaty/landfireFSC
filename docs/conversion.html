@@ -4,27 +4,27 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>6 Exploring conversion | Using LANDFIRE Products to explore historical and current ecosystems</title>
-  <meta name="description" content="6 Exploring conversion | Using LANDFIRE Products to explore historical and current ecosystems" />
+  <title>8 Exploring Conversion | LANDFIRE and FSC®</title>
+  <meta name="description" content="This is a TNC LANDFIRE GIS and excel tutorial to assist forest managers in FSC® audits" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="6 Exploring conversion | Using LANDFIRE Products to explore historical and current ecosystems" />
+  <meta property="og:title" content="8 Exploring Conversion | LANDFIRE and FSC®" />
   <meta property="og:type" content="book" />
   
   
-  
-  
+  <meta property="og:description" content="This is a TNC LANDFIRE GIS and excel tutorial to assist forest managers in FSC® audits" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="6 Exploring conversion | Using LANDFIRE Products to explore historical and current ecosystems" />
+  <meta name="twitter:title" content="8 Exploring Conversion | LANDFIRE and FSC®" />
   
-  
+  <meta name="twitter:description" content="This is a TNC LANDFIRE GIS and excel tutorial to assist forest managers in FSC® audits" />
   
 
-<meta name="author" content="Draft by Randy Swaty, Keith Phelps and Stacey Marion" />
+<meta name="author" content="Randy Swaty, Keith Phelps, and Stacey Marion" />
 
 
-<meta name="date" content="2022-03-16" />
+<meta name="date" content="2022-04-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -62,7 +62,7 @@
 <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
 <script src="libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="libs/datatables-binding-0.20/datatables.js"></script>
+<script src="libs/datatables-binding-0.21/datatables.js"></script>
 <link href="libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
 <link href="libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
 <script src="libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
@@ -93,51 +93,81 @@
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#download-this"><i class="fa fa-check"></i><b>1.1</b> Download this!</a></li>
-<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#about-this-document"><i class="fa fa-check"></i><b>1.2</b> About this document</a></li>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#the-forest-stewardship-council-fsc"><i class="fa fa-check"></i><b>1.1</b> The Forest Stewardship Council (FSC®)</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#landfire-and-fsc"><i class="fa fa-check"></i><b>1.2</b> LANDFIRE and FSC®</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#gis-tutorial-goals"><i class="fa fa-check"></i><b>1.3</b> GIS Tutorial Goals</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="exampleIntro.html"><a href="exampleIntro.html"><i class="fa fa-check"></i><b>2</b> Our example landscape</a></li>
-<li class="chapter" data-level="3" data-path="inputData.html"><a href="inputData.html"><i class="fa fa-check"></i><b>3</b> LANDFIRE Data for landscape assessment</a>
+<li class="chapter" data-level="2" data-path="Ataya.html"><a href="Ataya.html"><i class="fa fa-check"></i><b>2</b> Our Example Landscape</a></li>
+<li class="chapter" data-level="3" data-path="ourmethods.html"><a href="ourmethods.html"><i class="fa fa-check"></i><b>3</b> Our Method</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="inputData.html"><a href="inputData.html#landfire-for-landscape-ecosystem-assessment-test"><i class="fa fa-check"></i><b>3.1</b> LANDFIRE for landscape ecosystem assessment Test</a></li>
-<li class="chapter" data-level="3.2" data-path="inputData.html"><a href="inputData.html#the-landfire-datasets-we-used-for-this-guide"><i class="fa fa-check"></i><b>3.2</b> The LANDFIRE datasets we used for this guide</a></li>
-<li class="chapter" data-level="3.3" data-path="inputData.html"><a href="inputData.html#guidance-on-obtaining-landfire-products"><i class="fa fa-check"></i><b>3.3</b> Guidance on obtaining LANDFIRE products</a></li>
+<li class="chapter" data-level="3.1" data-path="ourmethods.html"><a href="ourmethods.html#gis-analysis-requirements"><i class="fa fa-check"></i><b>3.1</b> GIS Analysis Requirements</a></li>
+<li class="chapter" data-level="3.2" data-path="ourmethods.html"><a href="ourmethods.html#methods"><i class="fa fa-check"></i><b>3.2</b> Methods</a></li>
+<li class="chapter" data-level="3.3" data-path="ourmethods.html"><a href="ourmethods.html#disclaimers"><i class="fa fa-check"></i><b>3.3</b> Disclaimers</a></li>
+<li class="chapter" data-level="3.4" data-path="ourmethods.html"><a href="ourmethods.html#lastly-download-this"><i class="fa fa-check"></i><b>3.4</b> Lastly… Download this!</a></li>
+<li class="chapter" data-level="3.5" data-path="ourmethods.html"><a href="ourmethods.html#about-this-document"><i class="fa fa-check"></i><b>3.5</b> About this document</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html"><i class="fa fa-check"></i><b>4</b> Historical Ecosystems</a>
+<li class="chapter" data-level="4" data-path="inputdata.html"><a href="inputdata.html"><i class="fa fa-check"></i><b>4</b> LANDFIRE Data for FSC®</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#general-methods"><i class="fa fa-check"></i><b>4.1</b> General methods</a>
-<ul>
-<li class="chapter" data-level="4.1.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#a-few-potential-traps-with-pivot-tables"><i class="fa fa-check"></i><b>4.1.1</b> A few potential traps with Pivot Tables</a></li>
+<li class="chapter" data-level="4.1" data-path="inputdata.html"><a href="inputdata.html#landfire-for-landscape-ecosystem-assessment"><i class="fa fa-check"></i><b>4.1</b> LANDFIRE for Landscape Ecosystem Assessment</a></li>
+<li class="chapter" data-level="4.2" data-path="inputdata.html"><a href="inputdata.html#landfire-datasets-used-for-this-tutorial"><i class="fa fa-check"></i><b>4.2</b> LANDFIRE Datasets Used For This Tutorial</a></li>
+<li class="chapter" data-level="4.3" data-path="inputdata.html"><a href="inputdata.html#guidance-on-obtaining-landfire-products"><i class="fa fa-check"></i><b>4.3</b> Guidance on Obtaining LANDFIRE Products</a></li>
 </ul></li>
-<li class="chapter" data-level="4.2" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#getting-at-amounts-of-historical-ecosystems"><i class="fa fa-check"></i><b>4.2</b> Getting at amounts of historical ecosystems</a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>5</b> Existing Vegetation Types</a>
+<li class="chapter" data-level="5" data-path="gis.html"><a href="gis.html"><i class="fa fa-check"></i><b>5</b> LANDFIRE Data for Landscape Assessment</a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="evt.html"><a href="evt.html#general-methods-1"><i class="fa fa-check"></i><b>5.1</b> General methods</a></li>
-<li class="chapter" data-level="5.2" data-path="evt.html"><a href="evt.html#getting-at-amounts-of-current-ecosystems"><i class="fa fa-check"></i><b>5.2</b> Getting at amounts of current ecosystems</a></li>
+<li class="chapter" data-level="5.1" data-path="gis.html"><a href="gis.html#if-you-havent-already-download-this"><i class="fa fa-check"></i><b>5.1</b> If you haven’t already… Download this!</a></li>
+<li class="chapter" data-level="5.2" data-path="gis.html"><a href="gis.html#load-spatial-data"><i class="fa fa-check"></i><b>5.2</b> Load Spatial Data</a></li>
+<li class="chapter" data-level="5.3" data-path="gis.html"><a href="gis.html#download-three-3-landfire-rasters-for-the-study-area-bps-evt-and-sclass"><i class="fa fa-check"></i><b>5.3</b> Download Three (3) LANDFIRE Rasters for the Study Area: BpS, EVT, and sClass</a></li>
+<li class="chapter" data-level="5.4" data-path="gis.html"><a href="gis.html#project-to-the-appropriate-coordinate-system"><i class="fa fa-check"></i><b>5.4</b> Project to the Appropriate Coordinate System</a></li>
+<li class="chapter" data-level="5.5" data-path="gis.html"><a href="gis.html#landfire-data-stacking"><i class="fa fa-check"></i><b>5.5</b> LANDFIRE Data Stacking</a></li>
+<li class="chapter" data-level="5.6" data-path="gis.html"><a href="gis.html#join-bps-tabular-data"><i class="fa fa-check"></i><b>5.6</b> Join BpS Tabular Data</a></li>
+<li class="chapter" data-level="5.7" data-path="gis.html"><a href="gis.html#join-evt-tabular-data"><i class="fa fa-check"></i><b>5.7</b> Join EVT Tabular Data</a></li>
+<li class="chapter" data-level="5.8" data-path="gis.html"><a href="gis.html#join-sclass-tabular-data"><i class="fa fa-check"></i><b>5.8</b> Join sClass tabular data</a></li>
+<li class="chapter" data-level="5.9" data-path="gis.html"><a href="gis.html#crop-the-combined-raster-to-the-study-area"><i class="fa fa-check"></i><b>5.9</b> Crop the combined raster to the study area</a></li>
+<li class="chapter" data-level="5.10" data-path="gis.html"><a href="gis.html#calculate-area-field"><i class="fa fa-check"></i><b>5.10</b> Calculate Area Field</a></li>
+<li class="chapter" data-level="5.11" data-path="gis.html"><a href="gis.html#export-combine_studyarea-attribute-table-into-a-.csv-format"><i class="fa fa-check"></i><b>5.11</b> Export combine_studyArea attribute table into a .csv format</a></li>
+<li class="chapter" data-level="5.12" data-path="gis.html"><a href="gis.html#open-the-tutorial-excel-workbook"><i class="fa fa-check"></i><b>5.12</b> Open the Tutorial Excel Workbook</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="conversion.html"><a href="conversion.html"><i class="fa fa-check"></i><b>6</b> Exploring conversion</a>
+<li class="chapter" data-level="6" data-path="historicalecosystems.html"><a href="historicalecosystems.html"><i class="fa fa-check"></i><b>6</b> Historical Ecosystems</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="conversion.html"><a href="conversion.html#the-fine-print"><i class="fa fa-check"></i><b>6.1</b> The fine print</a></li>
-<li class="chapter" data-level="6.2" data-path="conversion.html"><a href="conversion.html#pivot-table-work"><i class="fa fa-check"></i><b>6.2</b> Pivot table work</a></li>
-<li class="chapter" data-level="6.3" data-path="conversion.html"><a href="conversion.html#visual-exploration-for-fun."><i class="fa fa-check"></i><b>6.3</b> Visual exploration for fun.</a></li>
+<li class="chapter" data-level="6.1" data-path="historicalecosystems.html"><a href="historicalecosystems.html#general-methods"><i class="fa fa-check"></i><b>6.1</b> General Methods</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="historicalecosystems.html"><a href="historicalecosystems.html#some-potential-traps-with-pivot-tables"><i class="fa fa-check"></i><b>6.1.1</b> Some Potential Traps with Pivot Tables</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="successionClasses.html"><a href="successionClasses.html"><i class="fa fa-check"></i><b>7</b> Succession Classes</a>
+<li class="chapter" data-level="6.2" data-path="historicalecosystems.html"><a href="historicalecosystems.html#getting-at-amounts-of-historical-ecosystems"><i class="fa fa-check"></i><b>6.2</b> Getting at amounts of historical ecosystems</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>7</b> Existing Vegetation Types</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="successionClasses.html"><a href="successionClasses.html#what-we-will-do-here"><i class="fa fa-check"></i><b>7.1</b> What we will do here</a></li>
-<li class="chapter" data-level="7.2" data-path="successionClasses.html"><a href="successionClasses.html#what-are-succession-classes"><i class="fa fa-check"></i><b>7.2</b> What are “Succession Classes?”</a></li>
-<li class="chapter" data-level="7.3" data-path="successionClasses.html"><a href="successionClasses.html#our-sample-ecosystem"><i class="fa fa-check"></i><b>7.3</b> Our sample ecosystem</a></li>
-<li class="chapter" data-level="7.4" data-path="successionClasses.html"><a href="successionClasses.html#your-tasks"><i class="fa fa-check"></i><b>7.4</b> Your tasks</a>
+<li class="chapter" data-level="7.1" data-path="evt.html"><a href="evt.html#general-methods-1"><i class="fa fa-check"></i><b>7.1</b> General Methods</a></li>
+<li class="chapter" data-level="7.2" data-path="evt.html"><a href="evt.html#getting-at-amounts-of-current-ecosystems"><i class="fa fa-check"></i><b>7.2</b> Getting at Amounts of Current Ecosystems</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="conversion.html"><a href="conversion.html"><i class="fa fa-check"></i><b>8</b> Exploring Conversion</a>
 <ul>
-<li class="chapter" data-level="7.4.1" data-path="successionClasses.html"><a href="successionClasses.html#current-succession-classes"><i class="fa fa-check"></i><b>7.4.1</b> Current succession classes</a></li>
-<li class="chapter" data-level="7.4.2" data-path="successionClasses.html"><a href="successionClasses.html#historical-succession-classes"><i class="fa fa-check"></i><b>7.4.2</b> Historical succession classes</a></li>
+<li class="chapter" data-level="8.1" data-path="conversion.html"><a href="conversion.html#the-fine-print"><i class="fa fa-check"></i><b>8.1</b> The Fine Print</a></li>
+<li class="chapter" data-level="8.2" data-path="conversion.html"><a href="conversion.html#pivot-table-work"><i class="fa fa-check"></i><b>8.2</b> Pivot Table Work</a></li>
+<li class="chapter" data-level="8.3" data-path="conversion.html"><a href="conversion.html#excel-steps-for-preparing-an-ecosystem-conversion-table"><i class="fa fa-check"></i><b>8.3</b> Excel Steps for Preparing an Ecosystem Conversion Table</a></li>
+<li class="chapter" data-level="8.4" data-path="conversion.html"><a href="conversion.html#interpreting-the-ecosystem-conversion-table"><i class="fa fa-check"></i><b>8.4</b> Interpreting the Ecosystem Conversion Table</a></li>
+<li class="chapter" data-level="8.5" data-path="conversion.html"><a href="conversion.html#visual-exploration-with-a-sankey-diagram"><i class="fa fa-check"></i><b>8.5</b> Visual Exploration with a Sankey Diagram</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="successionClasses.html"><a href="successionClasses.html"><i class="fa fa-check"></i><b>9</b> Succession Classes</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="successionClasses.html"><a href="successionClasses.html#what-we-will-do"><i class="fa fa-check"></i><b>9.1</b> What We Will Do</a></li>
+<li class="chapter" data-level="9.2" data-path="successionClasses.html"><a href="successionClasses.html#what-are-succession-classes"><i class="fa fa-check"></i><b>9.2</b> What are “Succession Classes?”</a></li>
+<li class="chapter" data-level="9.3" data-path="successionClasses.html"><a href="successionClasses.html#our-sample-ecosystem"><i class="fa fa-check"></i><b>9.3</b> Our Sample Ecosystem</a></li>
+<li class="chapter" data-level="9.4" data-path="successionClasses.html"><a href="successionClasses.html#your-tasks"><i class="fa fa-check"></i><b>9.4</b> Your Tasks</a>
+<ul>
+<li class="chapter" data-level="9.4.1" data-path="successionClasses.html"><a href="successionClasses.html#current-succession-classes"><i class="fa fa-check"></i><b>9.4.1</b> Current Succession Classes</a></li>
+<li class="chapter" data-level="9.4.2" data-path="successionClasses.html"><a href="successionClasses.html#historical-succession-classes"><i class="fa fa-check"></i><b>9.4.2</b> Historical succession classes</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="gisPrep.html"><a href="gisPrep.html"><i class="fa fa-check"></i><b>8</b> APPENDIX</a>
+<li class="chapter" data-level="10" data-path="conclusions.html"><a href="conclusions.html"><i class="fa fa-check"></i><b>10</b> Conclusions</a>
 <ul>
-<li class="chapter" data-level="8.1" data-path="gisPrep.html"><a href="gisPrep.html#gis-prep-combine-data"><i class="fa fa-check"></i><b>8.1</b> GIS Prep: Combine data</a></li>
-<li class="chapter" data-level="8.2" data-path="gisPrep.html"><a href="gisPrep.html#gis-prep-join-in-attributes"><i class="fa fa-check"></i><b>8.2</b> GIS Prep: Join in attributes</a></li>
-<li class="chapter" data-level="8.3" data-path="gisPrep.html"><a href="gisPrep.html#gis-prepclean-data-table"><i class="fa fa-check"></i><b>8.3</b> GIS Prep:Clean data table</a></li>
+<li class="chapter" data-level="10.1" data-path="conclusions.html"><a href="conclusions.html#bringing-it-all-together"><i class="fa fa-check"></i><b>10.1</b> Bringing it All Together</a></li>
+<li class="chapter" data-level="10.2" data-path="conclusions.html"><a href="conclusions.html#recap-for-fsc"><i class="fa fa-check"></i><b>10.2</b> Recap for FSC®</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>11</b> APPENDIX</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="appendix.html"><a href="appendix.html#landifre-data-downloading-help"><i class="fa fa-check"></i><b>11.1</b> LANDIFRE Data Downloading Help</a></li>
+<li class="chapter" data-level="11.2" data-path="appendix.html"><a href="appendix.html#export-combine_studyarea-attribute-table-into-an-excel-workbook"><i class="fa fa-check"></i><b>11.2</b> Export “combine_studyArea” attribute table into an Excel Workbook</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -151,7 +181,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Using LANDFIRE Products to explore historical and current ecosystems</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">LANDFIRE and FSC®</a>
           </h1>
         </div>
 
@@ -159,36 +189,71 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="conversion" class="section level1" number="6">
-<h1><span class="header-section-number">6</span> Exploring conversion</h1>
-<p><strong>The main question we explore on this page: how much of the historic ecosystems have been converted to a different land use (e.g., agriculture).</strong></p>
-<div id="the-fine-print" class="section level2" number="6.1">
-<h2><span class="header-section-number">6.1</span> The fine print</h2>
+<div id="conversion" class="section level1" number="8">
+<h1><span class="header-section-number">8</span> Exploring Conversion</h1>
+<p><strong>The main question we explore on this page: how much of the historic ecosystems have been converted to a different land use or ecosystem type? (e.g., agriculture, forest types).</strong></p>
+<div id="the-fine-print" class="section level2" number="8.1">
+<h2><span class="header-section-number">8.1</span> The Fine Print</h2>
 <p>While this assessment is illustrative, it is important to note that the methods used to create the BpS and EVT datasets are substantially different, and LANDFIRE datasets are not made for assessing small areas. Please review. In the exercise we will focus on the coarsest classifications. If you need to work at the finer classification levels proceed with caution!</p>
 </div>
-<div id="pivot-table-work" class="section level2" number="6.2">
-<h2><span class="header-section-number">6.2</span> Pivot table work</h2>
+<div id="pivot-table-work" class="section level2" number="8.2">
+<h2><span class="header-section-number">8.2</span> Pivot Table Work</h2>
 <p>Working in the “Conversion” worksheet:</p>
 <ol style="list-style-type: decimal">
 <li>Check the “GROUPVEG” then the “EVT_PHYS” fields to add them to the Pivot Table. Make sure that GROUPVEG is the leftmost column. If not drag that field to the top in the Rows pane.</li>
-<li>In the cell above the “GROUPVEG” field header type “past”; in the cell above the “EVT_PHYS” type “present”.</li>
-<li>If you fancy click the dropdown in the “GROUPVEG” header. Here you can remove types. Let’s remove “Barren-Rock/Sand/Clay”.</li>
+<li>In the cell above the “GROUPVEG” field header type “past”; in the cell above the “EVT_PHYS” type “present.”</li>
+<li>If you fancy click the dropdown in the “GROUPVEG” header. Here you can remove types.</li>
 <li>Check the “ACRES” field to add it to the Pivot Table.</li>
 <li>Explore. Of what was historically mapped as CONIFER, what’s the biggest non-CONIFER type today?</li>
-<li>Switch the order of the fields by dragging “EVT_PHYS” to the top of the Rows pane. Which GROUPVEG type was most converted to “Developed”?</li>
+<li>Switch the order of the fields by dragging “EVT_PHYS” to the top of the Rows pane. Which GROUPVEG type was most converted to “Developed?”</li>
 </ol>
+<p>We can easily make excel charts and bar graphs to summarize these findings and demonstrate change from historic conditions. We can also dive a little bit deeper to generate a table that illustrates percent change from historic ecosystem conditions to current ecosystem conditions.</p>
 </div>
-<div id="visual-exploration-for-fun." class="section level2" number="6.3">
-<h2><span class="header-section-number">6.3</span> Visual exploration for fun.</h2>
-<p>Sometimes patterns emerge from visuals. Below is a <a href="https://en.wikipedia.org/wiki/Sankey_diagram">Sankey Diagram</a> generated in R (can also be created in Excel we hear. See instructions <a href="https://mychartguide.com/how-to-draw-sankey-diagram-in-excel/">here</a>). On the left are the historical ecosystems, on the right current ecosystems and flow bands. The width of the bands is proportional to the flow rate. Some potential interpretations, partially based on the chart, partially based on local knowledge:</p>
+<div id="excel-steps-for-preparing-an-ecosystem-conversion-table" class="section level2" number="8.3">
+<h2><span class="header-section-number">8.3</span> Excel Steps for Preparing an Ecosystem Conversion Table</h2>
+<p>Here are steps to create a table summary which will allow us to view percent change of historical ecosystems (Bps) into current ecosystems (EVT):</p>
+<ol style="list-style-type: decimal">
+<li>Open the “Bps2evt” worksheet</li>
+<li>In the Pivot Table, check “BPS_Name,” “EVT_Name,” and “COUNT”</li>
+<li>In the Main Ribbon of the worksheet (where File, Home, Insert, etc. are located) navigate all the way to the last Tab on the right labeled “Design.” Click on “Design.”</li>
+<li>In the “Subtotals” tab, click on the down arrow and navigate to “Do Not Show Subtotals.” Click on this option.</li>
+<li>In the “Grand Totals” tab, click on the down arrow and navigate to “Turn Off for Rows and Columns.” Click on this option.</li>
+<li>In the “Report Layout” tab, click on the down arrow and navigate to “Show In Tabular Form.” Click on this option.</li>
+<li>In the “Report Layout” tab, click on the down arrow and navigate to “Repeat All Item Labels.” Click on this option.</li>
+<li>In the top data cell for the “BPS_Name” data column, right click and navigate to “Filter.” Click on “Top 10…”</li>
+<li>In the box that opens, change “10” to 90 and “Items” to “Percent.”
 <ul>
-<li>There is more northern hardwoods mapped today than historically. This could be due to “simplification” of ecosystems that have some shared species. For example, many conifers have been removed and deer present a challenge for regeneration. One hypothesis would be that due to logging and deer the “Pine-Hemlock-Hardwood-Forest” has been essentially converted to “Northern Hardwoods”.</li>
-<li>It might be more illuminating to group some types together, such as the “Recently Logged” types.</li>
-<li>LANDFIRE has mapped potential change of the wetlands to other types. This could be due to mapping errors, or due to alterations in hydrology because of roads perhaps. More investigation is warranted.</li>
+<li>This will select the top 90% of BpS settings in the Ataya Study Area. To display all BpS, we would type in 100.</li>
+</ul></li>
+<li>In the top data cell for the “EVT_Name” data column, right click and navigate to “Filter.” Click on “Top 10…”</li>
+<li>In the box that opens, change “10” to 90 and “Items” to “Percent.”
+<ul>
+<li>This will select the top 90% of EVT settings in the Ataya Study Area. To display all EVTs, we would type in 100.</li>
+</ul></li>
+<li>In the “Sum of Count” data column, right click on the top cell and navigate to “Value Field Settings.”</li>
+<li>In “Value Field Settings,” click on “Show Values As” and navigate to “% of Parent Row total” and click.</li>
+<li>Change the name of “Sum of Count” to “Percent.”</li>
+</ol>
+<p>Voila! We now have a table which should look similar to what’s below. For this tutorial, we have rounded our percents and are only displaying a portion of the table for better website viewing.</p>
+<div id="htmlwidget-dffb9e785ddb5298cf39" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-dffb9e785ddb5298cf39">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Allegheny-Cumberland Dry Oak Forest and Woodland-Historical","Allegheny-Cumberland Dry Oak Forest and Woodland-Historical","Allegheny-Cumberland Dry Oak Forest and Woodland-Historical","Allegheny-Cumberland Dry Oak Forest and Woodland-Historical","South-Central Interior Mesophytic Forest-Historical","South-Central Interior Mesophytic Forest-Historical"],["Allegheny-Cumberland Dry Oak Forest and Woodland","Northern &amp; Central Native Ruderal Forest","South-Central Interior Mesophytic Forest","Southern Appalachian Oak Forest","Allegheny-Cumberland Dry Oak Forest and Woodland","Northern &amp; Central Native Ruderal Forest"],[57.08,13.55,10.35,19.01,28.72,12.5]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>BPS_NAME<\/th>\n      <th>EVT_NAME<\/th>\n      <th>PERCENT<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"pageLength":5,"columnDefs":[{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":["options.columnDefs.0.render"],"jsHooks":[]}</script>
+</div>
+<div id="interpreting-the-ecosystem-conversion-table" class="section level2" number="8.4">
+<h2><span class="header-section-number">8.4</span> Interpreting the Ecosystem Conversion Table</h2>
+<p>This table gives us a general idea of the percent change from historic ecosystems into current ecosystems. In our table above, we see that 57% of historic Allegheny-Cumberland Dry Oak Forest/Woodland has remained as this ecosystem type within Ataya. We also see that 14% of Allegheny-Cumberland Dry Oak Forest/Woodland has converted into Northern &amp; Central Ruderal Forest (a forest type marked by “weedy” generalist species). Additionally, 29% of South-Central Interior Mesophytic Forest has converted into Alleghany-Cumberland Dry Oak Forest/Woodland.</p>
+<p>Here is a potential ecological interpretation for the Ecosystem Conversion Table results of our Study Area (partially based on the table and partially based on local knowledge):</p>
+<ul>
+<li>There is far more Allegheny Dry Oak Forest and Northern/Central Native Ruderal Forest mapped today than historically. Additionally, Southern Appalachian Cove and South-Central Interior Mesophytic Forests have greatly decreased over time. This could be due to a legacy of extensive ecosystem disturbance on the landscape. For example, we know that extensive clear-cut logging occurred all throughout the Appalachians in the late 19th and early 20th centuries. After these cut-over events, extensive wildfires erupted across the region due to the residual logging slash. These wildfires also spawned US Forest Service fire suppression policies in the early 20th century which altered ecosystem disturbances further.</li>
+<li>One hypothesis would be that due to homogeneous logging and wildfire disturbance across large landscape contexts, favorable conditions to shade-intolerant oak species (i.e. high light levels, open canopies, reduced duff layers) resulted in a massive increase in oak recruitment. As the forests grew back, oak became a far more common tree species and influenced the development of forest types away from maples, tulip-poplars, and other more shade-tolerant trees- typical dominants of Southern Appalachian Cover and South-Central Interior Mesophytic Forests. Additionally, as American chestnuts were lost due to chestnut blight in the early 20th century, oaks most likely took their place.</li>
 </ul>
-<p>Click <a href="https://rswaty.github.io/landfireFSC/sankey.html">here</a> to view diagram in your web browser.</p>
-<div id="htmlwidget-be0b19607322c844b88e" style="width:960px;height:768px;" class="sankeyNetwork html-widget"></div>
-<script type="application/json" data-for="htmlwidget-be0b19607322c844b88e">{"x":{"links":{"source":[0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4],"target":[5,6,7,8,9,10,11,12,13,14,6,15,7,8,10,16,11,17,18,13,6,7,8,10,19,11,17,12,18,13,15,7,10,16,11,17,18,13,20,21,15,22,7,10,19,16,11,17,18,13],"value":[1,37,3,31,2,10,6,2,6,2,4,3,8,4,25,3,14,19,3,20,19,2,43,14,1,10,2,1,2,6,3,1,78,1,2,7,3,3,2,1,2,1,2,47,1,3,11,27,3,4]},"nodes":{"name":["Boreal Acidic Peatland Systems-Historical","Boreal White Spruce-Fir-Hardwood Forest - Inland-Historical","Alkaline Conifer-Hardwood Swamp-Historical","Northern Hardwoods Forest - Hemlock-Historical","Pine-Hemlock-Hardwood Forest-Historical","Boreal-Bog","Boreal-Conifer Acidic Swamp and Treed Poor Fen","Jack Pine-Red Pine Forest","Alkaline Conifer-Hardwood Swamp","Freshwater Marsh","Northern Hardwoods Forest","Pine-Hemlock Forest","Shrub Swamp","Sub-boreal Mesic Balsam Fir-Spruce Forest","Wet Meadow","Developed-Roads","Northern Pine-(Oak) Forest","Pine-Hemlock-Hardwood Forest","Sub-boreal Aspen-Birch Forest","Northern Pine Forest","Recently Logged-Herb and Grass Cover","Recently Logged-Tree Cover","Acidic Rocky Outcrop Woodland"],"group":["Boreal Acidic Peatland Systems-Historical","Boreal White Spruce-Fir-Hardwood Forest - Inland-Historical","Alkaline Conifer-Hardwood Swamp-Historical","Northern Hardwoods Forest - Hemlock-Historical","Pine-Hemlock-Hardwood Forest-Historical","Boreal-Bog","Boreal-Conifer Acidic Swamp and Treed Poor Fen","Jack Pine-Red Pine Forest","Alkaline Conifer-Hardwood Swamp","Freshwater Marsh","Northern Hardwoods Forest","Pine-Hemlock Forest","Shrub Swamp","Sub-boreal Mesic Balsam Fir-Spruce Forest","Wet Meadow","Developed-Roads","Northern Pine-(Oak) Forest","Pine-Hemlock-Hardwood Forest","Sub-boreal Aspen-Birch Forest","Northern Pine Forest","Recently Logged-Herb and Grass Cover","Recently Logged-Tree Cover","Acidic Rocky Outcrop Woodland"]},"options":{"NodeID":"name","NodeGroup":"name","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":14,"fontFamily":null,"nodeWidth":15,"nodePadding":10,"units":"","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":0,"sinksRight":false}},"evals":[],"jsHooks":[]}</script>
+<p>We can also dive EVEN FURTHER by visualizing these ecosystem changes…</p>
+</div>
+<div id="visual-exploration-with-a-sankey-diagram" class="section level2" number="8.5">
+<h2><span class="header-section-number">8.5</span> Visual Exploration with a Sankey Diagram</h2>
+<p>Sometimes patterns emerge more explicitly from visuals. Below is a <a href="https://en.wikipedia.org/wiki/Sankey_diagram">Sankey Diagram</a> generated in R (which can also be created in Excel we hear. See instructions <a href="https://mychartguide.com/how-to-draw-sankey-diagram-in-excel/">here</a>). We used the data from our Conversion Table above to create this R figure. On the left are the historical ecosystems, on the right current ecosystems and flow bands. The width of the bands is proportional to the flow rate.</p>
+<p>Click <a href="https://rswaty.github.io/landfireFSC/sankey.html">here</a> to the view diagram in your web browser.</p>
+<div id="htmlwidget-93484f3a71e2834c0538" style="width:960px;height:768px;" class="sankeyNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-93484f3a71e2834c0538">{"x":{"links":{"source":[0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,2,3,3,3,3,3,3,3],"target":[4,5,6,7,4,5,8,6,9,7,4,5,10,8,6,9,7,4,5,11,8,6,9,7],"value":[57.08,13.55,10.35,19.01,28.72,12.5,3.76,22.19,2.87,29.96,31.77,12.93,3.86,3.4,14.52,3.82,29.7,39.71,19.33,3.3,2.85,13.5,2.46,18.84]},"nodes":{"name":["Allegheny-Cumberland Dry Oak Forest and Woodland-Historical","South-Central Interior Mesophytic Forest-Historical","Southern and Central Appalachian Cove Forest-Historical","Southern Appalachian Oak Forest-Historical","Allegheny-Cumberland Dry Oak Forest and Woodland","Northern & Central Native Ruderal Forest","South-Central Interior Mesophytic Forest","Southern Appalachian Oak Forest","Recently Logged-Tree Cover","Southern and Central Appalachian Cove Forest","Northern & Central Ruderal Meadow","Recently Logged-Herb and Grass Cover"],"group":["Allegheny-Cumberland Dry Oak Forest and Woodland-Historical","South-Central Interior Mesophytic Forest-Historical","Southern and Central Appalachian Cove Forest-Historical","Southern Appalachian Oak Forest-Historical","Allegheny-Cumberland Dry Oak Forest and Woodland","Northern & Central Native Ruderal Forest","South-Central Interior Mesophytic Forest","Southern Appalachian Oak Forest","Recently Logged-Tree Cover","Southern and Central Appalachian Cove Forest","Northern & Central Ruderal Meadow","Recently Logged-Herb and Grass Cover"]},"options":{"NodeID":"name","NodeGroup":"name","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":14,"fontFamily":null,"nodeWidth":15,"nodePadding":10,"units":"","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":0,"sinksRight":false}},"evals":[],"jsHooks":[]}</script>
 
 </div>
 </div>

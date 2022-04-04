@@ -1,8 +1,8 @@
-# LANDFIRE Data for FSC {#inputdata}
+# LANDFIRE Data for FSC® {#inputdata}
 
 ## LANDFIRE for Landscape Ecosystem Assessment  
 
-To support assessment of a forest's conditions, particularly FSC Principles 6 - Environmental Impact & 9 - Maintenance of High Conservation Value Forests, we consider:
+To support assessment of a forest's conditions, particularly FSC® Principles 6 - Environmental Impact & 9 - Maintenance of High Conservation Value Forests, we consider:
 
 * Change between historical and current ecosystem condition 
 * The representation of ecosystems within and outside of your landscape of interest.
@@ -28,4 +28,6 @@ There are multiple ways to get LANDFIRE products depending on whether you are lo
 * For the spatial datasets you can explore options [here](https://www.landfire.gov/getdata.php) which include:
     * Downloading [Full Extent Mosaics](https://www.landfire.gov/version_comparison.php). When you do use this option you get large files that cover the entire lower 48, AK or HI (depending on your selection).  We use this method when we have several landscapes and/or a large area and no computer storage issues.
     * Using the [LANDFIRE Data Distribution Site](https://www.landfire.gov/viewer/).  With this method you essentially select the datasets you need then draw a rectangle (or you can select state or counties) around your area of interest to start the downloader. We recommend this if your area of interest is not too large and/or you have a low number of landscapes and/or have storage limits.
-
+    
+    
+**If you still need more assistance in downloading LANDFIRE products, please see the appendix for some tips and screenshots!** 

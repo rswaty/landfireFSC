@@ -5,6 +5,7 @@
 Download this [zipped folder] (https://github.com/rswaty/landfireFSC/blob/main/toDownload.zip) by clicking the hyperlinked text, then the "Download" button that will be on the right side of the screen.  This folder contains:
 
 * An Ataya shapefile
+* Folders containing the BpS, EVT, and Sclass rasters 
 * An Excel file
 * One ecosystem description
 * An ArcGIS Pro map package file in case you want to explore in ArcPro. This map package includes the following:
@@ -14,7 +15,7 @@ Download this [zipped folder] (https://github.com/rswaty/landfireFSC/blob/main/t
 
 ## Load Spatial Data 
 
-Open ArcGIS Pro and create a new project using a blank map template. Move the downloaded Ataya tutorial data into your project folder.
+Open ArcGIS Pro and create a new project using a blank map template. Move the downloaded Ataya shapefile tutorial data into your project folder.
 
 ```{r GIS1, echo=FALSE, out.width=100}
 knitr::include_graphics("04_gis_screenshots/1_load_data.png")
@@ -39,6 +40,8 @@ For some LANDFIRE data products, like the BpS model, the model (spatial data) an
 knitr::include_graphics("04_gis_screenshots/2_view_mapzone.png")
 
 ```
+
+Note that for this tutorial, we downloaded rasters by using the rectangle drawing tool and *drew a rectangle that was larger than our Study Area*. This ensures no raster cell data is lost in our calculations. This tutorial allows us to "cut" out that extra area in the end. If you are downloading your own data, always make sure to draw a downloading box that is larger than your Study Area to prevent GIS errors. 
 
 Once downloaded, move the LANDFIRE data product downloads into your Pro project folder. You should have a BpS, EVT, and SCLASS folder. Each folder contains metadata, a corresponding database table, and a raster.
 

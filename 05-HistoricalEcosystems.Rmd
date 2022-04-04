@@ -71,7 +71,7 @@ datatable(head(bps),
 <br>
 <br>
 
-We see that the top 4 BpSs comprised ~90% of our example landscape historically. We can visually confirm this and other patterns with a quick chart made in R (similar charts available in Excel by highlighting the data, clicking Insert then selecting the chart type in the "Charts" tab):
+We see that the top 3 BpSs comprised ~80% of our example landscape historically. We can visually confirm this and other patterns with a quick chart made in R (similar charts available in Excel by highlighting the data, clicking Insert then selecting the chart type in the "Charts" tab):
 
 <br>
 

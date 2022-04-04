@@ -1,0 +1,28 @@
+# Conclusions {#conclusions}
+
+## Bringing it All Together
+
+We've got a lot of useful deliverables from our analysis (GIS maps, tables, charts, interpretations) but let's spend some time bringing all our analyses together. For Ataya, we see that historically our forest was dominated mostly by Southern Appalachian Oak Forest, Southern and Central Appalachian Cove Forest, and South-Central Interior Mesophytic Forests. We also know the current forests have shifted most to Allegeheny Dry Oak Forest/Woodland. Southern and Central Appalachian Cove Forests have experienced a particularly high degree of ecosystem conversion. Additionally, Ataya has large areas of uncharacteristic exotic vegetation and native ruderal forest. 
+
+**Let's draw some potential forest management implications.** 
+
+This is not an exhaustive list by any means- just some ideas to get the creative juices flowing. Feel free to revisit our previous sections to view GIS maps and charts! 
+
+* We see a very high departure from historic conditions for Ataya. Our restoration efforts shouldn't be focused on re-converting everything back to our BpS map as this is not feasible. This is not to say we should avoid preserving and locating unchanged forest. We can use our BpS and EVT maps to potentially find areas where the forests have remained stable for longer periods of time, and use these areas as representatives of historic conditions for teaching purposes, genotype conservation, and seed collection/preservation among other things.  
+* Perhaps we need to spend some extra time mapping Cove Forest communities in the field. If this forest type is experiencing particular heavy ecosystem conversion, it may be important we assess, preserve, and more intimately manage the best representations of that forest community type.
+* We have a better idea of where we may need to concentrate efforts on invasive plant management. This includes areas in the southern portions of Ataya where concentrated pockets of uncharacteristic exotic vegetation can be observed. A field assessment could confirm these suspicions and influence an Integrated Pest Management plan. 
+* We know that oaks require specific shade-reduced conditions to regenerate and recruit into the forest canopy. Based on the level of oak community types present on the landscape now, prescribed fire and timber harvesting to facilitate oak regeneration (i.e. thinning, shelterwood cuts) will be incredibly important for a forest management plan/strategy. 
+  * Since most of the oak dominated forests in the south of Ataya are in Succession Class D and E (i.e. more closed canopy conditions), prescribed fire and harvesting activities to facilitate tree canopy gaps and oak recruitment may be very important in this section of the forest. 
+
+
+## Recap for FSC® 
+
+After our analysis is complete, we can see that we have provided the following for a potential FSC® Audit:
+* Maps and acreage for historic ecosystems 
+* Maps and acreage for current ecosystems/land cover
+* Mapss of current Forest Succession Classes
+* Tables to assess ecosystem conversion
+* Tables to assess acreage for historic and present conditions
+* Some strategies for developing management implications with LANDFIRE 
+
+We hope you have enjoyed our tutorial. We wish you all the best in your future LANDFIRE analyses and keep us updated with any unique findings for your forest area! 

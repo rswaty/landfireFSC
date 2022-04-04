@@ -1,10 +1,14 @@
 # Introduction {#Introduction}
 
-## The Forest Stewardship Council (FSC)
+## The Forest Stewardship Council (FSC®)
+```{r FSClogo, echo=FALSE, out.width=50}
+knitr::include_graphics("KP_screenshots/FSC_Logo.jpg")
 
-The [Forest Stewardship Council](https://fsc.org/en) (FSC) develops and delivers Principles, Criteria and Indicators for sustainable forest management (https://fsc.org/en/document-centre/documents/resource/392). FSC Principles 6 and 9 are focused on Environmental Values and Impact and Maintenance of High Conservation Value Areas respectfully. In order for forest managers to receive FSC accreditation and/or pass FSC audits, many of the criteria and indicators within Principles 6 and 9 require a GIS assessment of historical and current vegetation conditions, disturbance regimes, and landscape patterns.
+```
 
-## LANDFIRE and FSC
+The [Forest Stewardship Council](https://fsc.org/en) (FSC®) develops and delivers Principles, Criteria and Indicators for sustainable forest management (https://fsc.org/en/document-centre/documents/resource/392). FSC® Principles 6 and 9 are focused on Environmental Values and Impact and Maintenance of High Conservation Value Areas respectfully. In order for forest managers to receive FSC accreditation and/or pass FSC® audits, many of the criteria and indicators within Principles 6 and 9 require a GIS assessment of historical and current vegetation conditions, disturbance regimes, and landscape patterns.
+
+## LANDFIRE and FSC®
 
 [LANDFIRE](https://landfire.gov/) is an interagency program within the United States that "provides 20+ national geo-spatial layers (e.g. vegetation, fuel, disturbance, etc.), databases, and ecological models that are available to the public for the US and insular areas." With this free and regularly updated data, it is possible to fulfill the GIS requirements of several indicators within Principles 6 and 9. Here we provide guidance for:
 
@@ -17,14 +21,14 @@ The [Forest Stewardship Council](https://fsc.org/en) (FSC) develops and delivers
 In general the analyses developed here will help forest managers:
 
 * Assess “representation” of ecosystems within ownerships and landscapes.
-* Map ecosystems and their conditions, past and present.
+* Map ecosystems and their conditions- past and present.
 * Understand natural disturbance regimes and compare them to current landscape disturbance patterns.
-* Explore ecosystem conversion (both to unnatural (e.g., urban) land uses and different ecosystems).
+* Explore ecosystem conversion both to unnatural (e.g., urban) land uses and different ecosystems.
 * Provide context for where ecological restoration or conservation of current ecosystems should be prioritized on a landscape.  
 * Assess site conditions that can be completed with existing datasets.
 * Assess climate change and future condition considerations where possible with existing data.
 
-In the United States, including the insular areas, [LANDFIRE](https://www.landfire.gov/) provides the datasets and ecological model results to get at these challenges and more. Here we walk you through some of the technical steps needed to start your analysis. We will do our work in a model landscape called the Ataya Forest Tract (hereafter referred to as "Ataya"). Ataya is owned by The Nature Conservancy (TNC), actively managed under FSC standards, and is located in the Central Appalachians (highlighted in green in map below).
+In the United States, including the insular areas, [LANDFIRE](https://www.landfire.gov/) provides the datasets and ecological model results to get at these challenges and more. Here we walk you through some of the technical steps needed to start your FSC® analysis. We will do our work in a model landscape called the Ataya Forest Tract (hereafter referred to as "Ataya"). Ataya is owned by The Nature Conservancy (TNC), actively managed under FSC® standards, and is located in the Central Appalachians (highlighted in green in map below).
 
 To help you with the concepts we have worked through pre-processed LANDFIRE data for this example landscape. To prepare the datasets for your own landscape, you may download the relevant LANDFIRE data for your own landscape and follow our steps.
 

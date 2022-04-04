@@ -44,5 +44,5 @@ We will start with our friend the Pivot Table to get current percentages of the 
 3. There are be 5 succession classes, A, B, C, D and E with corresponding estimated reference amounts. For example, Succession Class A was modeled to be rare in this ecosystem as fire was infrequent with the average fire return interval for the ecosystem being 50-200 years. LANDFIRE estimated that only 2% of this ecosystem would have been Succession Class A historically.
 4. Back in the pivot table, you will create a new column named "Historical", then type the succession class percentages from the document into the corresponding row.  
 
-Now we can start to see some patterns emerge.  We won't spoil your fun by saying what those patterns are!
+Now we can start to see some patterns emerge. What do you see and can you draw any conclusions for forest management within the Ataya? We won't spoil your fun by saying what those patterns are!
 

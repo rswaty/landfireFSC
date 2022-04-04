@@ -22,7 +22,7 @@ Here are steps to create a table summary which will allow us to view percent cha
 
 1. Open the "Bps2evt" worksheet
 2. In the Pivot Table, check "BPS_Name", "EVT_Name", and "COUNT"
-3. In the Main Ribbon of the worksheet (where File, Home, Insert etc. are located) navigate all the way to the last Tab on the right labeled "Design". Click on "Design".
+3. In the Main Ribbon of the worksheet (where File, Home, Insert, etc. are located) navigate all the way to the last Tab on the right labeled "Design". Click on "Design".
 4. In the "Subtotals" tab, click on the down arrow and navigate to "Do Not Show Subtotals". Click on this option. 
 5. In the "Grand Totals" tab, click on the down arrow and navigate to "Turn Off for Rows and Columns". Click on this option. 
 6. In the "Report Layout" tab, click on the down arrow and navigate to "Show In Tabular Form". Click on this option. 

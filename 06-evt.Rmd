@@ -11,7 +11,7 @@ As we can see, there are FAR more ecosystem types present in Ataya today. In the
 
 ## General Methods
 
-We use the same general methods as we did on the "Historical Ecosystems" page, as we will be using another Pivot Table.  We rely on [LANDFIRE's Existing Vegetation Type (EVT)](https://www.landfire.gov/evt.php) data for this assessment.
+We use the same general methods as we did on the "Historical Ecosystems" page, as we will be using another Pivot Table. We rely on [LANDFIRE's Existing Vegetation Type (EVT)](https://www.landfire.gov/evt.php) data for this assessment.
 
 
 ## Getting at Amounts of Current Ecosystems

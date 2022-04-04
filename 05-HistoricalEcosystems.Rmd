@@ -8,6 +8,7 @@ knitr::include_graphics("KP_GISmaps/Ataya_bps.png")
 ```
 
 According to LANDFIRE, most of Ataya was dominated by:
+
 * Southern Appalachian Oak Forest
 * Southern and Central Appalachian Cove Forest
 * South-Central Interior Mesophytioc Forest 

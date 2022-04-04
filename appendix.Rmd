@@ -5,10 +5,10 @@
 **LANDFIRE Data Download Homepage**
 
 1. LANDFIRE 2016 EVT data will be the default display.
-2. You can turn off EVT layers and find different data layers on the left hand side. 
+2. You can turn off EVT layers and find different data layers on the left hand column. 
 3. Regions and bookmarks can be found/made on the right. 
 
-```{r LANDFIRE1, echo=FALSE, out.width=100}
+```{r LANDFIRE1, echo=FALSE, out.width=1000}
 knitr::include_graphics("KP_screenshots/LANDFIRE First Load.jpg")
 
 ```
@@ -16,15 +16,16 @@ knitr::include_graphics("KP_screenshots/LANDFIRE First Load.jpg")
 **LANDFIRE Identify Tool**
 
 1. Click where the red arrow is pointing. 
-2. This will allow you to ID layers you have selected. Your query will be displayed in the right hand-side. 
+2. This will allow you to ID layers you have selected. Your query will be displayed in the right hand column (under "Feature Info"). 
 3. We see that we have clicked on "Southern and Central Appalachian Cove Forest" from our EVT layer.
 
-```{r LANDFIRE2, echo=FALSE, out.width=100}
+```{r LANDFIRE2, echo=FALSE, out.width=1000}
 knitr::include_graphics("KP_screenshots/LANDFIRE Identify.jpg")
 
 ```
 
 **LANDFIRE Data Download Tool**
+
 1. In the right-hand column, expand the "Download Tool" (where the red star is located).
 2. Click on the Blue Download Tool Icon in the toolbar.
 3. Select "Rectangle" where the red arrow is pointing. 
@@ -32,39 +33,41 @@ knitr::include_graphics("KP_screenshots/LANDFIRE Identify.jpg")
 5. Select your projection.
 6. Select your data product. We highly recommend TIFF with attributes (this will ensure the attribute table comes over with the raster).
 
-```{r LANDFIRE3, echo=FALSE, out.width=100}
+```{r LANDFIRE3, echo=FALSE, out.width=1000}
 knitr::include_graphics("KP_screenshots/LANDFIRE Rectangle Data Download.jpg")
 
 ```
 
 **Download EVT Data**
+
 1. Select the drop down menu for "LF 2016" on the left-hand column (first red arrow).
 2. Click on us_200 Existing Vegetation Type (second red arrow).
 
-```{r LANDFIRE4, echo=FALSE, out.width=100}
+```{r LANDFIRE4, echo=FALSE, out.width=1000}
 knitr::include_graphics("KP_screenshots/LANDFIRE Find EVT.jpg")
 
 ```
 
 **Download BpS Data**
+
 1. Select the drop down menu for "LF 2016" on the left-hand column (first red arrow).
 2. Click on us_200 Biophysical Settings (second red arrow).
 
-```{r LANDFIRE5, echo=FALSE, out.width=100}
+```{r LANDFIRE5, echo=FALSE, out.width=1000}
 knitr::include_graphics("KP_screenshots/LANDFIRE Find BpS.jpg")
 
 ```
 
 **Download Sclass Data**
+
 1. Select the drop down menu for "LF 2016" on the left-hand column (first yellow arrow).
 2. Expand the "Fire Regime" folder beneath Fuel 2020 Capable (second yellow arrow).
 3. Click on us_200 Succesion Classes. 
 
-```{r LANDFIRE6, echo=FALSE, out.width=100}
+```{r LANDFIRE6, echo=FALSE, out.width=1000}
 knitr::include_graphics("KP_screenshots/LANDFIRE Find sClass.jpg")
 
 ```
-
 
 
 ## Export "combine_studyArea" attribute table into an Excel Workbook
@@ -76,7 +79,7 @@ knitr::include_graphics("KP_screenshots/LANDFIRE Find sClass.jpg")
 3. For the output location, save it to your project database.
 4. For output name, type "Ataya_combineClean" (or your preferred name).
 
-```{r GIS19, echo=FALSE, out.width=100}
+```{r GIS19, echo=FALSE, out.width=500}
 knitr::include_graphics("04_gis_screenshots/19_table_table.png")
 
 ```
@@ -85,7 +88,7 @@ knitr::include_graphics("04_gis_screenshots/19_table_table.png")
 6. For the Input Table, select the table we just created in our project database.
 7. Navigate to an output folder location of your choosing. *Make sure to type ".xlsx" at the end of the file pathway. This will ensure your excel file is in the latest excel workbook format.*
 
-```{r GIS20, echo=FALSE, out.width=100}
+```{r GIS20, echo=FALSE, out.width=500}
 knitr::include_graphics("04_gis_screenshots/20_Table_Excel.png")
 
 ```

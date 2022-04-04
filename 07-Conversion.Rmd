@@ -29,10 +29,10 @@ Here are steps to create a table summary which will allow us to view percent cha
 7. In the "Report Layout" tab, click on the down arrow and navigate to "Repeat All Item Labels". Click on this option. 
 8. In the top data cell for the "BPS_Name" data column, right click and navigate to "Filter". Click on "Top 10..."
 9. In the box that opens, change "10" to 90 and "Items" to "Percent". 
-  * This will select the top 90% of BpS settings in the Ataya Study Area. To display all BpS, we would type in 100. 
+    * This will select the top 90% of BpS settings in the Ataya Study Area. To display all BpS, we would type in 100. 
 10. In the top data cell for the "EVT_Name" data column, right click and navigate to "Filter". Click on "Top 10..."
 11. In the box that opens, change "10" to 90 and "Items" to "Percent". 
-  * This will select the top 90% of EVT settings in the Ataya Study Area. To display all EVTs, we would type in 100. 
+    * This will select the top 90% of EVT settings in the Ataya Study Area. To display all EVTs, we would type in 100. 
 12. In the "Sum of Count" data column, right click on the top cell and navigate to "Value Field Settings". 
 13. In "Value Field Settings", click on "Show Values As" and navigate to "% of Parent Row total" and click. 
 14. Change the name of "Sum of Count" to "Percent". 
@@ -67,7 +67,7 @@ Sometimes patterns emerge more explicitly from visuals. Below is a [Sankey Diagr
 
 Click [here](https://rswaty.github.io/landfireFSC/sankey.html) to the view diagram in your web browser. 
 
-```{r sankey, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
+```{r Atayasankey, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
 
 library(networkD3)
 library(dplyr)
@@ -85,7 +85,7 @@ data$IDsource <- match(data$source, nodes$name)-1
 data$IDtarget <- match(data$target, nodes$name)-1
 
 # Make the Network
-snky2 <- sankeyNetwork(Links = data, 
+Ataya_snky2 <- sankeyNetwork(Links = data, 
                        Nodes = nodes,
                        Source = "IDsource", 
                        Target = "IDtarget",
@@ -95,11 +95,11 @@ snky2 <- sankeyNetwork(Links = data,
                        iterations = 0,
                        sinksRight=FALSE)
 
-snky2
+Ataya_snky2
 
 # save the widget
 library(htmlwidgets)
-saveWidget(snky2, "sankey.html")
+saveWidget(Ataya_snky2, "Ataya_sankey.html")
 
 
 ```

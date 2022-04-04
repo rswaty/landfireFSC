@@ -30,6 +30,7 @@ Second, LANDFIRE data is best represented at coarse landscape scales (i.e. lands
 Third, this tutorial GIS analysis was performed using ArcGIS Pro only. Unfortunately for managers who are using older versions of ArcMap or open source GIS/data processing software (i.e. GRASS GIS, QGIS) this tutorial is not designed for these GIS platforms. These platforms can likely recreate the outcomes of this tutorial, however specific geoprocessing tools may look or act differently. If using software other than ArcGIS Pro, make sure to understand the underlying process behind each tool. 
 
 If you are having trouble with this tutorial, here are some people that can assist you!
+
 * Problems with LANDFIRE data? helpdesk@landfire.gov
 * Problems with the rMarkdown document? Randy Swaty: rswaty@tnc.org
 * Problems with the GIS analysis? Keith Phelps: kpphelp@clemson.edu or Stacey Marion: stacmarion@gmail.com

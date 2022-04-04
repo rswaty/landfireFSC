@@ -18,6 +18,7 @@ This is not an exhaustive list by any means- just some ideas to get the creative
 ## Recap for FSC® 
 
 After our analysis is complete, we can see that we have provided the following for a potential FSC® Audit:
+
 * Maps and acreage for historic ecosystems 
 * Maps and acreage for current ecosystems/land cover
 * Mapss of current Forest Succession Classes

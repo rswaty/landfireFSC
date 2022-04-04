@@ -17,7 +17,7 @@ Download this [zipped folder] (https://github.com/rswaty/landfireFSC/blob/main/t
 
 Open ArcGIS Pro and create a new project using a blank map template. Move the downloaded Ataya shapefile tutorial data into your project folder.
 
-```{r GIS1, echo=FALSE, out.width=100}
+```{r GIS1, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/1_load_data.png")
 
 ```
@@ -36,7 +36,7 @@ There are multiple ways to get LANDFIRE products.
 For some LANDFIRE data products, like the BpS model, the model (spatial data) and descriptions are downloaded separately:
 * For BpS models and descriptions go to: http://landfirereview.org/search.php. Start by clicking on the "View map of LANDFIRE Map Zones".  This will help you narrow down your search. We recommend downloading descriptions for BpS models relevant to your study area.
 
-```{r GIS2, echo=FALSE, out.width=100}
+```{r GIS2, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/2_view_mapzone.png")
 
 ```
@@ -45,7 +45,7 @@ Note that for this tutorial, we downloaded rasters by using the rectangle drawin
 
 Once downloaded, move the LANDFIRE data product downloads into your Pro project folder. You should have a BpS, EVT, and SCLASS folder. Each folder contains metadata, a corresponding database table, and a raster.
 
-```{r GIS3, echo=FALSE, out.width=100}
+```{r GIS3, echo=FALSE, out.width=500}
 knitr::include_graphics("04_gis_screenshots/3_fsc_pro_poject_catalog.png")
 
 ```
@@ -53,7 +53,7 @@ knitr::include_graphics("04_gis_screenshots/3_fsc_pro_poject_catalog.png")
 ## Project to the Appropriate Coordinate System
 The spatial reference of the Ataya tract shapefile is NAD83_StatePlane_VA_South_FIPS_4502_Feet Projected Coordinate System (Geographic Coordinate System NAD 1983).
 
-```{r GIS4, echo=FALSE, out.width=100}
+```{r GIS4, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/4_crs_ataya.png")
 
 ```
@@ -63,7 +63,7 @@ Given the size and location of our study area, we’ll use the Virginia State Pl
 
 2. Use the Project Raster tool to project each raster to the Virginia State Plane (South) coordinate system. Save the projected raster to the project geodatabase. *Since the datum is the same for State Plane and UTM, no “Geographic Transformation” was needed. Resampling technique was “Nearest Neighbor” which is preferred for categorical/discrete data. Output cell size was in feet (98.425ft. = 30m.)*
 
-```{r GIS5, echo=FALSE, out.width=100}
+```{r GIS5, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/5_raster_project.png")
 
 ```
@@ -80,14 +80,14 @@ The three used LANDFIRE data products (BpS, EVT, sClass) provide unique aspects 
 Before we combine the rasters, take a look at the attribute table for each raster. Details on attributes can be found at landfire.gov
 Open the Combine tool. This tool can be found by running a search in geoprocessing or you can find it in the Spatial Analyst Toolbox. Run the combine tool using the (3) project LANDFIRE rasters: us_200bps_proj, us_200evt_proj, is_200sclass_proj. Output raster was labeled combine_landfire and saved within the project geodatabase.
 
-```{r GIS6, echo=FALSE, out.width=100}
+```{r GIS6, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/6_combine_rasters.png")
 
 ```
 
 Open the attribute table of the combine_landfire raster. You will notice that only the “Value” field was retained in the combine. Next we will perform joins to append tabular data to the combine_landfire raster.
 
-```{r GIS7, echo=FALSE, out.width=100}
+```{r GIS7, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/7_combine_noattributes.png")
 
 ```
@@ -101,7 +101,7 @@ Use the Join Field tool (found with a geoprocessing search) to permanently join 
 4. Join Table Field = VALUE.
 5. Transfer Fields = BPS_CODE, BPS_MODEL, BPS_NAME, GROUPVEG. *Note: selecting additional fields will prevent you from using the prepared excel pivot tables.*
 
-```{r GIS8, echo=FALSE, out.width=100}
+```{r GIS8, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/8_join_bps.png")
 
 ```
@@ -115,7 +115,7 @@ This second join is to import EVT attributes. Open the Join Field Tool again and
 4. Join Table Field = VALUE
 5. Transfer Fields = EVT_NAME, EVT_PHYS. *Note: selecting additional fields will prevent you from using the prepared excel pivot tables.*
 
-```{r GIS9, echo=FALSE, out.width=100}
+```{r GIS9, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/9_join_evt.png")
 
 ```
@@ -129,7 +129,7 @@ The third and final join is to import the sClass attributes. Open the Join Field
 4. Join Table Field = VALUE
 5. Transfer Fields = LABEL, DESCRIPTION. *Note: selecting additional fields will prevent you from using the prepared excel pivot tables.*
 
-```{r GIS10, echo=FALSE, out.width=100}
+```{r GIS10, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/10_join_sclass.png")
 
 ```
@@ -142,21 +142,21 @@ To "cut" the combined raster to the boundary of our shapefile, use the Extract b
 3. Output raster = combine_studyArea
 *Reminder: if you decided to create a buffer around your study area, use the buffered study area feature class as your feature mask.*
 
-```{r GIS11, echo=FALSE, out.width=100}
+```{r GIS11, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/11_extract.png")
 
 ```
 
 The resultant "combine_studyArea raster" will only contain pixels within the Ataya study region: 
 
-```{r GIS12, echo=FALSE, out.width=100}
+```{r GIS12, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/12_combine_studyArea.png")
 
 ```
 
 We choose to maintain the shape of the original raster (default setting within Extract by Mask tool), and thus the resultant extracted raster has jagged edges. Note that area calculations using the raster will differ slightly from area calculated from the vector feature. 
 
-```{r GIS13, echo=FALSE, out.width=100}
+```{r GIS13, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/13_jagged_edge.png")
 
 ```
@@ -167,12 +167,12 @@ Next, we will calculate area using raster pixel size for "combine_studyArea" ras
 1. Open the combine_studyArea attribute table.
 2. Within the attribute table, create a new field called “Acres”. Select “Float” for data type to allow decimals in the calculation for acres.
 
-```{r GIS14, echo=FALSE, out.width=100}
+```{r GIS14, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/14_add_acres_field.png")
 
 ```
 
-```{r GIS15, echo=FALSE, out.width=100}
+```{r GIS15, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/15_fields_view.png")
 
 ```
@@ -182,19 +182,20 @@ knitr::include_graphics("04_gis_screenshots/15_fields_view.png")
 5. In “Acres =” banner, type this expression: !Count! *9687.4806249998 / 43560.
 6. Click "Apply", then "OK". 
 
-```{r GIS16, echo=FALSE, out.width=100}
+```{r GIS16, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/16_calculate_acres.png")
 
 ```
 
 *The sum of the Acres field corresponds to the total Ataya area (~100,653 acres).* 
 
-```{r GIS17, echo=FALSE, out.width=100}
+```{r GIS17, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/17_check_area_calc.png")
 
 ```
 
 **Understanding the Field Calculation Expression**
+
 * We use raster cell size to ascertain acreage. (See: https://gis.stackexchange.com/questions/106883/measuring-area-of-raster-classes) . Our general calculation to determine acreage is [Pixel count of xxx unique raster value] x [Area of a pixel (feet)] x [1 acre/43,560 sqft] = xxx acres of a specific unique raster value 
 * !Count! is the number of raster pixels classified as a unique raster value. From our attribute table, we see that we have 549 unique raster values. These unique raster values hold unique combinations of our BpS x EVT x sClass data.
 * Each original raster downloaded from LANDFIRE had a cell size of 30x30m. When we projected our rasters to Virginia State Plane South FIPS 4502 Feet, we changed the units of our rasters to feet; yielding cell size of  98.425 x 98.425 feet. The area of a single pixel is  98.425 x 98.425, equaling 9,687.4806. Therefore, we multiply  !Count! by 9,687.4806. This yields the square footage associated with each unique raster value for our Study Area. To convert to acres, divide by 43,560 (1 acre = 43,560 sqft).
@@ -207,7 +208,7 @@ Now we'll take our GIS attribute table and make it usable in Excel. The followin
 2. Select combine_studyArea as the Input Rows. 
 3. Next, select a folder location to export your table. Save the table as a logical name, such as ataya_attributes with the .csv appendage. You must manually add the .csv appendage to export as a csv. 
 
-```{r GIS18, echo=FALSE, out.width=100}
+```{r GIS18, echo=FALSE, out.width=1000}
 knitr::include_graphics("04_gis_screenshots/18_export_table.png")
 
 ```

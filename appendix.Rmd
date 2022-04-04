@@ -1,0 +1,29 @@
+# APPENDIX 
+
+## Export combine_studyArea attribute table into an Excel Workbook
+
+**Turn your GIS attribute table into an excel workbook and create your own pivot tables**
+
+1. Locate the "Table to Table" tool in a geoprocessing search
+2. In inputs rows, select "combine_studyArea"
+3. For the output location, save it to your project database
+4. For output name, type "Ataya_combineClean" (or your preferred name)
+
+```{r GIS19, echo=FALSE, out.width=100}
+knitr::include_graphics("04_gis_screenshots/19_table_table.png")
+
+```
+
+5. Run the tool. Once complete locate "Table to Excel"
+6. For the Input Table, select the table we just created in our project database.
+7. Navigate to an output folder location of your choosing. *Make sure to type ".xlsx" at the end of the file pathway. This will ensure your excel file is in the latest excel workbook format.*
+
+```{r GIS20, echo=FALSE, out.width=100}
+knitr::include_graphics("04_gis_screenshots/20_Table_Excel.png")
+
+```
+
+8. Click "Run" and open your table!
+9. You can now clean up the data table by getting rid of unnessecary columns (OID, VALUE, BPS CODE, etc.)
+10. To create pivot tables, select all columns and go to Insert -> Pivot Table -> New worksheet. 
+11. Repeat step 10 for all the pivot table analyses you need. 

@@ -1,6 +1,6 @@
 # Exploring Conversion {#conversion}
 
-**The main question we explore on this page: how much of the historic ecosystems have been converted to a different land use? (e.g., agriculture).**  
+**The main question we explore on this page: how much of the historic ecosystems have been converted to a different land use or ecosystem type? (e.g., agriculture, forest types).**  
 
 ## The Fine Print
 While this assessment is illustrative, it is important to note that the methods used to create the BpS and EVT datasets are substantially different, and LANDFIRE datasets are not made for assessing small areas.  Please review.  In the exercise we will focus on the coarsest classifications.  If you need to work at the finer classification levels proceed with caution!
@@ -15,16 +15,55 @@ Working in the "Conversion" worksheet:
 5. Explore.  Of what was historically mapped as CONIFER, what's the biggest non-CONIFER type today?
 6. Switch the order of the fields by dragging "EVT_PHYS" to the top of the Rows pane. Which GROUPVEG type was most converted to "Developed"?
 
-We can easily make excel charts and bar graphs to summarize these findings and demonstrate change from historic conditions. We can also dive a little bit deeper into visualizing these ecosystem changes...
+We can easily make excel charts and bar graphs to summarize these findings and demonstrate change from historic conditions. We can also dive a little bit deeper to generate a table that illustrates percent change from historic ecosystem conditions to current ecosystem conditions. 
+
+## Excel Steps for Preparing an Ecosystem Conversion Table 
+Here are steps to create a table summary which will allow us to view percent change of historical ecosystems (Bps) into current ecosystems (EVT):
+
+1. Open the "Bps2evt" worksheet
+2. In the Pivot Table, check "BPS_Name", "EVT_Name", and "COUNT"
+3. In the Main Ribbon of the worksheet (where File, Home, Insert etc. are located) navigate all the way to the last Tab on the right labeled "Design". Click on "Design".
+4. In the "Subtotals" tab, click on the down arrow and navigate to "Do Not Show Subtotals". Click on this option. 
+5. In the "Grand Totals" tab, click on the down arrow and navigate to "Turn Off for Rows and Columns". Click on this option. 
+6. In the "Report Layout" tab, click on the down arrow and navigate to "Show In Tabular Form". Click on this option. 
+7. In the "Report Layout" tab, click on the down arrow and navigate to "Repeat All Item Labels". Click on this option. 
+8. In the top data cell for the "BPS_Name" data column, right click and navigate to "Filter". Click on "Top 10..."
+9. In the box that opens, change "10" to 90 and "Items" to "Percent". 
+  * This will select the top 90% of BpS settings in the Ataya Study Area. To display all BpS, we would type in 100. 
+10. In the top data cell for the "EVT_Name" data column, right click and navigate to "Filter". Click on "Top 10..."
+11. In the box that opens, change "10" to 90 and "Items" to "Percent". 
+  * This will select the top 90% of EVT settings in the Ataya Study Area. To display all EVTs, we would type in 100. 
+12. In the "Sum of Count" data column, right click on the top cell and navigate to "Value Field Settings". 
+13. In "Value Field Settings", click on "Show Values As" and navigate to "% of Parent Row total" and click. 
+14. Change the name of "Sum of Count" to "Percent". 
+
+Voila! We now have a table which should look similar to what's below. For this tutorial, we have rounded our percents and are only displaying a portion of the table for better website viewing. 
+
+```{r bps2evtDT, echo=FALSE, message=FALSE, warning=FALSE}
+library(DT)
+library(readr)
+bps2evt <- read_csv("AtayaData/bps2evt_display.csv")
 
 
-## Visual Exploration with Sankey Diagrams 
+datatable(head(bps2evt), 
+          class = 'cell-border stripe',
+          options = list(scrollX  = TRUE, pageLength = 5))%>%
+ formatRound(c("PERCENT"), 0) 
+```
 
-Sometimes patterns emerge more explicitly from visuals. Below is a [Sankey Diagram](https://en.wikipedia.org/wiki/Sankey_diagram) generated in R (which can also be created in Excel. See instructions [here](https://mychartguide.com/how-to-draw-sankey-diagram-in-excel/)). On the left are the historical ecosystems, on the right current ecosystems and flow bands. The width of the bands is proportional to the flow rate. Here is a potential interpretation for the result of our Study Area (partially based on the chart and partially based on local knowledge):
+## Interpreting the Ecosystem Conversion Table
+This table gives us a general idea of the percent change from historic ecosystems into current ecosystems. In our table above, we see that 57% of historic Allegheny-Cumberland Dry Oak Forest/Woodland has remained as this ecosystem type within Ataya. We also see that 14% of Allegheny-Cumberland Dry Oak Forest/Woodland has converted into Northern & Central Ruderal Forest (a forest type marked by "weedy" generalist species). Additionally, 29% of South-Central Interior Mesophytic Forest has converted into Alleghany-Cumberland Dry Oak Forest/Woodland.  
+
+Here is a potential ecological interpretation for the Ecosystem Conversion Table results of our Study Area (partially based on the table and partially based on local knowledge):
 
 * There is far more Allegheny Dry Oak Forest and Northern/Central Native Ruderal Forest mapped today than historically. Additionally, Southern Appalachian Cove and South-Central Interior Mesophytic Forests have greatly decreased over time. This could be due to a legacy of extensive ecosystem disturbance on the landscape. For example, we know that extensive clear-cut logging occurred all throughout the Appalachians in the late 19th and early 20th centuries. After these cut-over events, extensive wildfires erupted across the region due to the residual logging slash. These wildfires also spawned US Forest Service fire suppression policies in the early 20th century which altered ecosystem disturbances further. 
 * One hypothesis would be that due to homogeneous logging and wildfire disturbance across large landscape contexts, favorable conditions to shade-intolerant oak species (i.e. high light levels, open canopies, reduced duff layers) resulted in a massive increase in oak recruitment. As the forests grew back, oak became a far more common tree species and influenced the development of forest types away from maples, tulip-poplars, and other more shade-tolerant trees- typical dominants of Southern Appalachian Cover and South-Central Interior Mesophytic Forests. Additionally, as American chestnuts were lost due to chestnut blight in the early 20th century, oaks most likely took their place.  
 
+We can also dive EVEN FURTHER by visualizing these ecosystem changes...
+
+## Visual Exploration with a Sankey Diagram 
+
+Sometimes patterns emerge more explicitly from visuals. Below is a [Sankey Diagram](https://en.wikipedia.org/wiki/Sankey_diagram) generated in R (which can also be created in Excel we hear. See instructions [here](https://mychartguide.com/how-to-draw-sankey-diagram-in-excel/)). We used the data from our Conversion Table above to create this R figure. On the left are the historical ecosystems, on the right current ecosystems and flow bands. The width of the bands is proportional to the flow rate. 
 
 Click [here](https://rswaty.github.io/landfireFSC/sankey.html) to the view diagram in your web browser. 
 
@@ -64,43 +103,3 @@ saveWidget(snky2, "sankey.html")
 
 
 ```
-
-## Excel Steps for Preparing a Conversion Table and Sankey Diagram
-Let's create a table summary which will allow us to view percent change of historical ecosystems (Bps) into current ecosystems (EVT). This data table can also be used for Sankey diagrams in R. 
-
-1. Open the "Bps2evt" worksheet
-2. In the Pivot Table, check "BPS_Name", "EVT_Name", and "COUNT"
-3. In the Main Ribbon of the worksheet (where File, Home, Insert etc. are located) navigate all the way to the last Tab on the right labeled "Design". Click on "Design".
-4. In the "Subtotals" tab, click on the down arrow and navigate to "Do Not Show Subtotals". Click on this option. 
-5. In the "Grand Totals" tab, click on the down arrow and navigate to "Turn Off for Rows and Columns". Click on this option. 
-6. In the "Report Layout" tab, click on the down arrow and navigate to "Show In Tabular Form". Click on this option. 
-7. In the "Report Layout" tab, click on the down arrow and navigate to "Repeat All Item Labels". Click on this option. 
-8. In the top data cell for the "BPS_Name" data column, right click and navigate to "Filter". Click on "Top 10..."
-9. In the box that opens, change "10" to 90 and "Items" to "Percent". 
-  * This will select the top 90% of BpS settings in the Ataya Study Area.
-10. In the top data cell for the "EVT_Name" data column, right click and navigate to "Filter". Click on "Top 10..."
-11. In the box that opens, change "10" to 90 and "Items" to "Percent". 
-  * This will select the top 90% of EVT settings in the Ataya Study Area.
-12. In the "Sum of Count" data column, right click on the top cell and navigate to "Value Field Settings". 
-13. In "Value Field Settings", click on "Show Values As" and navigate to "% of Parent Row total" and click. 
-14. Change the name of "Sum of Count" to "Percent". 
-
-Voila! We now have a table which should look similar to what's below. For this tutorial, we have rounded our percents and are only displaying a portion of the table for easy viewing. 
-
-```{r bps2evtDT, echo=FALSE, message=FALSE, warning=FALSE}
-library(DT)
-library(readr)
-bps2evt <- read_csv("AtayaData/bps2evt_display.csv")
-
-
-datatable(head(bps2evt), 
-          class = 'cell-border stripe',
-          options = list(scrollX  = TRUE, pageLength = 5))%>%
- formatRound(c("PERCENT"), 0) 
-```
-
-<br>
-<br>
-
-## Interpreting the Conversion Table
-This table gives us 

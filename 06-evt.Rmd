@@ -1,8 +1,13 @@
 # Existing Vegetation Types {#evt}
 
-While looking at the historical ecosystems gives context, we also need to get a picture of which ecosystems are on the landscape today.  
+While looking at the historical ecosystems gives context, we also need to get a picture of which ecosystems are on the landscape today. Like the last section, let's first take a look at our EVT GIS Map to draw some conclusions:
 
+```{r EvtFigure, echo=FALSE, out.width=1000}
+knitr::include_graphics("KP_GISmaps/Ataya_evt.png")
 
+```
+
+As we can see, there are FAR more ecosystem types present in Ataya today. In the map we see that there is far more Allegheny Dry Oak Forest/Woodland, Northern and Central Native Ruderal Forest, and recently logged cover. This map is certainty different from our Bps map! Let's move on... 
 
 ## General Methods
 

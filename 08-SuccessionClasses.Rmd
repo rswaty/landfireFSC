@@ -1,7 +1,7 @@
 # Succession Classes {#successionClasses}
 
 ## What We Will Do
-While looking at conversion of historical ecosystems is valuable, we can dig deeper, comparing amounts historical succession classes to current. This gives us a broad measure of the changes in vegetation structure for ecosystems.
+While looking at conversion of historical ecosystems is valuable, we can perform more analyses, comparing amounts historical succession classes to current. This gives us a broad measure of the changes in vegetation structure for ecosystems.
 
 ## What are "Succession Classes?"
 
@@ -12,16 +12,25 @@ In general LANDFIRE succession classes are stages of development defined in the 
 * The [Succession Class](https://www.landfire.gov/sclass.php) dataset maps the current location of succession classes, in addition to agricultural and developed land-use classes plus uncharacteristic vegetation. Uncharacteristic typically represents exotic vegetation, or vegetation structure that would not have occurred historically.
 * By comparing the amounts of historical and current succession classes you can get a sense of which classes are over/under represented. This assumes that the landscape you are assessing is large enough to potentially include the full compliment of succession classes.
 
-## Our Sample Ecosystem
+## Our Sample Ecosystem 
 
-To illustrate the concept of comparing reference to current succession classes we will focus on the South-Central Interior Mesophytic Forest Biophysical Setting. It is a dominant ecosystem in the Ataya, has been heavily managed, has experienced extensive clear cut logging, and faces many threats such as deer browsing.  
+First, let's take another look at our sClass GIS map for some visual context: 
+
+```{r SclassFigure, echo=FALSE, out.width=1000}
+knitr::include_graphics("KP_GISmaps/Ataya_sclass.png")
+
+```
+
+We see that most of the succession classes in Ataya are in Succession Class B, D, and E. There is also a large amount of area devoted to UE: Uncharacteristic Exotic Vegetation. 
+
+To illustrate the concept of comparing reference to current succession classes, we will focus on the South-Central Interior Mesophytic Forest Biophysical Setting. It is a dominant ecosystem in the Ataya, has been heavily managed, has experienced extensive clear cut logging, and faces many threats such as deer browsing (and in isolated pockets hemlock woody adelgid damage).  
 
 ## Your Tasks
 We will start with our friend the Pivot Table to get current percentages of the relevant succession classes, then we will look to the Biophysical Settings descriptions to get historical percentages.
 
 ### Current Succession Classes
 
-1. Open the "successionClasses" worksheet in our "combineClean.xlsx" workbook.
+1. Open the "successionClasses" worksheet in our "Ataya_combineClean.xlsx" workbook.
 2. In the Pivot Table Fields box highlight "BPS_MODEL" -> click the down arrow -> select only "South-Central Interior Mesophytic Forest".  Check the box next to "BPS_NAME".
 3. In the Pivot Table Fields check the box next to "LABEL" to get a list of current succession classes.
 4. In the Pivot Table Fields check the box next to "ACRES".

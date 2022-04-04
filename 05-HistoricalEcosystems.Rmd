@@ -1,11 +1,22 @@
 # Historical Ecosystems {#historicalecosystems}
 
-In this section we will learn which ecosystems, and how much of each, were on our landscape historically.
+In this section we will learn which ecosystems, and how much of each, were on our landscape historically. Before we begin, let's review our BpS GIS map and draw some quick visual conclusions:
 
+```{r BpsFigure, echo=FALSE, out.width=1000}
+knitr::include_graphics("KP_GISmaps/Ataya_bps.png")
+
+```
+
+According to LANDFIRE, most of Ataya was dominated by:
+* Southern Appalachian Oak Forest
+* Southern and Central Appalachian Cove Forest
+* South-Central Interior Mesophytioc Forest 
+
+We can also see that most of the Southern Appalachian Oak Forest and Cove Forest is confined to the southwest portions of the Study Area. In contrast, South-Central Interior Mesophytic Forests are more prevalent in the northern portions of the Study Area. Ok- let's move on! 
 
 ## General Methods
 
-In this section (and most others following) we will depend on "Pivot Tables" in Excel. These are powerful (for better or worse!) tools that allow for tasks such as:
+In this section, and most others following, we will depend on "Pivot Tables" in Excel. These are powerful (for better or worse!) tools that allow for tasks such as:
 
 * Organization and formatting of data.
 * Calculations.

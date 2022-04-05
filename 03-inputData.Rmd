@@ -2,7 +2,7 @@
 
 ## LANDFIRE for Landscape Ecosystem Assessment  
 
-To support assessment of a forest's conditions, particularly FSC® Principles 6 - Environmental Impact & 9 - Maintenance of High Conservation Value Forests, we consider:
+To support the assessment of a forest's conditions (particularly FSC® Principles 6 - Environmental Impact & 9 - Maintenance of High Conservation Value Forests) we will consider:
 
 * Change between historical and current ecosystem condition 
 * The representation of ecosystems within and outside of your landscape of interest.

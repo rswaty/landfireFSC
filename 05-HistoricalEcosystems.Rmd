@@ -1,6 +1,6 @@
 # Historical Ecosystems {#historicalecosystems}
 
-In this section we will learn which ecosystems, and how much of each, were on our landscape historically. Before we begin, let's review our BpS GIS map and draw some quick visual conclusions:
+In this section we will learn which ecosystems and their extent on our landscape historically. Before we begin, let's review our BpS GIS map and draw some quick visual conclusions:
 
 ```{r BpsFigure, echo=FALSE, out.width=1000}
 knitr::include_graphics("KP_GISmaps/Ataya_bps.png")

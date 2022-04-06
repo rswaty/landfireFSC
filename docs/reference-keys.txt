@@ -9,8 +9,8 @@ methods
 disclaimers
 lastly-download-this
 about-this-document
-inputdata
-landfire-for-landscape-ecosystem-assessment
+InputData
+landfire-for-landscape-ecosystem-assessments
 landfire-datasets-used-for-this-tutorial
 guidance-on-obtaining-landfire-products
 gis

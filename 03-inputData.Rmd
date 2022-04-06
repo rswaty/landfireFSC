@@ -1,6 +1,6 @@
 # LANDFIRE Data for FSC® {#InputData}
 
-## LANDFIRE for Landscape Ecosystem Assessment  
+## LANDFIRE for Landscape Ecosystem Assessments  
 
 To support the assessment of a forest's conditions (particularly FSC® Principles 6 - Environmental Impact & 9 - Maintenance of High Conservation Value Forests) we will consider:
 

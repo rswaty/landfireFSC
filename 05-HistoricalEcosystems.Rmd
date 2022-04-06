@@ -1,4 +1,4 @@
-# Historical Ecosystems {#historicalecosystems}
+# Historical Ecosystems {#historicalEcosystems}
 
 In this section we will learn which ecosystems and their extent on our landscape historically. Before we begin, let's review our BpS GIS map and draw some quick visual conclusions:
 

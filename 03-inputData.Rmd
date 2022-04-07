@@ -1,4 +1,4 @@
-# LANDFIRE Data for FSC® {#InputData}
+# LANDFIRE Data for FSC® {#inputData}
 
 ## LANDFIRE for Landscape Ecosystem Assessments  
 

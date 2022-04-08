@@ -23,7 +23,7 @@
 <meta name="author" content="Randy Swaty, Keith Phelps, and Stacey Marion" />
 
 
-<meta name="date" content="2022-04-05" />
+<meta name="date" content="2022-04-07" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -126,13 +126,13 @@
 <li class="chapter" data-level="5.11" data-path="gis.html"><a href="gis.html#export-combine_studyarea-attribute-table-into-a-.csv-format"><i class="fa fa-check"></i><b>5.11</b> Export combine_studyArea attribute table into a .csv format<span></span></a></li>
 <li class="chapter" data-level="5.12" data-path="gis.html"><a href="gis.html#open-the-tutorial-excel-workbook"><i class="fa fa-check"></i><b>5.12</b> Open the Tutorial Excel Workbook<span></span></a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="historicalecosystems.html"><a href="historicalecosystems.html"><i class="fa fa-check"></i><b>6</b> Historical Ecosystems<span></span></a>
+<li class="chapter" data-level="6" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html"><i class="fa fa-check"></i><b>6</b> Historical Ecosystems<span></span></a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="historicalecosystems.html"><a href="historicalecosystems.html#general-methods"><i class="fa fa-check"></i><b>6.1</b> General Methods<span></span></a>
+<li class="chapter" data-level="6.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#general-methods"><i class="fa fa-check"></i><b>6.1</b> General Methods<span></span></a>
 <ul>
-<li class="chapter" data-level="6.1.1" data-path="historicalecosystems.html"><a href="historicalecosystems.html#some-potential-traps-with-pivot-tables"><i class="fa fa-check"></i><b>6.1.1</b> Some Potential Traps with Pivot Tables<span></span></a></li>
+<li class="chapter" data-level="6.1.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#some-potential-traps-with-pivot-tables"><i class="fa fa-check"></i><b>6.1.1</b> Some Potential Traps with Pivot Tables<span></span></a></li>
 </ul></li>
-<li class="chapter" data-level="6.2" data-path="historicalecosystems.html"><a href="historicalecosystems.html#getting-at-amounts-of-historical-ecosystems"><i class="fa fa-check"></i><b>6.2</b> Getting at amounts of historical ecosystems<span></span></a></li>
+<li class="chapter" data-level="6.2" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#getting-at-amounts-of-historical-ecosystems"><i class="fa fa-check"></i><b>6.2</b> Getting at amounts of historical ecosystems<span></span></a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>7</b> Existing Vegetation Types<span></span></a>
 <ul>
@@ -188,8 +188,8 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="historicalecosystems" class="section level1 hasAnchor" number="6">
-<h1><span class="header-section-number">6</span> Historical Ecosystems<a href="historicalecosystems.html#historicalecosystems" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="historicalEcosystems" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">6</span> Historical Ecosystems<a href="historicalEcosystems.html#historicalEcosystems" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>In this section we will learn which ecosystems and their extent on our landscape historically. Before we begin, let’s review our BpS GIS map and draw some quick visual conclusions:</p>
 <p><img src="KP_GISmaps/Ataya_bps.png" width="1000" /></p>
 <p>According to LANDFIRE, most of Ataya was dominated by:</p>
@@ -200,7 +200,7 @@
 </ul>
 <p>We can also see that most of the Southern Appalachian Oak Forest and Cove Forest is confined to the southwest portions of the Study Area. In contrast, South-Central Interior Mesophytic Forests are more prevalent in the northern portions of the Study Area. Ok- let’s move on!</p>
 <div id="general-methods" class="section level2 hasAnchor" number="6.1">
-<h2><span class="header-section-number">6.1</span> General Methods<a href="historicalecosystems.html#general-methods" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<h2><span class="header-section-number">6.1</span> General Methods<a href="historicalEcosystems.html#general-methods" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In this section, and most others following, we will depend on “Pivot Tables” in Excel. These are powerful (for better or worse!) tools that allow for tasks such as:</p>
 <ul>
 <li>Organization and formatting of data.</li>
@@ -210,7 +210,7 @@
 </ul>
 <p>With the power comes the call for caution. It is very easy to display values that look illuminating- but may be wrong. You can easily be duped into complacency, especially when working in the “value field settings.”</p>
 <div id="some-potential-traps-with-pivot-tables" class="section level3 hasAnchor" number="6.1.1">
-<h3><span class="header-section-number">6.1.1</span> Some Potential Traps with Pivot Tables<a href="historicalecosystems.html#some-potential-traps-with-pivot-tables" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<h3><span class="header-section-number">6.1.1</span> Some Potential Traps with Pivot Tables<a href="historicalEcosystems.html#some-potential-traps-with-pivot-tables" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Pivot Tables allow you to calculate, summarize, format and analyze datasets. These are a few traps we run into frequently which are worth mentioning here:</p>
 <ul>
 <li><strong>Your Pivot Table controls go away</strong>. This happens when you click outside of the main Pivot Table area (where your values are, usually on the left side of screen). To fix this click inside one of the Pivot Table columns. Another way to fix this is to right click inside a Pivot Table cell and select “Show field list.”</li>
@@ -220,7 +220,7 @@
 </div>
 </div>
 <div id="getting-at-amounts-of-historical-ecosystems" class="section level2 hasAnchor" number="6.2">
-<h2><span class="header-section-number">6.2</span> Getting at amounts of historical ecosystems<a href="historicalecosystems.html#getting-at-amounts-of-historical-ecosystems" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<h2><span class="header-section-number">6.2</span> Getting at amounts of historical ecosystems<a href="historicalEcosystems.html#getting-at-amounts-of-historical-ecosystems" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><strong>Start by opening the “Historical” tab in the Excel workbook (“combineClean”).</strong></p>
 <ol style="list-style-type: decimal">
 <li>In the Pivot Table Fields pane, select “BPS_NAME” then “ACRES.”<br />
@@ -242,8 +242,8 @@
 <li>Names have been shortened for ease of reading.</li>
 <li>Numbers have been rounded.</li>
 </ul>
-<div id="htmlwidget-bac99663d768f346bfe0" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-bac99663d768f346bfe0">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Southern Appalachian Oak Forest","Southern and Central Appalachian Cove Forest","South-Central Interior Mesophytic Forest","Allegheny-Cumberland Dry Oak Forest and Woodland","Central Interior and Appalachian Riparian Systems","Appalachian (Hemlock-)Northern Hardwood Forest"],[32197.75097,25323.10974,22706.86753,11787.32445,5665.70831,2127.420519],[31.99,25.16,22.56,11.71,5.63,2.11],[31.99,57.15,79.71,91.42,97.05,99.16]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>BpS<\/th>\n      <th>ACRES<\/th>\n      <th>PERCENT<\/th>\n      <th>RUNNING_PERCENT<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"pageLength":5,"columnDefs":[{"targets":2,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render","options.columnDefs.2.render"],"jsHooks":[]}</script>
+<div id="htmlwidget-faca33d0640991288cde" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-faca33d0640991288cde">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Southern Appalachian Oak Forest","Southern and Central Appalachian Cove Forest","South-Central Interior Mesophytic Forest","Allegheny-Cumberland Dry Oak Forest and Woodland","Central Interior and Appalachian Riparian Systems","Appalachian (Hemlock-)Northern Hardwood Forest"],[32197.75097,25323.10974,22706.86753,11787.32445,5665.70831,2127.420519],[31.99,25.16,22.56,11.71,5.63,2.11],[31.99,57.15,79.71,91.42,97.05,99.16]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>BpS<\/th>\n      <th>ACRES<\/th>\n      <th>PERCENT<\/th>\n      <th>RUNNING_PERCENT<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"pageLength":5,"columnDefs":[{"targets":2,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 0, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render","options.columnDefs.2.render"],"jsHooks":[]}</script>
 <p><br>
 <br></p>
 <p>We see that the top 3 BpSs comprised ~80% of our example landscape historically. We can visually confirm this and other patterns with a quick chart made in R (similar charts available in Excel by highlighting the data, clicking Insert then selecting the chart type in the “Charts” tab):</p>

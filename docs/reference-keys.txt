@@ -9,7 +9,7 @@ methods
 disclaimers
 lastly-download-this
 about-this-document
-InputData
+inputData
 landfire-for-landscape-ecosystem-assessments
 landfire-datasets-used-for-this-tutorial
 guidance-on-obtaining-landfire-products
@@ -26,7 +26,7 @@ crop-the-combined-raster-to-the-study-area
 calculate-area-field
 export-combine_studyarea-attribute-table-into-a-.csv-format
 open-the-tutorial-excel-workbook
-historicalecosystems
+historicalEcosystems
 general-methods
 some-potential-traps-with-pivot-tables
 getting-at-amounts-of-historical-ecosystems

@@ -1,6 +1,6 @@
 Introduction
-the-forest-stewardship-council-fsc
-landfire-and-fsc
+forest-certification
+landfire
 gis-tutorial-goals
 Ataya
 ourmethods
@@ -48,7 +48,7 @@ current-succession-classes
 historical-succession-classes
 conclusions
 bringing-it-all-together
-recap-for-fsc
+recap-for-certified-forest-management
 appendix
 landifre-data-downloading-help
 export-combine_studyarea-attribute-table-into-an-excel-workbook

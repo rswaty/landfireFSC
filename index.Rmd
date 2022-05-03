@@ -1,6 +1,6 @@
 --- 
-title: "LANDFIRE and FSC®"
-author: "Randy Swaty, Keith Phelps, and Stacey Marion"
+title: "LANDFIRE and Certified Sustainable Forest Management"
+author: "Keith Phelps, Stacey Marion, and Randy Swaty"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -15,22 +15,17 @@ always_allow_html: true
 
 # Introduction {#Introduction}
 
-## The Forest Stewardship Council (FSC®)
+## Forest Certification
 
-```{r FSClogo, echo=FALSE, out.width=50}
-knitr::include_graphics("KP_screenshots/FSC_Logo.jpg")
+Forest certification, in which third-parties audit forest operations to defined standards, is used as a tool to ensure forests are well-managed and provide confidence to consumers of forest products. Many of these standards include goals and requirements to manage and restore native ecosystems. One of these systems, the [Forest Stewardship Council®](FSC®) develops and delivers Principles, Criteria and Indicators for sustainable forest management (https://fsc.org/en/document-centre/documents/resource/392) through their national standards. Currently in the United States, FSC® Principles 6 and 9 are focused on Environmental Values and Impact and Maintenance of High Conservation Value Areas respectfully. In order for forest managers to receive FSC® certification and pass audits, many of the criteria and indicators within Principles 6 and 9 are helped by an analysis, often through a GIS assessment, of historical and current vegetation conditions, disturbance regimes, and landscape patterns. The following provides procedures with which forest managers may be able to conduct analysis using LANDFIRE data that could aid in standard conformance and leverage high-quality, open-source data to drive restoration on suitable sites. 
 
-```
+## LANDFIRE 
 
-The [Forest Stewardship Council](https://fsc.org/en) (FSC®) develops and delivers Principles, Criteria and Indicators for sustainable forest management (https://fsc.org/en/document-centre/documents/resource/392). FSC® Principles 6 and 9 are focused on Environmental Values and Impact and Maintenance of High Conservation Value Areas respectfully. In order for forest managers to receive FSC accreditation and/or pass FSC® audits, many of the criteria and indicators within Principles 6 and 9 require a GIS assessment of historical and current vegetation conditions, disturbance regimes, and landscape patterns.
-
-## LANDFIRE and FSC®
-
-[LANDFIRE](https://landfire.gov/) is an interagency program within the United States that "provides 20+ national geo-spatial layers (e.g. vegetation, fuel, disturbance, etc.), databases, and ecological models that are available to the public for the US and insular areas." With this free and regularly updated data, it is possible to fulfill the GIS requirements of several indicators within Principles 6 and 9. Here we provide guidance for:
+[LANDFIRE](https://landfire.gov/) is an interagency program within the United States that "provides 20+ national geo-spatial layers (e.g. vegetation, fuel, disturbance, etc.), databases, and ecological models that are available to the public for the US and insular areas." With this free and regularly updated data, it is possible to conduct analysis supporting environmental values and High Conservation Value Areas. Here we provide guidance for:
 
 * Downloading relevant LANDFIRE datasets and models
 * Completing the GIS processing of LANDFIRE data
-* Developing visuals (e.g., maps and charts) to help illustrate findings in support of Principles 6 and 9
+* Developing visuals (e.g., maps and charts) to help illustrate findings 
 
 ## GIS Tutorial Goals
 
@@ -44,7 +39,7 @@ In general the analyses developed here will help forest managers:
 * Assess site conditions that can be completed with existing datasets.
 * Assess climate change and future condition considerations where possible with existing data.
 
-In the United States, including the insular areas, [LANDFIRE](https://www.landfire.gov/) provides the datasets and ecological model results to get at these challenges and more. Here we walk you through some of the technical steps needed to start your FSC® analysis. We will do our work in a model landscape called the Ataya Forest Tract (hereafter referred to as "Ataya"). Ataya is owned by The Nature Conservancy (TNC), actively managed under FSC® standards, and is located in the Central Appalachians (highlighted in green in map below).
+In the United States, including the insular areas, [LANDFIRE](https://www.landfire.gov/) provides the datasets and ecological model results to get at these challenges and more. Here we walk you through some of the technical steps needed to start your analysis. We will do our work in a model landscape called the Ataya Forest Tract (hereafter referred to as "Ataya"). Ataya is managed by The Nature Conservancy (TNC) under FSC® standards (FSC®C008922) and is located in the Central Appalachians (highlighted in green in map below).
 
 To help you with the concepts we have worked through pre-processed LANDFIRE data for this example landscape. To prepare the datasets for your own landscape, you may download the relevant LANDFIRE data for your own landscape and follow our steps.
 

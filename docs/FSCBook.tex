@@ -36,8 +36,8 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Randy's Notes on Ataya},
-  pdfauthor={Randy Swaty},
+  pdftitle={LANDFIRE and Certified Sustainable Forest Management},
+  pdfauthor={Keith Phelps, Stacey Marion, and Randy Swaty},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
@@ -75,9 +75,9 @@
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
-\title{Randy's Notes on Ataya}
-\author{Randy Swaty}
-\date{2022-06-13}
+\title{LANDFIRE and Certified Sustainable Forest Management}
+\author{Keith Phelps, Stacey Marion, and Randy Swaty}
+\date{2022-06-16}
 
 \begin{document}
 \maketitle
@@ -1158,81 +1158,6 @@ We hope you have enjoyed our tutorial. We wish you all the best in your future L
 \item
   Repeat step 10 for all the pivot table analyses you need.
 \end{enumerate}
-
-\hypertarget{basic-qaqc-on-ataya_combineclean.xlsx}{%
-\chapter{Basic QAQC on Ataya\_combineClean.xlsx}\label{basic-qaqc-on-ataya_combineclean.xlsx}}
-
-Partly a QAQC, but more a way to force me to look more critically
-
-\begin{itemize}
-\tightlist
-\item
-  do acres add up? Sum of COUNT of ``combineClean'' sheet = 452589*.222 = 100,474 Acres = Good Enough
-\end{itemize}
-
-\hypertarget{bps}{%
-\section{BpS}\label{bps}}
-
-\begin{itemize}
-\item
-  does the list of BpSs make sense?
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Southern Appalachian Oak Forest 31.99\%
-  \item
-    Southern and Central Appalachian Cove Forest 25.16\%.\\
-  \item
-    South-Central Interior Mesophytic Forest 22.56\%
-  \item
-    Allegheny-Cumberland Dry Oak Forest and Woodland 11.71\%
-  \item
-    Central Interior and Appalachian Riparian Systems 5.63\%
-  \item
-    Appalachian (Hemlock-)Northern Hardwood Forest 2.11\%
-  \item
-    Southern Appalachian Northern Hardwood Forest 0.35\%
-  \item
-    Open Water 0.23\%
-  \item
-    Central Interior and Appalachian Floodplain Systems 0.16\%
-  \item
-    Central Interior and Appalachian Swamp Systems 0.05\%
-  \item
-    Southern Appalachian Low-Elevation Pine Forest 0.04\%
-  \end{itemize}
-\end{itemize}
-
-\emph{Notes from this list}
-* the list of names is OK
-* relative amounts raise eyebrows as we'd expect less cove/mesophytic and more oak
-* does seem like LANDFIRE mapped too much of the cove forest type, which should be restricted to the ``opographically protected areas (e.g.~coves, v-shaped valleys, north- and east-facing toe slopes) within highly dissected hills and mountains''.\\
-* the South-Central Interior Mesophytic Forest is not ``oaky'' either.
-* \textasciitilde42\% of the area was mapped as oak types historically
-
-\begin{itemize}
-\tightlist
-\item
-  Does BpS attribute table match when I reprocess? YES
-\item
-  I have sent remade BPS and EVT maps to Mark Rogers who works on the Ataya for his opinion.
-\end{itemize}
-
-\hypertarget{ideas-for-dealing-with-suspect-landfire-data}{%
-\chapter{Ideas for dealing with suspect LANDFIRE data}\label{ideas-for-dealing-with-suspect-landfire-data}}
-
-\begin{itemize}
-\tightlist
-\item
-  link to Helmbrehct and Blankenship data review paper \url{https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf}
-\item
-  reclassify if there are credible reasons to
-\item
-  don't use spatial data. Can still use BPS models and descriptions to get concepts.
-\item
-  ``lump up'' i.e., use group veg or something\ldots can still explore conversion
-\end{itemize}
 
   \bibliography{book.bib,packages.bib}
 

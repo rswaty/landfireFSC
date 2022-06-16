@@ -52,3 +52,6 @@ recap-for-certified-forest-management
 appendix
 landifre-data-downloading-help
 export-combine_studyarea-attribute-table-into-an-excel-workbook
+basic-qaqc-on-ataya_combineclean.xlsx
+bps
+ideas-for-dealing-with-suspect-landfire-data

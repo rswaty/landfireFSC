@@ -4,26 +4,26 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>5 LANDFIRE Data for Landscape Assessment | LANDFIRE and Certified Sustainable Forest Management</title>
+  <title>5 LANDFIRE Data for Landscape Assessment | Randy’s Notes on Ataya</title>
   <meta name="description" content="This is a TNC LANDFIRE GIS and excel tutorial to assist forest managers in FSC® audits" />
-  <meta name="generator" content="bookdown 0.25 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="5 LANDFIRE Data for Landscape Assessment | LANDFIRE and Certified Sustainable Forest Management" />
+  <meta property="og:title" content="5 LANDFIRE Data for Landscape Assessment | Randy’s Notes on Ataya" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This is a TNC LANDFIRE GIS and excel tutorial to assist forest managers in FSC® audits" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="5 LANDFIRE Data for Landscape Assessment | LANDFIRE and Certified Sustainable Forest Management" />
+  <meta name="twitter:title" content="5 LANDFIRE Data for Landscape Assessment | Randy’s Notes on Ataya" />
   
   <meta name="twitter:description" content="This is a TNC LANDFIRE GIS and excel tutorial to assist forest managers in FSC® audits" />
   
 
-<meta name="author" content="Keith Phelps, Stacey Marion, and Randy Swaty" />
+<meta name="author" content="Randy Swaty" />
 
 
-<meta name="date" content="2022-05-02" />
+<meta name="date" content="2022-06-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -61,7 +61,7 @@
 <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
 <script src="libs/leaflet-binding-2.1.1/leaflet.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="libs/datatables-binding-0.22/datatables.js"></script>
+<script src="libs/datatables-binding-0.23/datatables.js"></script>
 <link href="libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
 <link href="libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
 <script src="libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
@@ -90,84 +90,89 @@
 <li><a href="./">DRAFT</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction<span></span></a>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#forest-certification"><i class="fa fa-check"></i><b>1.1</b> Forest Certification<span></span></a></li>
-<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#landfire"><i class="fa fa-check"></i><b>1.2</b> LANDFIRE<span></span></a></li>
-<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#gis-tutorial-goals"><i class="fa fa-check"></i><b>1.3</b> GIS Tutorial Goals<span></span></a></li>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#forest-certification"><i class="fa fa-check"></i><b>1.1</b> Forest Certification</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#landfire"><i class="fa fa-check"></i><b>1.2</b> LANDFIRE</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#gis-tutorial-goals"><i class="fa fa-check"></i><b>1.3</b> GIS Tutorial Goals</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="Ataya.html"><a href="Ataya.html"><i class="fa fa-check"></i><b>2</b> Our Example Landscape<span></span></a></li>
-<li class="chapter" data-level="3" data-path="ourmethods.html"><a href="ourmethods.html"><i class="fa fa-check"></i><b>3</b> Our Method<span></span></a>
+<li class="chapter" data-level="2" data-path="Ataya.html"><a href="Ataya.html"><i class="fa fa-check"></i><b>2</b> Our Example Landscape</a></li>
+<li class="chapter" data-level="3" data-path="ourmethods.html"><a href="ourmethods.html"><i class="fa fa-check"></i><b>3</b> Our Method</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="ourmethods.html"><a href="ourmethods.html#gis-analysis-requirements"><i class="fa fa-check"></i><b>3.1</b> GIS Analysis Requirements<span></span></a></li>
-<li class="chapter" data-level="3.2" data-path="ourmethods.html"><a href="ourmethods.html#methods"><i class="fa fa-check"></i><b>3.2</b> Methods<span></span></a></li>
-<li class="chapter" data-level="3.3" data-path="ourmethods.html"><a href="ourmethods.html#disclaimers"><i class="fa fa-check"></i><b>3.3</b> Disclaimers<span></span></a></li>
-<li class="chapter" data-level="3.4" data-path="ourmethods.html"><a href="ourmethods.html#lastly-download-this"><i class="fa fa-check"></i><b>3.4</b> Lastly… Download this!<span></span></a></li>
-<li class="chapter" data-level="3.5" data-path="ourmethods.html"><a href="ourmethods.html#about-this-document"><i class="fa fa-check"></i><b>3.5</b> About this document<span></span></a></li>
+<li class="chapter" data-level="3.1" data-path="ourmethods.html"><a href="ourmethods.html#gis-analysis-requirements"><i class="fa fa-check"></i><b>3.1</b> GIS Analysis Requirements</a></li>
+<li class="chapter" data-level="3.2" data-path="ourmethods.html"><a href="ourmethods.html#methods"><i class="fa fa-check"></i><b>3.2</b> Methods</a></li>
+<li class="chapter" data-level="3.3" data-path="ourmethods.html"><a href="ourmethods.html#disclaimers"><i class="fa fa-check"></i><b>3.3</b> Disclaimers</a></li>
+<li class="chapter" data-level="3.4" data-path="ourmethods.html"><a href="ourmethods.html#lastly-download-this"><i class="fa fa-check"></i><b>3.4</b> Lastly… Download this!</a></li>
+<li class="chapter" data-level="3.5" data-path="ourmethods.html"><a href="ourmethods.html#about-this-document"><i class="fa fa-check"></i><b>3.5</b> About this document</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="inputData.html"><a href="inputData.html"><i class="fa fa-check"></i><b>4</b> LANDFIRE Data<span></span></a>
+<li class="chapter" data-level="4" data-path="inputData.html"><a href="inputData.html"><i class="fa fa-check"></i><b>4</b> LANDFIRE Data</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="inputData.html"><a href="inputData.html#landfire-for-landscape-ecosystem-assessments"><i class="fa fa-check"></i><b>4.1</b> LANDFIRE for Landscape Ecosystem Assessments<span></span></a></li>
-<li class="chapter" data-level="4.2" data-path="inputData.html"><a href="inputData.html#landfire-datasets-used-for-this-tutorial"><i class="fa fa-check"></i><b>4.2</b> LANDFIRE Datasets Used For This Tutorial<span></span></a></li>
-<li class="chapter" data-level="4.3" data-path="inputData.html"><a href="inputData.html#guidance-on-obtaining-landfire-products"><i class="fa fa-check"></i><b>4.3</b> Guidance on Obtaining LANDFIRE Products<span></span></a></li>
+<li class="chapter" data-level="4.1" data-path="inputData.html"><a href="inputData.html#landfire-for-landscape-ecosystem-assessments"><i class="fa fa-check"></i><b>4.1</b> LANDFIRE for Landscape Ecosystem Assessments</a></li>
+<li class="chapter" data-level="4.2" data-path="inputData.html"><a href="inputData.html#landfire-datasets-used-for-this-tutorial"><i class="fa fa-check"></i><b>4.2</b> LANDFIRE Datasets Used For This Tutorial</a></li>
+<li class="chapter" data-level="4.3" data-path="inputData.html"><a href="inputData.html#guidance-on-obtaining-landfire-products"><i class="fa fa-check"></i><b>4.3</b> Guidance on Obtaining LANDFIRE Products</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="gis.html"><a href="gis.html"><i class="fa fa-check"></i><b>5</b> LANDFIRE Data for Landscape Assessment<span></span></a>
+<li class="chapter" data-level="5" data-path="gis.html"><a href="gis.html"><i class="fa fa-check"></i><b>5</b> LANDFIRE Data for Landscape Assessment</a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="gis.html"><a href="gis.html#if-you-havent-already-download-this"><i class="fa fa-check"></i><b>5.1</b> If you haven’t already… Download this!<span></span></a></li>
-<li class="chapter" data-level="5.2" data-path="gis.html"><a href="gis.html#load-spatial-data"><i class="fa fa-check"></i><b>5.2</b> Load Spatial Data<span></span></a></li>
-<li class="chapter" data-level="5.3" data-path="gis.html"><a href="gis.html#download-three-3-landfire-rasters-for-the-study-area-bps-evt-and-sclass"><i class="fa fa-check"></i><b>5.3</b> Download Three (3) LANDFIRE Rasters for the Study Area: BpS, EVT, and sClass<span></span></a></li>
-<li class="chapter" data-level="5.4" data-path="gis.html"><a href="gis.html#project-to-the-appropriate-coordinate-system"><i class="fa fa-check"></i><b>5.4</b> Project to the Appropriate Coordinate System<span></span></a></li>
-<li class="chapter" data-level="5.5" data-path="gis.html"><a href="gis.html#landfire-data-stacking"><i class="fa fa-check"></i><b>5.5</b> LANDFIRE Data Stacking<span></span></a></li>
-<li class="chapter" data-level="5.6" data-path="gis.html"><a href="gis.html#join-bps-tabular-data"><i class="fa fa-check"></i><b>5.6</b> Join BpS Tabular Data<span></span></a></li>
-<li class="chapter" data-level="5.7" data-path="gis.html"><a href="gis.html#join-evt-tabular-data"><i class="fa fa-check"></i><b>5.7</b> Join EVT Tabular Data<span></span></a></li>
-<li class="chapter" data-level="5.8" data-path="gis.html"><a href="gis.html#join-sclass-tabular-data"><i class="fa fa-check"></i><b>5.8</b> Join sClass tabular data<span></span></a></li>
-<li class="chapter" data-level="5.9" data-path="gis.html"><a href="gis.html#crop-the-combined-raster-to-the-study-area"><i class="fa fa-check"></i><b>5.9</b> Crop the combined raster to the study area<span></span></a></li>
-<li class="chapter" data-level="5.10" data-path="gis.html"><a href="gis.html#calculate-area-field"><i class="fa fa-check"></i><b>5.10</b> Calculate Area Field<span></span></a></li>
-<li class="chapter" data-level="5.11" data-path="gis.html"><a href="gis.html#export-combine_studyarea-attribute-table-into-a-.csv-format"><i class="fa fa-check"></i><b>5.11</b> Export combine_studyArea attribute table into a .csv format<span></span></a></li>
-<li class="chapter" data-level="5.12" data-path="gis.html"><a href="gis.html#open-the-tutorial-excel-workbook"><i class="fa fa-check"></i><b>5.12</b> Open the Tutorial Excel Workbook<span></span></a></li>
+<li class="chapter" data-level="5.1" data-path="gis.html"><a href="gis.html#if-you-havent-already-download-this"><i class="fa fa-check"></i><b>5.1</b> If you haven’t already… Download this!</a></li>
+<li class="chapter" data-level="5.2" data-path="gis.html"><a href="gis.html#load-spatial-data"><i class="fa fa-check"></i><b>5.2</b> Load Spatial Data</a></li>
+<li class="chapter" data-level="5.3" data-path="gis.html"><a href="gis.html#download-three-3-landfire-rasters-for-the-study-area-bps-evt-and-sclass"><i class="fa fa-check"></i><b>5.3</b> Download Three (3) LANDFIRE Rasters for the Study Area: BpS, EVT, and sClass</a></li>
+<li class="chapter" data-level="5.4" data-path="gis.html"><a href="gis.html#project-to-the-appropriate-coordinate-system"><i class="fa fa-check"></i><b>5.4</b> Project to the Appropriate Coordinate System</a></li>
+<li class="chapter" data-level="5.5" data-path="gis.html"><a href="gis.html#landfire-data-stacking"><i class="fa fa-check"></i><b>5.5</b> LANDFIRE Data Stacking</a></li>
+<li class="chapter" data-level="5.6" data-path="gis.html"><a href="gis.html#join-bps-tabular-data"><i class="fa fa-check"></i><b>5.6</b> Join BpS Tabular Data</a></li>
+<li class="chapter" data-level="5.7" data-path="gis.html"><a href="gis.html#join-evt-tabular-data"><i class="fa fa-check"></i><b>5.7</b> Join EVT Tabular Data</a></li>
+<li class="chapter" data-level="5.8" data-path="gis.html"><a href="gis.html#join-sclass-tabular-data"><i class="fa fa-check"></i><b>5.8</b> Join sClass tabular data</a></li>
+<li class="chapter" data-level="5.9" data-path="gis.html"><a href="gis.html#crop-the-combined-raster-to-the-study-area"><i class="fa fa-check"></i><b>5.9</b> Crop the combined raster to the study area</a></li>
+<li class="chapter" data-level="5.10" data-path="gis.html"><a href="gis.html#calculate-area-field"><i class="fa fa-check"></i><b>5.10</b> Calculate Area Field</a></li>
+<li class="chapter" data-level="5.11" data-path="gis.html"><a href="gis.html#export-combine_studyarea-attribute-table-into-a-.csv-format"><i class="fa fa-check"></i><b>5.11</b> Export combine_studyArea attribute table into a .csv format</a></li>
+<li class="chapter" data-level="5.12" data-path="gis.html"><a href="gis.html#open-the-tutorial-excel-workbook"><i class="fa fa-check"></i><b>5.12</b> Open the Tutorial Excel Workbook</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html"><i class="fa fa-check"></i><b>6</b> Historical Ecosystems<span></span></a>
+<li class="chapter" data-level="6" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html"><i class="fa fa-check"></i><b>6</b> Historical Ecosystems</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#general-methods"><i class="fa fa-check"></i><b>6.1</b> General Methods<span></span></a>
+<li class="chapter" data-level="6.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#general-methods"><i class="fa fa-check"></i><b>6.1</b> General Methods</a>
 <ul>
-<li class="chapter" data-level="6.1.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#some-potential-traps-with-pivot-tables"><i class="fa fa-check"></i><b>6.1.1</b> Some Potential Traps with Pivot Tables<span></span></a></li>
+<li class="chapter" data-level="6.1.1" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#some-potential-traps-with-pivot-tables"><i class="fa fa-check"></i><b>6.1.1</b> Some Potential Traps with Pivot Tables</a></li>
 </ul></li>
-<li class="chapter" data-level="6.2" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#getting-at-amounts-of-historical-ecosystems"><i class="fa fa-check"></i><b>6.2</b> Getting at amounts of historical ecosystems<span></span></a></li>
+<li class="chapter" data-level="6.2" data-path="historicalEcosystems.html"><a href="historicalEcosystems.html#getting-at-amounts-of-historical-ecosystems"><i class="fa fa-check"></i><b>6.2</b> Getting at amounts of historical ecosystems</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>7</b> Existing Vegetation Types<span></span></a>
+<li class="chapter" data-level="7" data-path="evt.html"><a href="evt.html"><i class="fa fa-check"></i><b>7</b> Existing Vegetation Types</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="evt.html"><a href="evt.html#general-methods-1"><i class="fa fa-check"></i><b>7.1</b> General Methods<span></span></a></li>
-<li class="chapter" data-level="7.2" data-path="evt.html"><a href="evt.html#getting-at-amounts-of-current-ecosystems"><i class="fa fa-check"></i><b>7.2</b> Getting at Amounts of Current Ecosystems<span></span></a></li>
+<li class="chapter" data-level="7.1" data-path="evt.html"><a href="evt.html#general-methods-1"><i class="fa fa-check"></i><b>7.1</b> General Methods</a></li>
+<li class="chapter" data-level="7.2" data-path="evt.html"><a href="evt.html#getting-at-amounts-of-current-ecosystems"><i class="fa fa-check"></i><b>7.2</b> Getting at Amounts of Current Ecosystems</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="conversion.html"><a href="conversion.html"><i class="fa fa-check"></i><b>8</b> Exploring Conversion<span></span></a>
+<li class="chapter" data-level="8" data-path="conversion.html"><a href="conversion.html"><i class="fa fa-check"></i><b>8</b> Exploring Conversion</a>
 <ul>
-<li class="chapter" data-level="8.1" data-path="conversion.html"><a href="conversion.html#the-fine-print"><i class="fa fa-check"></i><b>8.1</b> The Fine Print<span></span></a></li>
-<li class="chapter" data-level="8.2" data-path="conversion.html"><a href="conversion.html#pivot-table-work"><i class="fa fa-check"></i><b>8.2</b> Pivot Table Work<span></span></a></li>
-<li class="chapter" data-level="8.3" data-path="conversion.html"><a href="conversion.html#excel-steps-for-preparing-an-ecosystem-conversion-table"><i class="fa fa-check"></i><b>8.3</b> Excel Steps for Preparing an Ecosystem Conversion Table<span></span></a></li>
-<li class="chapter" data-level="8.4" data-path="conversion.html"><a href="conversion.html#interpreting-the-ecosystem-conversion-table"><i class="fa fa-check"></i><b>8.4</b> Interpreting the Ecosystem Conversion Table<span></span></a></li>
-<li class="chapter" data-level="8.5" data-path="conversion.html"><a href="conversion.html#visual-exploration-with-a-sankey-diagram"><i class="fa fa-check"></i><b>8.5</b> Visual Exploration with a Sankey Diagram<span></span></a></li>
+<li class="chapter" data-level="8.1" data-path="conversion.html"><a href="conversion.html#the-fine-print"><i class="fa fa-check"></i><b>8.1</b> The Fine Print</a></li>
+<li class="chapter" data-level="8.2" data-path="conversion.html"><a href="conversion.html#pivot-table-work"><i class="fa fa-check"></i><b>8.2</b> Pivot Table Work</a></li>
+<li class="chapter" data-level="8.3" data-path="conversion.html"><a href="conversion.html#excel-steps-for-preparing-an-ecosystem-conversion-table"><i class="fa fa-check"></i><b>8.3</b> Excel Steps for Preparing an Ecosystem Conversion Table</a></li>
+<li class="chapter" data-level="8.4" data-path="conversion.html"><a href="conversion.html#interpreting-the-ecosystem-conversion-table"><i class="fa fa-check"></i><b>8.4</b> Interpreting the Ecosystem Conversion Table</a></li>
+<li class="chapter" data-level="8.5" data-path="conversion.html"><a href="conversion.html#visual-exploration-with-a-sankey-diagram"><i class="fa fa-check"></i><b>8.5</b> Visual Exploration with a Sankey Diagram</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="successionClasses.html"><a href="successionClasses.html"><i class="fa fa-check"></i><b>9</b> Succession Classes<span></span></a>
+<li class="chapter" data-level="9" data-path="successionClasses.html"><a href="successionClasses.html"><i class="fa fa-check"></i><b>9</b> Succession Classes</a>
 <ul>
-<li class="chapter" data-level="9.1" data-path="successionClasses.html"><a href="successionClasses.html#what-we-will-do"><i class="fa fa-check"></i><b>9.1</b> What We Will Do<span></span></a></li>
-<li class="chapter" data-level="9.2" data-path="successionClasses.html"><a href="successionClasses.html#what-are-succession-classes"><i class="fa fa-check"></i><b>9.2</b> What are “Succession Classes?”<span></span></a></li>
-<li class="chapter" data-level="9.3" data-path="successionClasses.html"><a href="successionClasses.html#our-sample-ecosystem"><i class="fa fa-check"></i><b>9.3</b> Our Sample Ecosystem<span></span></a></li>
-<li class="chapter" data-level="9.4" data-path="successionClasses.html"><a href="successionClasses.html#your-tasks"><i class="fa fa-check"></i><b>9.4</b> Your Tasks<span></span></a>
+<li class="chapter" data-level="9.1" data-path="successionClasses.html"><a href="successionClasses.html#what-we-will-do"><i class="fa fa-check"></i><b>9.1</b> What We Will Do</a></li>
+<li class="chapter" data-level="9.2" data-path="successionClasses.html"><a href="successionClasses.html#what-are-succession-classes"><i class="fa fa-check"></i><b>9.2</b> What are “Succession Classes?”</a></li>
+<li class="chapter" data-level="9.3" data-path="successionClasses.html"><a href="successionClasses.html#our-sample-ecosystem"><i class="fa fa-check"></i><b>9.3</b> Our Sample Ecosystem</a></li>
+<li class="chapter" data-level="9.4" data-path="successionClasses.html"><a href="successionClasses.html#your-tasks"><i class="fa fa-check"></i><b>9.4</b> Your Tasks</a>
 <ul>
-<li class="chapter" data-level="9.4.1" data-path="successionClasses.html"><a href="successionClasses.html#current-succession-classes"><i class="fa fa-check"></i><b>9.4.1</b> Current Succession Classes<span></span></a></li>
-<li class="chapter" data-level="9.4.2" data-path="successionClasses.html"><a href="successionClasses.html#historical-succession-classes"><i class="fa fa-check"></i><b>9.4.2</b> Historical succession classes<span></span></a></li>
+<li class="chapter" data-level="9.4.1" data-path="successionClasses.html"><a href="successionClasses.html#current-succession-classes"><i class="fa fa-check"></i><b>9.4.1</b> Current Succession Classes</a></li>
+<li class="chapter" data-level="9.4.2" data-path="successionClasses.html"><a href="successionClasses.html#historical-succession-classes"><i class="fa fa-check"></i><b>9.4.2</b> Historical succession classes</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="conclusions.html"><a href="conclusions.html"><i class="fa fa-check"></i><b>10</b> Conclusions<span></span></a>
+<li class="chapter" data-level="10" data-path="conclusions.html"><a href="conclusions.html"><i class="fa fa-check"></i><b>10</b> Conclusions</a>
 <ul>
-<li class="chapter" data-level="10.1" data-path="conclusions.html"><a href="conclusions.html#bringing-it-all-together"><i class="fa fa-check"></i><b>10.1</b> Bringing it All Together<span></span></a></li>
-<li class="chapter" data-level="10.2" data-path="conclusions.html"><a href="conclusions.html#recap-for-certified-forest-management"><i class="fa fa-check"></i><b>10.2</b> Recap for certified forest management<span></span></a></li>
+<li class="chapter" data-level="10.1" data-path="conclusions.html"><a href="conclusions.html#bringing-it-all-together"><i class="fa fa-check"></i><b>10.1</b> Bringing it All Together</a></li>
+<li class="chapter" data-level="10.2" data-path="conclusions.html"><a href="conclusions.html#recap-for-certified-forest-management"><i class="fa fa-check"></i><b>10.2</b> Recap for certified forest management</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>11</b> APPENDIX<span></span></a>
+<li class="chapter" data-level="11" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>11</b> APPENDIX</a>
 <ul>
-<li class="chapter" data-level="11.1" data-path="appendix.html"><a href="appendix.html#landifre-data-downloading-help"><i class="fa fa-check"></i><b>11.1</b> LANDIFRE Data Downloading Help<span></span></a></li>
-<li class="chapter" data-level="11.2" data-path="appendix.html"><a href="appendix.html#export-combine_studyarea-attribute-table-into-an-excel-workbook"><i class="fa fa-check"></i><b>11.2</b> Export “combine_studyArea” attribute table into an Excel Workbook<span></span></a></li>
+<li class="chapter" data-level="11.1" data-path="appendix.html"><a href="appendix.html#landifre-data-downloading-help"><i class="fa fa-check"></i><b>11.1</b> LANDIFRE Data Downloading Help</a></li>
+<li class="chapter" data-level="11.2" data-path="appendix.html"><a href="appendix.html#export-combine_studyarea-attribute-table-into-an-excel-workbook"><i class="fa fa-check"></i><b>11.2</b> Export “combine_studyArea” attribute table into an Excel Workbook</a></li>
 </ul></li>
+<li class="chapter" data-level="12" data-path="basic-qaqc-on-ataya_combineclean.html"><a href="basic-qaqc-on-ataya_combineclean.html"><i class="fa fa-check"></i><b>12</b> Basic QAQC on Ataya_combineClean.xlsx</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="basic-qaqc-on-ataya_combineclean.html"><a href="basic-qaqc-on-ataya_combineclean.html#bps"><i class="fa fa-check"></i><b>12.1</b> BpS</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="ideas-for-dealing-with-suspect-landfire-data.html"><a href="ideas-for-dealing-with-suspect-landfire-data.html"><i class="fa fa-check"></i><b>13</b> Ideas for dealing with suspect LANDFIRE data</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -180,7 +185,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">LANDFIRE and Certified Sustainable Forest Management</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Randy’s Notes on Ataya</a>
           </h1>
         </div>
 
@@ -209,7 +214,7 @@
 <div id="load-spatial-data" class="section level2 hasAnchor" number="5.2">
 <h2><span class="header-section-number">5.2</span> Load Spatial Data<a href="gis.html#load-spatial-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Open ArcGIS Pro and create a new project using a blank map template. Move the downloaded Ataya shapefile tutorial data into your project folder.</p>
-<p><img src="04_gis_screenshots/1_load_data.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/1_load_data.PNG" width="1000pt" /></p>
 <p>Note that Pro creates a default geodatabase with the same name as your project. We recommend saving the Ataya shapefile to your geodatabase and hereafter, save intermediate layers to your geodatabase.</p>
 <p><strong>Consider your study area:</strong> Is it appropriate to end your analysis at the shapefile boundary? If you would like information to extend beyond the study boundary, consider creating a buffer. For our tutorial, we will limit our analysis to within the provided Ataya forest tract boundary.</p>
 </div>
@@ -222,22 +227,22 @@
 <li>Download <a href="https://www.landfire.gov/version_comparison.php">Full Extent Mosaics</a> to obtain large files that cover the entire lower 48, AK or HI (depending on your selection). We use this method when we have several landscapes and/or a large area and no computer storage issues.</li>
 </ul>
 <p>For some LANDFIRE data products, like the BpS model, the model (spatial data) and descriptions are downloaded separately:
-* For BpS models and descriptions go to: <a href="http://landfirereview.org/search.php" class="uri">http://landfirereview.org/search.php</a>. Start by clicking on the “View map of LANDFIRE Map Zones.” This will help you narrow down your search. We recommend downloading descriptions for BpS models relevant to your study area.</p>
-<p><img src="04_gis_screenshots/2_view_mapzone.PNG" width="1000" /></p>
+* For BpS models and descriptions go to: <a href="http://landfirereview.org/search.php" class="uri">http://landfirereview.org/search.php</a>. Start by clicking on the “View map of LANDFIRE Map Zones”. This will help you narrow down your search. We recommend downloading descriptions for BpS models relevant to your study area.</p>
+<p><img src="04_gis_screenshots/2_view_mapzone.PNG" width="1000pt" /></p>
 <p>Note that for this tutorial, we downloaded rasters by using the rectangle drawing tool and <em>drew a rectangle that was larger than our Study Area</em>. This ensures no raster cell data is lost in our calculations. This tutorial allows us to “cut” out that extra area in the end. If you are downloading your own data, always make sure to draw a downloading box that is larger than your Study Area to prevent GIS errors.</p>
 <p>Once downloaded, move the LANDFIRE data product downloads into your Pro project folder. You should have a BpS, EVT, and SCLASS folder. Each folder contains metadata, a corresponding database table, and a raster.</p>
-<p><img src="04_gis_screenshots/3_fsc_pro_poject_catalog.PNG" width="500" /></p>
+<p><img src="04_gis_screenshots/3_fsc_pro_poject_catalog.PNG" width="500pt" /></p>
 </div>
 <div id="project-to-the-appropriate-coordinate-system" class="section level2 hasAnchor" number="5.4">
 <h2><span class="header-section-number">5.4</span> Project to the Appropriate Coordinate System<a href="gis.html#project-to-the-appropriate-coordinate-system" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The spatial reference of the Ataya tract shapefile is NAD83_StatePlane_VA_South_FIPS_4502_Feet Projected Coordinate System (Geographic Coordinate System NAD 1983).</p>
-<p><img src="04_gis_screenshots/4_crs_ataya.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/4_crs_ataya.PNG" width="1000pt" /></p>
 <ol style="list-style-type: decimal">
 <li><p>LANDFIRE data (BpS, EVT, sClass rasters) was downloaded as “Best Fit UTM (NAD83 Datum)” so the Projected Coordinate System of the LANDFIRE rasters is NAD83_UTM_Zone_17N (Geographic Coordinate System was GCS_North American_1983).
 Given the size and location of our study area, we’ll use the Virginia State Plane (South) as our map coordinate system. <em>Note: unit is feet.</em></p></li>
 <li><p>Use the Project Raster tool to project each raster to the Virginia State Plane (South) coordinate system. Save the projected raster to the project geodatabase. <em>Since the datum is the same for State Plane and UTM, no “Geographic Transformation” was needed. Resampling technique was “Nearest Neighbor” which is preferred for categorical/discrete data. Output cell size was in feet (98.425ft. = 30m.)</em></p></li>
 </ol>
-<p><img src="04_gis_screenshots/5_raster_project.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/5_raster_project.PNG" width="1000pt" /></p>
 <ol start="3" style="list-style-type: decimal">
 <li>Project the BpS, EVT, and sClass Rasters <em>(sClass projection shown above).</em></li>
 <li>These (3) new rasters can now be used to create GIS maps for:</li>
@@ -253,9 +258,9 @@ Given the size and location of our study area, we’ll use the Virginia State Pl
 <p>The three used LANDFIRE data products (BpS, EVT, sClass) provide unique aspects of land cover information. Because each raster maintains the same 30 x 30 meter cell, we can stack the LANDFIRE rasters to gain information about each arbitrary pixel within our study area.</p>
 <p>Before we combine the rasters, take a look at the attribute table for each raster. Details on attributes can be found at landfire.gov
 Open the Combine tool. This tool can be found by running a search in geoprocessing or you can find it in the Spatial Analyst Toolbox. Run the combine tool using the (3) project LANDFIRE rasters: us_200bps_proj, us_200evt_proj, is_200sclass_proj. Output raster was labeled combine_landfire and saved within the project geodatabase.</p>
-<p><img src="04_gis_screenshots/6_combine_rasters.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/6_combine_rasters.PNG" width="1000pt" /></p>
 <p>Open the attribute table of the combine_landfire raster. You will notice that only the “Value” field was retained in the combine. Next we will perform joins to append tabular data to the combine_landfire raster.</p>
-<p><img src="04_gis_screenshots/7_combine_noattributes.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/7_combine_noattributes.PNG" width="1000pt" /></p>
 </div>
 <div id="join-bps-tabular-data" class="section level2 hasAnchor" number="5.6">
 <h2><span class="header-section-number">5.6</span> Join BpS Tabular Data<a href="gis.html#join-bps-tabular-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -267,7 +272,7 @@ Open the Combine tool. This tool can be found by running a search in geoprocessi
 <li>Join Table Field = VALUE.</li>
 <li>Transfer Fields = BPS_CODE, BPS_MODEL, BPS_NAME, GROUPVEG. <em>Note: selecting additional fields will prevent you from using the prepared excel pivot tables.</em></li>
 </ol>
-<p><img src="04_gis_screenshots/8_join_bps.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/8_join_bps.PNG" width="1000pt" /></p>
 </div>
 <div id="join-evt-tabular-data" class="section level2 hasAnchor" number="5.7">
 <h2><span class="header-section-number">5.7</span> Join EVT Tabular Data<a href="gis.html#join-evt-tabular-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -279,7 +284,7 @@ Open the Combine tool. This tool can be found by running a search in geoprocessi
 <li>Join Table Field = VALUE</li>
 <li>Transfer Fields = EVT_NAME, EVT_PHYS. <em>Note: selecting additional fields will prevent you from using the prepared excel pivot tables.</em></li>
 </ol>
-<p><img src="04_gis_screenshots/9_join_evt.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/9_join_evt.PNG" width="1000pt" /></p>
 </div>
 <div id="join-sclass-tabular-data" class="section level2 hasAnchor" number="5.8">
 <h2><span class="header-section-number">5.8</span> Join sClass tabular data<a href="gis.html#join-sclass-tabular-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -291,7 +296,7 @@ Open the Combine tool. This tool can be found by running a search in geoprocessi
 <li>Join Table Field = VALUE</li>
 <li>Transfer Fields = LABEL, DESCRIPTION. <em>Note: selecting additional fields will prevent you from using the prepared excel pivot tables.</em></li>
 </ol>
-<p><img src="04_gis_screenshots/10_join_sclass.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/10_join_sclass.PNG" width="1000pt" /></p>
 </div>
 <div id="crop-the-combined-raster-to-the-study-area" class="section level2 hasAnchor" number="5.9">
 <h2><span class="header-section-number">5.9</span> Crop the combined raster to the study area<a href="gis.html#crop-the-combined-raster-to-the-study-area" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -302,30 +307,30 @@ Open the Combine tool. This tool can be found by running a search in geoprocessi
 <li>Output raster = combine_studyArea
 <em>Reminder: if you decided to create a buffer around your study area, use the buffered study area feature class as your feature mask.</em></li>
 </ol>
-<p><img src="04_gis_screenshots/11_extract.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/11_extract.PNG" width="1000pt" /></p>
 <p>The resultant “combine_studyArea raster” will only contain pixels within the Ataya study region:</p>
-<p><img src="04_gis_screenshots/12_combine_studyArea.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/12_combine_studyArea.PNG" width="1000pt" /></p>
 <p>We choose to maintain the shape of the original raster (default setting within Extract by Mask tool), and thus the resultant extracted raster has jagged edges. Note that area calculations using the raster will differ slightly from area calculated from the vector feature.</p>
-<p><img src="04_gis_screenshots/13_jagged_edge.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/13_jagged_edge.PNG" width="1000pt" /></p>
 </div>
 <div id="calculate-area-field" class="section level2 hasAnchor" number="5.10">
 <h2><span class="header-section-number">5.10</span> Calculate Area Field<a href="gis.html#calculate-area-field" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Next, we will calculate area using raster pixel size for “combine_studyArea” raster. Follow these steps:</p>
 <ol style="list-style-type: decimal">
 <li>Open the combine_studyArea attribute table.</li>
-<li>Within the attribute table, create a new field called “Acres.” Select “Float” for data type to allow decimals in the calculation for acres.</li>
+<li>Within the attribute table, create a new field called “Acres”. Select “Float” for data type to allow decimals in the calculation for acres.</li>
 </ol>
-<p><img src="04_gis_screenshots/14_add_acres_field.PNG" width="1000" /></p>
-<p><img src="04_gis_screenshots/15_fields_view.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/14_add_acres_field.PNG" width="1000pt" /></p>
+<p><img src="04_gis_screenshots/15_fields_view.PNG" width="1000pt" /></p>
 <ol start="3" style="list-style-type: decimal">
-<li>In the “Acres” field, right click on the top and scroll to “Calculate Field.”</li>
+<li>In the “Acres” field, right click on the top and scroll to “Calculate Field”.</li>
 <li>Select “Python 3” as the Expression Type.</li>
 <li>In “Acres =” banner, type this expression: !Count! *9687.4806249998 / 43560.</li>
-<li>Click “Apply,” then “OK.”</li>
+<li>Click “Apply”, then “OK”.</li>
 </ol>
-<p><img src="04_gis_screenshots/16_calculate_acres.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/16_calculate_acres.PNG" width="1000pt" /></p>
 <p><em>The sum of the Acres field corresponds to the total Ataya area (~100,653 acres).</em></p>
-<p><img src="04_gis_screenshots/17_check_area_calc.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/17_check_area_calc.PNG" width="1000pt" /></p>
 <p><strong>Understanding the Field Calculation Expression</strong></p>
 <ul>
 <li>We use raster cell size to ascertain acreage. (See: <a href="https://gis.stackexchange.com/questions/106883/measuring-area-of-raster-classes" class="uri">https://gis.stackexchange.com/questions/106883/measuring-area-of-raster-classes</a>) . Our general calculation to determine acreage is [Pixel count of xxx unique raster value] x [Area of a pixel (feet)] x [1 acre/43,560 sqft] = xxx acres of a specific unique raster value</li>
@@ -342,7 +347,7 @@ Open the Combine tool. This tool can be found by running a search in geoprocessi
 <li>Select combine_studyArea as the Input Rows.</li>
 <li>Next, select a folder location to export your table. Save the table as a logical name, such as ataya_attributes with the .csv appendage. You must manually add the .csv appendage to export as a csv.</li>
 </ol>
-<p><img src="04_gis_screenshots/18_export_table.PNG" width="1000" /></p>
+<p><img src="04_gis_screenshots/18_export_table.PNG" width="1000pt" /></p>
 </div>
 <div id="open-the-tutorial-excel-workbook" class="section level2 hasAnchor" number="5.12">
 <h2><span class="header-section-number">5.12</span> Open the Tutorial Excel Workbook<a href="gis.html#open-the-tutorial-excel-workbook" class="anchor-section" aria-label="Anchor link to header"></a></h2>

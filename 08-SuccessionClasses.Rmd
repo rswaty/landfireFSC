@@ -16,7 +16,7 @@ In general LANDFIRE succession classes are stages of development defined in the 
 
 First, let's take another look at our sClass GIS map for some visual context: 
 
-```{r SclassFigure, echo=FALSE, out.width=1000}
+```{r SclassFigure, echo=FALSE, out.width='1000pt'}
 knitr::include_graphics("KP_GISmaps/Ataya_sclass.png")
 
 ```

@@ -1,8 +1,8 @@
 # Existing Vegetation Types {#evt}
 
 While looking at the historical ecosystems gives context, we also need to get a picture of which ecosystems are on the landscape today. Like the last section, let's first take a look at our EVT GIS Map to draw some conclusions:
-
-```{r EvtFigure, echo=FALSE, out.width=1000}
+'
+```{r EvtFigure, echo=FALSE, out.width='1000pt'}
 knitr::include_graphics("KP_GISmaps/Ataya_evt.png")
 
 ```

@@ -8,7 +8,7 @@ The forests in the Central Appalachians experienced considerable alteration from
 
 The Ataya is of conservation interest due to the relatively high connectivity, large average land parcel size and projected climate change resiliency.
 
-```{r AtayaFigure, echo=FALSE, out.width=2500}
+```{r AtayaFigure, echo=FALSE, out.width='2500pt'}
 knitr::include_graphics("KP_GISmaps/Ataya_studyfig.png")
 
 ```
